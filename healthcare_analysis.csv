@@ -1,0 +1,1001 @@
+PatientID,PatientName,Age,Gender,Bloodtype,Hospital,DoctorName,Diagnosis,Treatment,AdmissionDate,RoomNumber,DailyCost,RecoveryRating,DischargeDate,LengthOfStay,TotalBill,Prescription
+1000,Patient_0,36,F,O+,Community Healthcare,Dr. Garcia,Stroke,Preventive Care,2024-05-09 12:51:53.725210,104,1346.17,5.6,2024-05-28 12:51:53.725210,19,23007.44,"Ibuprofen, Simvastatin"
+1001,Patient_1,50,M,O-,University Hospital,Dr. Garcia,Stroke,Radiation,2025-01-10 12:51:53.725210,429,833.01,8.7,2025-01-11 12:51:53.725210,1,938.34,Amoxicillin
+1002,Patient_2,32,F,B+,Community Healthcare,Dr. Williams,Fracture,Physical Therapy,2024-10-24 12:51:53.725210,407,957.9,6.4,2024-10-29 12:51:53.725210,5,4998.32,"Lisinopril, Omeprazole"
+1003,Patient_3,42,F,AB+,City Medical Center,Dr. Brown,Stroke,Surgery,2024-05-13 12:51:53.725210,432,973.36,10.0,2024-05-19 12:51:53.725210,6,5728.3,"Metformin, Lisinopril"
+1004,Patient_4,70,M,B-,City Medical Center,Dr. Davis,Cancer,Medication,2024-04-08 12:51:53.725210,268,1461.52,6.9,2024-04-23 12:51:53.725210,15,18094.44,"Lisinopril, Ibuprofen, Metformin"
+1005,Patient_5,38,M,O+,Memorial Hospital,Dr. Johnson,Hypertension,Radiation,2024-08-03 12:51:53.725210,280,1257.72,8.5,2024-08-12 12:51:53.725210,9,9861.66,"Metformin, Lisinopril"
+1006,Patient_6,66,M,A+,City Medical Center,Dr. Garcia,Hypertension,Medication,2024-02-17 12:51:53.725210,465,1014.72,7.7,2024-02-26 12:51:53.725210,9,9184.31,Metformin
+1007,Patient_7,27,F,AB-,City Medical Center,Dr. Jones,Appendicitis,Physical Therapy,2024-05-09 12:51:53.725210,277,972.47,10.0,2024-05-22 12:51:53.725210,13,10383.78,"Amoxicillin, Metformin"
+1008,Patient_8,60,M,B-,Memorial Hospital,Dr. Jones,Fracture,Radiation,2024-05-28 12:51:53.725210,242,703.4,7.8,2024-06-03 12:51:53.725210,6,4366.43,"Simvastatin, Omeprazole, Simvastatin"
+1009,Patient_9,78,F,A+,University Hospital,Dr. Johnson,Diabetes,Chemotherapy,2024-08-29 12:51:53.725210,461,1022.48,6.7,2024-09-08 12:51:53.725210,12,10490.15,"Metformin, Metformin, Omeprazole"
+1010,Patient_10,18,M,O-,Community Healthcare,Dr. Jones,Pneumonia,Surgery,2024-12-23 12:51:53.725210,347,869.94,8.5,2024-12-28 12:51:53.725210,5,4472.93,Ibuprofen
+1011,Patient_11,34,M,A-,Community Healthcare,Dr. Smith,Stroke,Physical Therapy,2024-04-24 12:51:53.725210,226,1123.69,8.4,2024-04-28 12:51:53.725210,4,5019.58,"Lisinopril, Ibuprofen"
+1012,Patient_12,61,F,B-,University Hospital,Dr. Garcia,Appendicitis,Physical Therapy,2024-05-06 12:51:53.725210,362,918.06,6.3,2024-05-24 12:51:53.725210,18,17807.42,"Metformin, Ibuprofen"
+1013,Patient_13,45,F,O-,Memorial Hospital,Dr. Johnson,Pneumonia,Surgery,2025-01-21 12:51:53.725210,139,951.87,5.9,2025-01-29 12:51:53.725210,8,6694.38,"Amoxicillin, Lisinopril"
+1014,Patient_14,57,M,A+,University Hospital,Dr. Brown,Cancer,Surgery,2024-06-27 12:51:53.725210,454,920.34,6.7,2024-07-07 12:51:53.725210,10,7916.81,"Amoxicillin, Ibuprofen"
+1015,Patient_15,37,F,B+,City Medical Center,Dr. Garcia,Hypertension,Chemotherapy,2024-06-06 12:51:53.725210,354,700.0,8.8,2024-06-10 12:51:53.725210,4,2741.35,Metformin
+1016,Patient_16,51,F,B+,Memorial Hospital,Dr. Johnson,Appendicitis,Physical Therapy,2024-06-25 12:51:53.725210,242,1372.2,4.9,2024-07-04 12:51:53.725210,9,9916.71,Amoxicillin
+1017,Patient_17,46,F,A-,Memorial Hospital,Dr. Williams,Cancer,Preventive Care,2024-12-01 12:51:53.725210,339,1333.72,6.1,2024-12-18 12:51:53.725210,17,17251.3,"Omeprazole, Metformin"
+1018,Patient_18,73,F,AB-,Memorial Hospital,Dr. Davis,Appendicitis,Physical Therapy,2024-10-11 12:51:53.725210,327,1080.87,9.0,2024-10-17 12:51:53.725210,9,6904.9,"Omeprazole, Metformin"
+1019,Patient_19,55,F,B-,Community Healthcare,Dr. Brown,Heart Disease,Medication,2025-01-05 12:51:53.725210,440,1062.8,7.4,2025-01-08 12:51:53.725210,3,2203.96,Omeprazole
+1020,Patient_20,56,M,B-,University Hospital,Dr. Davis,Cancer,Radiation,2024-11-16 12:51:53.725210,297,1527.63,10.0,2024-11-24 12:51:53.725210,8,10653.79,"Simvastatin, Simvastatin"
+1021,Patient_21,41,M,B-,Memorial Hospital,Dr. Williams,Hypertension,Radiation,2024-08-06 12:51:53.725210,164,1139.03,4.9,2024-08-10 12:51:53.725210,4,4135.45,Simvastatin
+1022,Patient_22,40,F,AB-,Memorial Hospital,Dr. Garcia,Hypertension,Medication,2024-10-30 12:51:53.725210,487,839.51,6.1,2024-11-02 12:51:53.725210,3,2397.37,"Omeprazole, Ibuprofen"
+1023,Patient_23,41,M,O-,Memorial Hospital,Dr. Brown,Fracture,Radiation,2024-07-06 12:51:53.725210,110,788.1,4.0,2024-07-11 12:51:53.725210,5,3678.56,"Amoxicillin, Lisinopril"
+1024,Patient_24,57,M,AB+,University Hospital,Dr. Davis,Appendicitis,Surgery,2024-12-06 12:51:53.725210,207,853.49,10.0,2024-12-11 12:51:53.725210,5,3538.15,Metformin
+1025,Patient_25,41,F,AB+,Community Healthcare,Dr. Jones,Stroke,Radiation,2024-02-18 12:51:53.725210,125,994.34,6.1,2024-02-22 12:51:53.725210,4,3582.36,Simvastatin
+1026,Patient_26,55,M,A-,City Medical Center,Dr. Davis,Hypertension,Radiation,2024-10-06 12:51:53.725210,250,1033.42,4.5,2024-10-20 12:51:53.725210,14,13437.97,"Ibuprofen, Lisinopril"
+1027,Patient_27,91,F,B-,Community Healthcare,Dr. Johnson,Appendicitis,Medication,2024-09-19 12:51:53.725210,320,1007.68,5.6,2024-10-08 12:51:53.725210,21,18896.82,"Lisinopril, Simvastatin"
+1028,Patient_28,67,F,O-,Memorial Hospital,Dr. Garcia,Fracture,Chemotherapy,2025-01-06 12:51:53.725210,440,1259.75,5.4,2025-01-16 12:51:53.725210,10,8816.39,"Lisinopril, Omeprazole, Amoxicillin"
+1029,Patient_29,43,M,B+,Community Healthcare,Dr. Smith,Stroke,Radiation,2024-03-16 12:51:53.725210,336,857.01,6.6,2024-03-24 12:51:53.725210,8,7347.35,"Omeprazole, Metformin"
+1030,Patient_30,74,F,A+,Community Healthcare,Dr. Davis,Cancer,Preventive Care,2024-03-26 12:51:53.725210,336,1017.47,7.6,2024-04-01 12:51:53.725210,9,5027.88,Omeprazole
+1031,Patient_31,41,F,O-,City Medical Center,Dr. Brown,Fracture,Radiation,2024-07-15 12:51:53.725210,318,1000.02,8.7,2024-07-19 12:51:53.725210,4,4472.67,"Omeprazole, Amoxicillin, Simvastatin"
+1032,Patient_32,18,F,AB-,University Hospital,Dr. Brown,Heart Disease,Chemotherapy,2024-08-02 12:51:53.725210,250,910.0,6.2,2024-08-18 12:51:53.725210,16,9529.35,"Metformin, Simvastatin, Lisinopril"
+1033,Patient_33,29,F,AB+,University Hospital,Dr. Miller,Stroke,Medication,2024-10-24 12:51:53.725210,222,1139.15,7.5,2024-10-31 12:51:53.725210,7,7740.54,Ibuprofen
+1034,Patient_34,18,F,AB+,Community Healthcare,Dr. Davis,Appendicitis,Chemotherapy,2024-08-04 12:51:53.725210,243,1019.59,6.6,2024-08-09 12:51:53.725210,5,5577.89,Amoxicillin
+1035,Patient_35,42,M,B+,Community Healthcare,Dr. Garcia,Hypertension,Medication,2024-07-20 12:51:53.725210,288,932.39,5.2,2024-08-01 12:51:53.725210,12,12338.31,"Ibuprofen, Amoxicillin"
+1036,Patient_36,50,M,B+,University Hospital,Dr. Garcia,Hypertension,Surgery,2024-03-18 12:51:53.725210,354,921.29,4.7,2024-03-25 12:51:53.725210,7,7402.8,"Metformin, Lisinopril"
+1037,Patient_37,83,F,AB-,University Hospital,Dr. Williams,Appendicitis,Medication,2025-01-25 12:51:53.725210,167,1182.0,7.0,2025-02-06 12:51:53.725210,14,14329.69,Simvastatin
+1038,Patient_38,56,F,A+,City Medical Center,Dr. Miller,Appendicitis,Surgery,2024-03-22 12:51:53.725210,203,1175.63,7.6,2024-03-28 12:51:53.725210,6,7014.3,"Lisinopril, Lisinopril"
+1039,Patient_39,45,M,B+,Memorial Hospital,Dr. Davis,Appendicitis,Surgery,2024-09-27 12:51:53.725210,435,950.73,6.8,2024-10-09 12:51:53.725210,12,9631.33,"Amoxicillin, Ibuprofen, Lisinopril"
+1040,Patient_40,66,F,A-,Community Healthcare,Dr. Jones,Diabetes,Medication,2024-12-12 12:51:53.725210,258,1118.35,4.8,2024-12-24 12:51:53.725210,12,14849.29,"Omeprazole, Omeprazole"
+1041,Patient_41,18,M,A+,University Hospital,Dr. Williams,Stroke,Preventive Care,2024-06-06 12:51:53.725210,408,1172.67,7.8,2024-06-20 12:51:53.725210,14,15661.66,"Metformin, Omeprazole, Ibuprofen"
+1042,Patient_42,54,F,B+,Community Healthcare,Dr. Miller,Hypertension,Physical Therapy,2024-11-29 12:51:53.725210,461,1067.11,9.9,2024-12-04 12:51:53.725210,5,5353.66,"Simvastatin, Simvastatin, Ibuprofen"
+1043,Patient_43,65,F,O+,Community Healthcare,Dr. Davis,Stroke,Medication,2024-06-10 12:51:53.725210,399,958.91,7.3,2024-06-17 12:51:53.725210,7,6690.33,Metformin
+1044,Patient_44,20,F,O-,University Hospital,Dr. Davis,Fracture,Radiation,2024-02-17 12:51:53.725210,495,1076.23,5.6,2024-03-07 12:51:53.725210,19,15551.7,"Omeprazole, Metformin"
+1045,Patient_45,72,F,B+,City Medical Center,Dr. Williams,Hypertension,Preventive Care,2024-12-21 12:51:53.725210,189,792.18,7.4,2024-12-27 12:51:53.725210,7,4367.39,"Ibuprofen, Metformin"
+1046,Patient_46,56,F,A-,Community Healthcare,Dr. Jones,Diabetes,Preventive Care,2024-07-12 12:51:53.725210,456,1014.22,5.8,2024-07-23 12:51:53.725210,11,11662.79,"Metformin, Ibuprofen, Amoxicillin"
+1047,Patient_47,41,F,B-,City Medical Center,Dr. Miller,Appendicitis,Radiation,2024-10-27 12:51:53.725210,355,953.37,4.7,2024-11-19 12:51:53.725210,23,21820.97,"Omeprazole, Simvastatin"
+1048,Patient_48,62,F,B+,University Hospital,Dr. Davis,Heart Disease,Physical Therapy,2024-04-25 12:51:53.725210,452,1198.64,8.2,2024-04-27 12:51:53.725210,2,1929.22,"Omeprazole, Omeprazole"
+1049,Patient_49,95,M,AB+,Memorial Hospital,Dr. Davis,Appendicitis,Preventive Care,2024-12-08 12:51:53.725210,319,700.0,9.0,2024-12-14 12:51:53.725210,10,4529.22,"Lisinopril, Simvastatin"
+1050,Patient_50,53,M,AB+,Memorial Hospital,Dr. Miller,Cancer,Surgery,2024-02-10 12:51:53.725210,108,1032.82,7.3,2024-02-17 12:51:53.725210,7,5103.53,"Simvastatin, Ibuprofen, Amoxicillin"
+1051,Patient_51,54,M,AB+,Community Healthcare,Dr. Smith,Appendicitis,Physical Therapy,2024-09-25 12:51:53.725210,111,902.82,4.5,2024-09-28 12:51:53.725210,3,2568.93,Amoxicillin
+1052,Patient_52,40,F,B-,University Hospital,Dr. Williams,Diabetes,Radiation,2024-10-18 12:51:53.725210,424,1179.01,8.0,2024-10-23 12:51:53.725210,5,5811.82,"Lisinopril, Metformin"
+1053,Patient_53,33,F,AB+,City Medical Center,Dr. Williams,Stroke,Physical Therapy,2025-01-07 12:51:53.725210,343,1057.16,10.0,2025-01-11 12:51:53.725210,4,4555.72,"Amoxicillin, Metformin, Amoxicillin"
+1054,Patient_54,66,F,O+,Community Healthcare,Dr. Brown,Hypertension,Medication,2024-03-20 12:51:53.725210,281,1187.93,7.1,2024-03-31 12:51:53.725210,11,12761.33,"Ibuprofen, Ibuprofen"
+1055,Patient_55,32,F,B+,University Hospital,Dr. Jones,Appendicitis,Physical Therapy,2025-01-01 12:51:53.725210,383,1248.58,7.2,2025-01-04 12:51:53.725210,3,3078.59,"Ibuprofen, Omeprazole"
+1056,Patient_56,51,F,AB-,University Hospital,Dr. Johnson,Hypertension,Surgery,2024-04-28 12:51:53.725210,411,1065.86,5.2,2024-05-17 12:51:53.725210,19,19849.99,Ibuprofen
+1057,Patient_57,40,F,AB+,City Medical Center,Dr. Smith,Pneumonia,Medication,2024-10-17 12:51:53.725210,198,1028.06,8.2,2024-10-27 12:51:53.725210,10,11034.45,"Omeprazole, Omeprazole, Omeprazole"
+1058,Patient_58,59,F,A+,Community Healthcare,Dr. Miller,Fracture,Chemotherapy,2024-03-02 12:51:53.725210,296,805.4,6.5,2024-03-06 12:51:53.725210,4,3658.78,"Metformin, Omeprazole, Simvastatin"
+1059,Patient_59,56,M,AB-,University Hospital,Dr. Miller,Stroke,Radiation,2024-08-20 12:51:53.725210,465,1397.33,9.0,2024-09-01 12:51:53.725210,12,17238.43,Simvastatin
+1060,Patient_60,70,F,B-,University Hospital,Dr. Miller,Hypertension,Radiation,2024-04-17 12:51:53.725210,325,716.43,6.5,2024-04-26 12:51:53.725210,9,5489.72,"Metformin, Ibuprofen"
+1061,Patient_61,39,M,O+,University Hospital,Dr. Smith,Heart Disease,Physical Therapy,2024-03-17 12:51:53.725210,432,1330.88,8.0,2024-03-24 12:51:53.725210,7,6875.03,"Lisinopril, Ibuprofen"
+1062,Patient_62,44,M,A+,City Medical Center,Dr. Davis,Fracture,Preventive Care,2025-01-21 12:51:53.725210,202,1166.56,7.4,2025-01-26 12:51:53.725210,5,6109.89,"Ibuprofen, Simvastatin"
+1063,Patient_63,30,F,A+,Community Healthcare,Dr. Miller,Cancer,Medication,2024-01-29 12:51:53.725210,205,1520.16,9.8,2024-02-07 12:51:53.725210,9,11435.77,"Lisinopril, Simvastatin, Simvastatin"
+1064,Patient_64,41,F,A+,Community Healthcare,Dr. Miller,Cancer,Chemotherapy,2024-03-21 12:51:53.725210,464,999.67,8.1,2024-03-28 12:51:53.725210,7,5655.81,"Ibuprofen, Omeprazole"
+1065,Patient_65,57,M,A+,Community Healthcare,Dr. Jones,Heart Disease,Medication,2024-05-12 12:51:53.725210,467,1190.83,9.6,2024-05-17 12:51:53.725210,5,4464.86,Lisinopril
+1066,Patient_66,65,M,AB-,Community Healthcare,Dr. Garcia,Appendicitis,Radiation,2024-10-13 12:51:53.725210,157,840.21,7.7,2024-10-16 12:51:53.725210,3,2737.03,"Lisinopril, Amoxicillin, Simvastatin"
+1067,Patient_67,31,F,AB-,Memorial Hospital,Dr. Garcia,Fracture,Medication,2024-12-02 12:51:53.725210,177,700.0,7.2,2024-12-06 12:51:53.725210,4,2620.64,"Metformin, Ibuprofen, Omeprazole"
+1068,Patient_68,67,F,B+,Memorial Hospital,Dr. Brown,Hypertension,Chemotherapy,2024-08-05 12:51:53.725210,174,1026.07,7.4,2024-08-10 12:51:53.725210,5,5225.08,"Metformin, Metformin, Omeprazole"
+1069,Patient_69,77,M,AB+,Community Healthcare,Dr. Brown,Fracture,Preventive Care,2024-09-01 12:51:53.725210,141,856.48,6.3,2024-09-14 12:51:53.725210,14,11969.07,"Lisinopril, Omeprazole, Simvastatin"
+1070,Patient_70,58,F,O-,City Medical Center,Dr. Miller,Appendicitis,Physical Therapy,2024-03-11 12:51:53.725210,423,1301.1,8.3,2024-03-22 12:51:53.725210,11,15137.39,"Ibuprofen, Omeprazole"
+1071,Patient_71,87,F,B+,Memorial Hospital,Dr. Jones,Diabetes,Surgery,2024-07-07 12:51:53.725210,280,1123.03,6.5,2024-07-12 12:51:53.725210,7,5951.55,"Omeprazole, Simvastatin"
+1072,Patient_72,34,F,B+,University Hospital,Dr. Miller,Stroke,Medication,2024-08-16 12:51:53.725210,132,1008.28,7.7,2024-08-22 12:51:53.725210,6,6396.88,Metformin
+1073,Patient_73,25,M,O+,Memorial Hospital,Dr. Brown,Heart Disease,Surgery,2024-10-23 12:51:53.725210,170,1177.1,8.8,2024-11-04 12:51:53.725210,12,9726.06,"Lisinopril, Metformin, Amoxicillin"
+1074,Patient_74,18,M,O+,University Hospital,Dr. Smith,Appendicitis,Radiation,2025-01-12 12:51:53.725210,155,1023.02,9.9,2025-01-20 12:51:53.725210,8,8198.53,"Metformin, Metformin"
+1075,Patient_75,79,M,AB+,Community Healthcare,Dr. Smith,Diabetes,Physical Therapy,2024-11-26 12:51:53.725210,204,948.83,7.7,2024-12-04 12:51:53.725210,11,6900.46,"Metformin, Metformin"
+1076,Patient_76,63,F,O-,Memorial Hospital,Dr. Davis,Fracture,Physical Therapy,2024-10-24 12:51:53.725210,299,1013.91,8.8,2024-10-29 12:51:53.725210,5,4922.8,"Metformin, Metformin"
+1077,Patient_77,48,F,O+,City Medical Center,Dr. Johnson,Fracture,Medication,2024-08-29 12:51:53.725210,200,1380.33,8.6,2024-09-04 12:51:53.725210,6,7313.95,"Ibuprofen, Simvastatin, Ibuprofen"
+1078,Patient_78,55,M,AB+,Memorial Hospital,Dr. Garcia,Appendicitis,Preventive Care,2024-10-05 12:51:53.725210,355,787.05,6.9,2024-10-12 12:51:53.725210,7,5699.4,Ibuprofen
+1079,Patient_79,27,M,AB+,Memorial Hospital,Dr. Jones,Hypertension,Physical Therapy,2024-08-04 12:51:53.725210,406,966.27,10.0,2024-08-11 12:51:53.725210,7,5434.68,Metformin
+1080,Patient_80,95,M,AB-,Memorial Hospital,Dr. Williams,Fracture,Medication,2024-11-18 12:51:53.725210,173,1141.28,6.6,2024-11-28 12:51:53.725210,13,12117.29,"Ibuprofen, Amoxicillin, Metformin"
+1081,Patient_81,52,F,A-,Community Healthcare,Dr. Garcia,Hypertension,Medication,2024-08-27 12:51:53.725210,270,919.97,7.6,2024-09-06 12:51:53.725210,10,9213.82,Lisinopril
+1082,Patient_82,52,M,AB-,City Medical Center,Dr. Williams,Hypertension,Surgery,2024-08-22 12:51:53.725210,476,1316.11,9.7,2024-08-26 12:51:53.725210,4,6265.82,"Simvastatin, Lisinopril"
+1083,Patient_83,64,M,O-,Memorial Hospital,Dr. Johnson,Stroke,Physical Therapy,2024-09-20 12:51:53.725210,242,1135.69,9.6,2024-09-25 12:51:53.725210,5,5562.27,"Lisinopril, Omeprazole"
+1084,Patient_84,59,F,O+,City Medical Center,Dr. Johnson,Hypertension,Medication,2024-12-30 12:51:53.725210,265,856.22,7.5,2025-01-04 12:51:53.725210,5,4193.38,"Omeprazole, Ibuprofen, Lisinopril"
+1085,Patient_85,54,F,O-,Community Healthcare,Dr. Miller,Pneumonia,Surgery,2024-03-20 12:51:53.725210,498,1040.81,9.0,2024-04-03 12:51:53.725210,14,15565.88,"Metformin, Simvastatin, Simvastatin"
+1086,Patient_86,34,F,B+,University Hospital,Dr. Brown,Stroke,Chemotherapy,2024-11-02 12:51:53.725210,360,859.08,6.2,2024-11-24 12:51:53.725210,22,18622.89,"Lisinopril, Simvastatin"
+1087,Patient_87,59,M,B+,Memorial Hospital,Dr. Johnson,Diabetes,Surgery,2024-08-31 12:51:53.725210,320,840.67,6.8,2024-09-05 12:51:53.725210,5,4318.87,"Ibuprofen, Lisinopril"
+1088,Patient_88,87,F,O-,City Medical Center,Dr. Johnson,Diabetes,Surgery,2024-10-05 12:51:53.725210,182,971.96,5.7,2024-10-11 12:51:53.725210,10,6411.67,"Amoxicillin, Simvastatin"
+1089,Patient_89,76,F,A-,City Medical Center,Dr. Williams,Fracture,Medication,2024-08-02 12:51:53.725210,281,1252.75,8.6,2024-08-13 12:51:53.725210,12,13411.61,"Metformin, Amoxicillin, Ibuprofen"
+1090,Patient_90,81,M,A-,Community Healthcare,Dr. Brown,Fracture,Radiation,2024-03-08 12:51:53.725210,406,1149.09,8.7,2024-03-13 12:51:53.725210,6,6432.18,"Lisinopril, Simvastatin"
+1091,Patient_91,39,F,AB-,Memorial Hospital,Dr. Johnson,Hypertension,Radiation,2024-07-02 12:51:53.725210,109,995.48,6.6,2024-07-13 12:51:53.725210,11,9111.58,"Ibuprofen, Ibuprofen, Ibuprofen"
+1092,Patient_92,30,M,O-,University Hospital,Dr. Garcia,Stroke,Preventive Care,2024-02-11 12:51:53.725210,495,1156.24,7.9,2024-02-18 12:51:53.725210,7,9391.49,"Lisinopril, Ibuprofen"
+1093,Patient_93,47,M,O+,City Medical Center,Dr. Davis,Stroke,Radiation,2024-11-23 12:51:53.725210,103,1053.72,10.0,2024-11-26 12:51:53.725210,3,2595.89,"Simvastatin, Amoxicillin"
+1094,Patient_94,51,F,AB-,Memorial Hospital,Dr. Johnson,Pneumonia,Surgery,2024-04-01 12:51:53.725210,450,766.02,9.2,2024-04-04 12:51:53.725210,3,2608.8,Ibuprofen
+1095,Patient_95,71,F,B-,University Hospital,Dr. Davis,Hypertension,Preventive Care,2025-01-06 12:51:53.725210,435,970.97,6.1,2025-01-12 12:51:53.725210,7,4738.45,Lisinopril
+1096,Patient_96,18,F,A-,City Medical Center,Dr. Brown,Pneumonia,Medication,2024-12-19 12:51:53.725210,391,985.37,9.0,2025-01-01 12:51:53.725210,13,15346.9,"Ibuprofen, Metformin"
+1097,Patient_97,80,F,A+,City Medical Center,Dr. Miller,Cancer,Physical Therapy,2024-02-05 12:51:53.725210,380,1498.04,6.2,2024-02-09 12:51:53.725210,7,4683.51,"Amoxicillin, Amoxicillin"
+1098,Patient_98,46,F,AB-,University Hospital,Dr. Jones,Hypertension,Surgery,2025-01-05 12:51:53.725210,314,886.71,3.2,2025-01-10 12:51:53.725210,5,4014.63,Simvastatin
+1099,Patient_99,41,F,B+,University Hospital,Dr. Brown,Heart Disease,Surgery,2024-06-04 12:51:53.725210,197,1062.71,7.5,2024-06-12 12:51:53.725210,8,7759.5,Metformin
+1100,Patient_100,29,M,AB-,Community Healthcare,Dr. Williams,Heart Disease,Preventive Care,2024-06-11 12:51:53.725210,200,1288.16,9.8,2024-06-14 12:51:53.725210,3,2648.98,"Amoxicillin, Ibuprofen, Amoxicillin"
+1101,Patient_101,18,M,O-,Memorial Hospital,Dr. Jones,Appendicitis,Medication,2024-03-30 12:51:53.725210,108,870.92,9.6,2024-04-07 12:51:53.725210,8,6808.95,Metformin
+1102,Patient_102,66,F,A+,Memorial Hospital,Dr. Garcia,Hypertension,Chemotherapy,2024-06-14 12:51:53.725210,160,935.3,8.1,2024-06-17 12:51:53.725210,3,3536.76,"Omeprazole, Metformin, Simvastatin"
+1103,Patient_103,51,M,O-,Community Healthcare,Dr. Smith,Stroke,Surgery,2024-04-17 12:51:53.725210,408,983.82,6.7,2024-04-26 12:51:53.725210,9,9204.6,"Metformin, Amoxicillin, Ibuprofen"
+1104,Patient_104,24,F,AB+,City Medical Center,Dr. Davis,Fracture,Chemotherapy,2024-07-08 12:51:53.725210,245,923.39,8.2,2024-07-12 12:51:53.725210,4,2945.24,Lisinopril
+1105,Patient_105,24,M,B+,University Hospital,Dr. Davis,Diabetes,Chemotherapy,2024-11-11 12:51:53.725210,162,1192.64,7.1,2024-11-15 12:51:53.725210,4,4640.18,"Metformin, Lisinopril, Metformin"
+1106,Patient_106,43,M,B+,University Hospital,Dr. Davis,Appendicitis,Radiation,2024-10-14 12:51:53.725210,220,1282.86,6.7,2024-10-22 12:51:53.725210,8,9891.61,"Metformin, Simvastatin, Metformin"
+1107,Patient_107,83,M,A-,University Hospital,Dr. Brown,Fracture,Medication,2024-09-14 12:51:53.725210,325,1172.58,9.1,2024-09-24 12:51:53.725210,14,11946.85,"Amoxicillin, Metformin"
+1108,Patient_108,44,F,AB-,City Medical Center,Dr. Davis,Heart Disease,Chemotherapy,2024-03-08 12:51:53.725210,204,910.0,6.7,2024-03-16 12:51:53.725210,8,5575.11,"Omeprazole, Simvastatin"
+1109,Patient_109,19,M,A-,University Hospital,Dr. Miller,Hypertension,Medication,2024-02-24 12:51:53.725210,359,871.61,9.2,2024-03-03 12:51:53.725210,8,7353.5,"Amoxicillin, Lisinopril"
+1110,Patient_110,45,F,A+,University Hospital,Dr. Davis,Appendicitis,Radiation,2024-06-10 12:51:53.725210,448,964.27,6.6,2024-06-18 12:51:53.725210,8,6535.39,Simvastatin
+1111,Patient_111,44,M,AB-,Community Healthcare,Dr. Williams,Hypertension,Medication,2024-08-15 12:51:53.725210,354,700.0,10.0,2024-08-23 12:51:53.725210,8,5293.17,Lisinopril
+1112,Patient_112,18,M,AB+,City Medical Center,Dr. Garcia,Heart Disease,Surgery,2024-12-20 12:51:53.725210,306,1072.27,5.0,2024-12-29 12:51:53.725210,9,7654.87,Lisinopril
+1113,Patient_113,48,M,O-,Memorial Hospital,Dr. Davis,Appendicitis,Chemotherapy,2024-10-21 12:51:53.725210,127,961.71,6.1,2024-10-27 12:51:53.725210,6,5330.48,"Ibuprofen, Ibuprofen, Amoxicillin"
+1114,Patient_114,45,M,AB+,Community Healthcare,Dr. Davis,Heart Disease,Medication,2024-02-29 12:51:53.725210,269,1183.27,7.3,2024-03-10 12:51:53.725210,10,10099.64,"Omeprazole, Omeprazole, Lisinopril"
+1115,Patient_115,63,M,B+,Community Healthcare,Dr. Jones,Pneumonia,Physical Therapy,2024-03-15 12:51:53.725210,435,1001.73,4.5,2024-03-19 12:51:53.725210,4,3709.55,Amoxicillin
+1116,Patient_116,86,F,A+,Memorial Hospital,Dr. Garcia,Heart Disease,Medication,2024-03-29 12:51:53.725210,175,940.98,3.6,2024-04-10 12:51:53.725210,15,8810.46,Simvastatin
+1117,Patient_117,72,F,B-,Community Healthcare,Dr. Davis,Stroke,Chemotherapy,2024-08-30 12:51:53.725210,215,907.94,4.5,2024-09-09 12:51:53.725210,11,8984.11,"Metformin, Ibuprofen, Amoxicillin"
+1118,Patient_118,44,M,A+,City Medical Center,Dr. Brown,Stroke,Radiation,2024-11-15 12:51:53.725210,168,1030.38,6.1,2024-12-06 12:51:53.725210,21,19442.42,"Metformin, Omeprazole, Lisinopril"
+1119,Patient_119,27,M,O+,University Hospital,Dr. Johnson,Hypertension,Radiation,2024-05-05 12:51:53.725210,453,1002.04,7.1,2024-05-14 12:51:53.725210,9,9072.91,"Omeprazole, Ibuprofen"
+1120,Patient_120,95,M,A+,City Medical Center,Dr. Miller,Diabetes,Chemotherapy,2024-07-17 12:51:53.725210,333,1089.38,8.0,2024-07-28 12:51:53.725210,13,10411.07,"Simvastatin, Simvastatin"
+1121,Patient_121,51,M,AB+,Memorial Hospital,Dr. Brown,Heart Disease,Surgery,2025-01-21 12:51:53.725210,100,1401.02,7.2,2025-01-24 12:51:53.725210,3,3089.7,"Simvastatin, Metformin, Lisinopril"
+1122,Patient_122,50,F,O+,Memorial Hospital,Dr. Smith,Fracture,Surgery,2024-08-28 12:51:53.725210,266,918.58,7.9,2024-09-08 12:51:53.725210,11,10134.97,"Omeprazole, Amoxicillin, Lisinopril"
+1123,Patient_123,49,M,O+,Community Healthcare,Dr. Brown,Stroke,Radiation,2024-03-02 12:51:53.725210,451,1024.02,6.8,2024-03-15 12:51:53.725210,13,11412.15,"Amoxicillin, Amoxicillin, Ibuprofen"
+1124,Patient_124,53,F,AB-,City Medical Center,Dr. Jones,Cancer,Radiation,2024-09-10 12:51:53.725210,317,1092.0,8.6,2024-09-25 12:51:53.725210,15,13385.61,Amoxicillin
+1125,Patient_125,47,M,AB-,City Medical Center,Dr. Jones,Diabetes,Chemotherapy,2024-05-07 12:51:53.725210,372,945.95,8.4,2024-05-14 12:51:53.725210,7,6794.06,"Amoxicillin, Lisinopril"
+1126,Patient_126,38,F,O+,Memorial Hospital,Dr. Davis,Pneumonia,Surgery,2024-06-06 12:51:53.725210,467,788.88,7.0,2024-06-12 12:51:53.725210,6,4985.09,Omeprazole
+1127,Patient_127,39,M,B-,City Medical Center,Dr. Brown,Appendicitis,Radiation,2024-10-10 12:51:53.725210,350,1213.08,8.3,2024-10-14 12:51:53.725210,4,4853.52,Omeprazole
+1128,Patient_128,49,M,AB-,Memorial Hospital,Dr. Jones,Appendicitis,Surgery,2024-02-01 12:51:53.725210,446,945.3,7.2,2024-02-05 12:51:53.725210,4,3346.1,"Lisinopril, Lisinopril"
+1129,Patient_129,39,F,A+,City Medical Center,Dr. Johnson,Stroke,Radiation,2024-09-01 12:51:53.725210,443,1212.79,5.2,2024-09-08 12:51:53.725210,7,8489.47,"Ibuprofen, Amoxicillin"
+1130,Patient_130,35,M,AB+,City Medical Center,Dr. Garcia,Diabetes,Medication,2024-10-08 12:51:53.725210,273,1062.3,8.9,2024-10-11 12:51:53.725210,3,3385.47,"Omeprazole, Lisinopril, Amoxicillin"
+1131,Patient_131,52,M,A+,City Medical Center,Dr. Brown,Stroke,Physical Therapy,2025-01-20 12:51:53.725210,269,822.87,6.1,2025-01-25 12:51:53.725210,5,3624.62,"Amoxicillin, Ibuprofen, Simvastatin"
+1132,Patient_132,44,M,B-,Memorial Hospital,Dr. Miller,Appendicitis,Preventive Care,2024-11-05 12:51:53.725210,345,1050.22,8.8,2024-11-12 12:51:53.725210,7,6534.91,Simvastatin
+1133,Patient_133,80,F,B+,Community Healthcare,Dr. Johnson,Cancer,Medication,2024-08-21 12:51:53.725210,189,1510.52,8.0,2024-08-28 12:51:53.725210,10,7933.43,"Omeprazole, Lisinopril, Lisinopril"
+1134,Patient_134,18,M,A-,City Medical Center,Dr. Davis,Heart Disease,Preventive Care,2024-02-11 12:51:53.725210,148,1279.82,7.4,2024-02-15 12:51:53.725210,4,3791.69,Omeprazole
+1135,Patient_135,71,M,AB+,Memorial Hospital,Dr. Garcia,Diabetes,Radiation,2025-01-07 12:51:53.725210,393,1014.81,4.7,2025-01-10 12:51:53.725210,7,3039.51,Simvastatin
+1136,Patient_136,74,F,AB-,Memorial Hospital,Dr. Miller,Hypertension,Physical Therapy,2024-03-09 12:51:53.725210,249,889.71,9.8,2024-03-13 12:51:53.725210,5,3455.03,"Metformin, Amoxicillin"
+1137,Patient_137,18,F,AB+,City Medical Center,Dr. Davis,Heart Disease,Physical Therapy,2024-07-24 12:51:53.725210,231,1306.27,7.0,2024-07-30 12:51:53.725210,6,6125.38,Ibuprofen
+1138,Patient_138,43,F,A+,City Medical Center,Dr. Miller,Heart Disease,Radiation,2024-03-30 12:51:53.725210,158,1361.85,7.5,2024-04-20 12:51:53.725210,21,24687.08,"Lisinopril, Lisinopril, Lisinopril"
+1139,Patient_139,42,M,A-,Community Healthcare,Dr. Davis,Heart Disease,Radiation,2025-01-13 12:51:53.725210,423,1149.51,7.3,2025-01-25 12:51:53.725210,12,11182.16,"Ibuprofen, Lisinopril"
+1140,Patient_140,21,M,O-,Memorial Hospital,Dr. Miller,Hypertension,Surgery,2024-09-14 12:51:53.725210,298,784.14,7.1,2024-09-22 12:51:53.725210,8,6308.34,"Amoxicillin, Simvastatin, Omeprazole"
+1141,Patient_141,34,M,O-,Memorial Hospital,Dr. Garcia,Cancer,Radiation,2024-09-24 12:51:53.725210,314,1634.87,7.8,2024-10-03 12:51:53.725210,9,10065.7,"Ibuprofen, Metformin, Omeprazole"
+1142,Patient_142,27,F,AB-,University Hospital,Dr. Johnson,Pneumonia,Chemotherapy,2024-03-19 12:51:53.725210,485,1120.82,7.5,2024-03-31 12:51:53.725210,12,12478.78,"Simvastatin, Amoxicillin, Omeprazole"
+1143,Patient_143,85,M,B-,Memorial Hospital,Dr. Miller,Cancer,Radiation,2024-05-02 12:51:53.725210,148,1157.61,7.1,2024-05-12 12:51:53.725210,12,9654.24,"Simvastatin, Ibuprofen, Omeprazole"
+1144,Patient_144,68,M,O-,Community Healthcare,Dr. Miller,Cancer,Chemotherapy,2024-09-05 12:51:53.725210,331,1357.11,7.4,2024-09-11 12:51:53.725210,6,5970.14,"Lisinopril, Metformin, Ibuprofen"
+1145,Patient_145,75,F,AB+,University Hospital,Dr. Williams,Cancer,Radiation,2024-09-14 12:51:53.725210,346,915.56,8.1,2024-09-18 12:51:53.725210,7,2544.49,"Amoxicillin, Omeprazole, Amoxicillin"
+1146,Patient_146,64,F,O-,University Hospital,Dr. Brown,Fracture,Surgery,2024-09-20 12:51:53.725210,481,700.0,8.2,2024-09-26 12:51:53.725210,6,5081.17,Simvastatin
+1147,Patient_147,27,F,B+,University Hospital,Dr. Garcia,Stroke,Chemotherapy,2024-06-18 12:51:53.725210,338,1216.83,7.6,2024-06-30 12:51:53.725210,12,16827.97,"Metformin, Metformin"
+1148,Patient_148,39,F,B+,City Medical Center,Dr. Davis,Appendicitis,Medication,2024-07-16 12:51:53.725210,466,1045.91,8.4,2024-07-22 12:51:53.725210,6,6197.36,"Omeprazole, Simvastatin"
+1149,Patient_149,59,F,AB-,City Medical Center,Dr. Garcia,Stroke,Chemotherapy,2024-02-25 12:51:53.725210,267,990.46,6.9,2024-02-29 12:51:53.725210,4,3532.91,"Ibuprofen, Simvastatin, Ibuprofen"
+1150,Patient_150,25,M,B+,Memorial Hospital,Dr. Jones,Diabetes,Surgery,2024-03-03 12:51:53.725210,147,1046.53,10.0,2024-03-06 12:51:53.725210,3,3366.7,"Amoxicillin, Simvastatin"
+1151,Patient_151,64,F,O-,University Hospital,Dr. Davis,Cancer,Preventive Care,2024-02-09 12:51:53.725210,150,1950.0,9.7,2024-02-15 12:51:53.725210,6,8558.94,"Omeprazole, Metformin, Metformin"
+1152,Patient_152,45,M,B-,Community Healthcare,Dr. Garcia,Pneumonia,Chemotherapy,2024-07-05 12:51:53.725210,398,1173.82,8.6,2024-07-09 12:51:53.725210,4,5112.47,"Ibuprofen, Lisinopril, Lisinopril"
+1153,Patient_153,42,M,O+,City Medical Center,Dr. Johnson,Diabetes,Radiation,2024-12-19 12:51:53.725210,197,790.91,4.6,2024-12-24 12:51:53.725210,5,3761.15,Metformin
+1154,Patient_154,64,F,O+,Community Healthcare,Dr. Davis,Stroke,Radiation,2024-08-01 12:51:53.725210,315,700.0,8.4,2024-08-16 12:51:53.725210,15,12227.67,"Amoxicillin, Ibuprofen"
+1155,Patient_155,58,F,AB-,Community Healthcare,Dr. Davis,Appendicitis,Preventive Care,2024-09-26 12:51:53.725210,276,1210.91,7.0,2024-10-03 12:51:53.725210,7,8036.67,"Omeprazole, Ibuprofen, Amoxicillin"
+1156,Patient_156,42,F,A-,City Medical Center,Dr. Garcia,Hypertension,Surgery,2024-04-22 12:51:53.725210,479,1171.22,6.0,2024-04-27 12:51:53.725210,5,7240.91,Ibuprofen
+1157,Patient_157,73,M,O+,City Medical Center,Dr. Davis,Stroke,Physical Therapy,2024-11-06 12:51:53.725210,179,1115.01,7.0,2024-11-14 12:51:53.725210,10,9094.07,Omeprazole
+1158,Patient_158,28,F,O+,City Medical Center,Dr. Williams,Heart Disease,Radiation,2024-04-02 12:51:53.725210,284,1088.65,5.2,2024-04-21 12:51:53.725210,19,18113.55,Ibuprofen
+1159,Patient_159,62,F,B+,City Medical Center,Dr. Brown,Stroke,Medication,2024-07-15 12:51:53.725210,466,1072.66,8.3,2024-07-21 12:51:53.725210,6,6088.35,Ibuprofen
+1160,Patient_160,61,F,B+,University Hospital,Dr. Davis,Heart Disease,Surgery,2024-03-12 12:51:53.725210,498,1111.93,9.9,2024-03-14 12:51:53.725210,2,1486.33,"Omeprazole, Ibuprofen, Metformin"
+1161,Patient_161,43,F,O-,University Hospital,Dr. Brown,Hypertension,Chemotherapy,2024-03-29 12:51:53.725210,126,1132.56,8.7,2024-04-08 12:51:53.725210,10,8713.66,Metformin
+1162,Patient_162,56,F,AB-,University Hospital,Dr. Garcia,Stroke,Chemotherapy,2024-06-09 12:51:53.725210,294,1196.53,10.0,2024-06-17 12:51:53.725210,8,10794.24,"Omeprazole, Simvastatin"
+1163,Patient_163,24,M,A-,University Hospital,Dr. Miller,Pneumonia,Medication,2024-11-06 12:51:53.725210,313,891.31,5.2,2024-11-13 12:51:53.725210,7,6281.61,Amoxicillin
+1164,Patient_164,68,M,AB-,Memorial Hospital,Dr. Smith,Pneumonia,Radiation,2024-02-24 12:51:53.725210,468,1226.36,6.7,2024-03-01 12:51:53.725210,6,6440.17,"Simvastatin, Simvastatin"
+1165,Patient_165,46,M,A+,University Hospital,Dr. Smith,Diabetes,Surgery,2024-05-14 12:51:53.725210,441,1022.97,6.1,2024-05-18 12:51:53.725210,4,4631.27,Simvastatin
+1166,Patient_166,39,F,AB+,City Medical Center,Dr. Miller,Hypertension,Medication,2024-03-11 12:51:53.725210,213,1098.37,9.3,2024-03-26 12:51:53.725210,15,18380.11,"Metformin, Metformin"
+1167,Patient_167,70,F,A-,Community Healthcare,Dr. Miller,Cancer,Radiation,2025-01-01 12:51:53.725210,341,959.49,7.2,2025-01-03 12:51:53.725210,2,1680.2,"Simvastatin, Simvastatin"
+1168,Patient_168,35,F,A-,University Hospital,Dr. Miller,Pneumonia,Surgery,2024-11-08 12:51:53.725210,223,1046.44,7.8,2024-11-14 12:51:53.725210,6,5437.44,"Ibuprofen, Omeprazole"
+1169,Patient_169,21,M,B-,Memorial Hospital,Dr. Johnson,Stroke,Chemotherapy,2024-12-23 12:51:53.725210,404,864.88,8.5,2024-12-29 12:51:53.725210,6,5836.08,"Lisinopril, Lisinopril"
+1170,Patient_170,18,F,AB-,City Medical Center,Dr. Smith,Hypertension,Surgery,2024-06-03 12:51:53.725210,175,1094.93,5.3,2024-06-14 12:51:53.725210,11,12506.78,"Lisinopril, Simvastatin"
+1171,Patient_171,62,F,O-,Community Healthcare,Dr. Miller,Appendicitis,Preventive Care,2025-01-09 12:51:53.725210,410,1293.43,6.6,2025-01-22 12:51:53.725210,13,19215.08,"Ibuprofen, Amoxicillin, Simvastatin"
+1172,Patient_172,24,F,B-,Community Healthcare,Dr. Johnson,Heart Disease,Physical Therapy,2024-09-14 12:51:53.725210,411,1375.27,9.0,2024-09-20 12:51:53.725210,6,6691.89,"Omeprazole, Amoxicillin"
+1173,Patient_173,85,M,A-,University Hospital,Dr. Jones,Stroke,Surgery,2024-08-04 12:51:53.725210,295,819.83,6.7,2024-08-12 12:51:53.725210,10,6672.11,"Amoxicillin, Ibuprofen"
+1174,Patient_174,18,F,A-,Community Healthcare,Dr. Davis,Heart Disease,Physical Therapy,2024-09-08 12:51:53.725210,450,1462.88,4.9,2024-09-16 12:51:53.725210,8,10136.6,"Simvastatin, Amoxicillin, Omeprazole"
+1175,Patient_175,83,M,A-,University Hospital,Dr. Johnson,Heart Disease,Surgery,2024-11-05 12:51:53.725210,143,1404.47,5.1,2024-11-17 12:51:53.725210,16,14068.75,"Ibuprofen, Lisinopril, Metformin"
+1176,Patient_176,54,F,O+,University Hospital,Dr. Smith,Cancer,Physical Therapy,2024-05-27 12:51:53.725210,285,1835.24,7.1,2024-06-08 12:51:53.725210,12,18773.22,"Omeprazole, Metformin, Omeprazole"
+1177,Patient_177,48,M,AB-,City Medical Center,Dr. Garcia,Hypertension,Preventive Care,2024-05-22 12:51:53.725210,442,1050.79,7.8,2024-05-27 12:51:53.725210,5,4997.53,"Omeprazole, Ibuprofen"
+1178,Patient_178,39,M,AB+,City Medical Center,Dr. Jones,Hypertension,Chemotherapy,2024-09-16 12:51:53.725210,345,882.91,7.4,2024-09-25 12:51:53.725210,9,7809.19,Ibuprofen
+1179,Patient_179,57,M,AB+,Memorial Hospital,Dr. Smith,Diabetes,Radiation,2024-10-12 12:51:53.725210,183,1154.13,6.6,2024-10-20 12:51:53.725210,8,7632.2,"Simvastatin, Ibuprofen, Metformin"
+1180,Patient_180,49,F,B-,City Medical Center,Dr. Davis,Heart Disease,Physical Therapy,2025-01-20 12:51:53.725210,306,1266.8,8.9,2025-01-26 12:51:53.725210,6,5519.27,"Simvastatin, Simvastatin"
+1181,Patient_181,72,F,A-,City Medical Center,Dr. Johnson,Diabetes,Preventive Care,2024-08-12 12:51:53.725210,250,1016.05,7.3,2024-08-20 12:51:53.725210,11,8770.86,"Amoxicillin, Omeprazole"
+1182,Patient_182,52,M,AB+,University Hospital,Dr. Williams,Cancer,Physical Therapy,2024-06-12 12:51:53.725210,255,1058.59,7.8,2024-06-19 12:51:53.725210,7,6021.69,"Lisinopril, Amoxicillin, Ibuprofen"
+1183,Patient_183,53,M,B+,City Medical Center,Dr. Brown,Heart Disease,Chemotherapy,2024-12-10 12:51:53.725210,115,1268.16,6.7,2024-12-17 12:51:53.725210,7,6159.69,"Simvastatin, Lisinopril"
+1184,Patient_184,42,F,AB-,University Hospital,Dr. Davis,Diabetes,Physical Therapy,2024-07-10 12:51:53.725210,264,1006.16,9.8,2024-07-13 12:51:53.725210,3,3405.55,"Ibuprofen, Omeprazole"
+1185,Patient_185,48,F,AB+,University Hospital,Dr. Smith,Diabetes,Preventive Care,2024-09-08 12:51:53.725210,244,974.33,6.9,2024-09-12 12:51:53.725210,4,5056.02,"Metformin, Simvastatin, Omeprazole"
+1186,Patient_186,56,M,O-,City Medical Center,Dr. Miller,Appendicitis,Preventive Care,2024-11-29 12:51:53.725210,136,881.82,7.6,2024-12-10 12:51:53.725210,11,8824.38,Simvastatin
+1187,Patient_187,18,F,AB-,Memorial Hospital,Dr. Johnson,Diabetes,Medication,2024-09-17 12:51:53.725210,432,1057.65,9.1,2024-09-21 12:51:53.725210,4,4143.5,"Amoxicillin, Ibuprofen, Omeprazole"
+1188,Patient_188,23,F,O-,Memorial Hospital,Dr. Miller,Hypertension,Chemotherapy,2024-07-17 12:51:53.725210,144,815.31,7.9,2024-07-26 12:51:53.725210,9,6881.68,"Simvastatin, Lisinopril, Metformin"
+1189,Patient_189,64,F,AB+,Community Healthcare,Dr. Miller,Diabetes,Medication,2024-06-27 12:51:53.725210,305,768.2,7.9,2024-07-04 12:51:53.725210,7,5326.38,"Simvastatin, Lisinopril, Simvastatin"
+1190,Patient_190,53,F,B+,Community Healthcare,Dr. Miller,Heart Disease,Chemotherapy,2024-12-07 12:51:53.725210,161,1484.48,4.5,2024-12-19 12:51:53.725210,12,14078.25,"Amoxicillin, Lisinopril, Lisinopril"
+1191,Patient_191,46,M,O-,City Medical Center,Dr. Miller,Diabetes,Physical Therapy,2024-07-05 12:51:53.725210,455,1123.55,8.5,2024-07-15 12:51:53.725210,10,10452.01,"Ibuprofen, Ibuprofen"
+1192,Patient_192,50,F,O+,Memorial Hospital,Dr. Miller,Pneumonia,Preventive Care,2024-05-02 12:51:53.725210,407,738.48,7.6,2024-05-07 12:51:53.725210,5,3590.15,Amoxicillin
+1193,Patient_193,56,F,AB+,University Hospital,Dr. Jones,Fracture,Medication,2024-09-16 12:51:53.725210,118,700.0,8.3,2024-09-22 12:51:53.725210,6,4236.64,"Ibuprofen, Omeprazole"
+1194,Patient_194,39,M,O+,Community Healthcare,Dr. Smith,Heart Disease,Physical Therapy,2024-07-25 12:51:53.725210,464,1037.73,7.8,2024-07-27 12:51:53.725210,2,1671.79,"Omeprazole, Lisinopril, Lisinopril"
+1195,Patient_195,34,M,AB+,University Hospital,Dr. Davis,Pneumonia,Preventive Care,2024-05-19 12:51:53.725210,399,974.34,6.7,2024-05-25 12:51:53.725210,6,6703.36,Omeprazole
+1196,Patient_196,53,F,A+,Community Healthcare,Dr. Smith,Cancer,Chemotherapy,2024-12-10 12:51:53.725210,106,1600.13,8.8,2024-12-13 12:51:53.725210,3,3687.26,"Amoxicillin, Simvastatin"
+1197,Patient_197,30,F,A+,City Medical Center,Dr. Davis,Heart Disease,Preventive Care,2024-03-19 12:51:53.725210,348,1260.29,7.8,2024-03-25 12:51:53.725210,6,5489.9,"Simvastatin, Omeprazole"
+1198,Patient_198,58,F,A+,Memorial Hospital,Dr. Brown,Hypertension,Physical Therapy,2024-10-21 12:51:53.725210,216,846.13,5.6,2024-10-26 12:51:53.725210,5,4525.25,"Simvastatin, Metformin, Amoxicillin"
+1199,Patient_199,18,F,O-,Community Healthcare,Dr. Johnson,Fracture,Medication,2024-11-17 12:51:53.725210,167,1029.72,9.5,2024-11-21 12:51:53.725210,4,4283.71,Ibuprofen
+1200,Patient_200,70,M,O+,Memorial Hospital,Dr. Williams,Fracture,Medication,2024-05-19 12:51:53.725210,133,977.2,5.4,2024-06-01 12:51:53.725210,13,12458.64,"Omeprazole, Ibuprofen"
+1201,Patient_201,59,M,O+,University Hospital,Dr. Jones,Hypertension,Preventive Care,2024-05-07 12:51:53.725210,293,723.8,8.9,2024-05-10 12:51:53.725210,3,2276.72,"Lisinopril, Omeprazole"
+1202,Patient_202,55,M,O+,City Medical Center,Dr. Johnson,Fracture,Physical Therapy,2024-05-19 12:51:53.725210,424,724.99,9.7,2024-05-23 12:51:53.725210,4,2788.85,"Omeprazole, Metformin, Amoxicillin"
+1203,Patient_203,69,F,B+,Memorial Hospital,Dr. Jones,Hypertension,Surgery,2024-04-17 12:51:53.725210,154,730.36,5.8,2024-04-22 12:51:53.725210,5,3458.11,Omeprazole
+1204,Patient_204,83,F,O+,City Medical Center,Dr. Davis,Pneumonia,Chemotherapy,2024-08-01 12:51:53.725210,365,1495.97,7.3,2024-08-06 12:51:53.725210,9,6059.19,"Simvastatin, Metformin"
+1205,Patient_205,70,F,B+,Memorial Hospital,Dr. Smith,Cancer,Chemotherapy,2024-05-19 12:51:53.725210,141,1523.6,7.2,2024-05-23 12:51:53.725210,4,4534.27,Omeprazole
+1206,Patient_206,18,F,A+,University Hospital,Dr. Miller,Appendicitis,Physical Therapy,2024-01-29 12:51:53.725210,396,881.26,7.2,2024-02-04 12:51:53.725210,6,4355.62,"Lisinopril, Lisinopril"
+1207,Patient_207,24,M,A+,University Hospital,Dr. Brown,Heart Disease,Surgery,2024-06-05 12:51:53.725210,330,1588.15,10.0,2024-06-13 12:51:53.725210,8,9148.3,"Simvastatin, Ibuprofen, Simvastatin"
+1208,Patient_208,37,M,O-,City Medical Center,Dr. Brown,Hypertension,Medication,2024-09-03 12:51:53.725210,477,886.39,5.9,2024-09-13 12:51:53.725210,10,9377.55,"Omeprazole, Metformin"
+1209,Patient_209,50,F,AB+,University Hospital,Dr. Garcia,Heart Disease,Radiation,2024-03-21 12:51:53.725210,493,1579.55,7.0,2024-03-31 12:51:53.725210,10,10321.56,"Omeprazole, Lisinopril"
+1210,Patient_210,60,M,A+,Community Healthcare,Dr. Williams,Cancer,Radiation,2025-01-04 12:51:53.725210,109,1320.88,9.8,2025-01-06 12:51:53.725210,2,1993.54,"Amoxicillin, Amoxicillin, Omeprazole"
+1211,Patient_211,35,F,AB+,Memorial Hospital,Dr. Brown,Pneumonia,Physical Therapy,2024-09-07 12:51:53.725210,457,868.23,7.0,2024-09-15 12:51:53.725210,8,6991.32,"Omeprazole, Metformin, Metformin"
+1212,Patient_212,53,F,AB+,University Hospital,Dr. Miller,Appendicitis,Surgery,2024-09-08 12:51:53.725210,227,1135.96,6.1,2024-09-17 12:51:53.725210,9,9979.71,"Omeprazole, Metformin, Simvastatin"
+1213,Patient_213,34,M,AB-,Community Healthcare,Dr. Smith,Cancer,Surgery,2024-06-01 12:51:53.725210,278,1335.75,7.9,2024-06-06 12:51:53.725210,5,4890.21,"Metformin, Simvastatin"
+1214,Patient_214,37,F,O-,City Medical Center,Dr. Williams,Pneumonia,Chemotherapy,2024-06-05 12:51:53.725210,491,1079.65,7.699999999999999,2024-06-22 12:51:53.725210,17,18951.27,"Simvastatin, Omeprazole, Amoxicillin"
+1215,Patient_215,21,F,A-,Community Healthcare,Dr. Davis,Fracture,Medication,2024-03-20 12:51:53.725210,292,1043.1,6.9,2024-04-01 12:51:53.725210,12,13098.12,"Ibuprofen, Metformin, Omeprazole"
+1216,Patient_216,31,M,A-,City Medical Center,Dr. Johnson,Heart Disease,Preventive Care,2024-07-17 12:51:53.725210,191,1353.3,8.3,2024-07-23 12:51:53.725210,6,6246.95,Simvastatin
+1217,Patient_217,22,F,B-,City Medical Center,Dr. Davis,Stroke,Surgery,2024-09-01 12:51:53.725210,468,1160.11,5.4,2024-09-06 12:51:53.725210,5,5553.59,"Omeprazole, Omeprazole, Metformin"
+1218,Patient_218,30,F,AB-,Memorial Hospital,Dr. Miller,Appendicitis,Preventive Care,2024-07-05 12:51:53.725210,330,1500.0,4.5,2024-07-21 12:51:53.725210,16,26075.37,"Simvastatin, Simvastatin"
+1219,Patient_219,71,M,O-,Memorial Hospital,Dr. Miller,Fracture,Radiation,2024-08-12 12:51:53.725210,177,1249.76,6.8,2024-08-19 12:51:53.725210,8,7601.64,"Amoxicillin, Metformin"
+1220,Patient_220,31,F,B-,Community Healthcare,Dr. Brown,Cancer,Preventive Care,2024-09-30 12:51:53.725210,184,1357.11,8.4,2024-10-07 12:51:53.725210,7,7809.81,"Amoxicillin, Omeprazole, Amoxicillin"
+1221,Patient_221,95,M,B-,Memorial Hospital,Dr. Williams,Appendicitis,Medication,2024-12-16 12:51:53.725210,129,937.88,8.6,2024-12-23 12:51:53.725210,9,6840.7,"Simvastatin, Omeprazole, Amoxicillin"
+1222,Patient_222,59,F,AB-,Memorial Hospital,Dr. Smith,Fracture,Medication,2024-08-17 12:51:53.725210,312,959.85,4.7,2024-09-09 12:51:53.725210,23,22515.93,Metformin
+1223,Patient_223,53,M,A-,Memorial Hospital,Dr. Davis,Pneumonia,Preventive Care,2024-07-29 12:51:53.725210,148,748.77,8.6,2024-08-04 12:51:53.725210,6,4488.17,Omeprazole
+1224,Patient_224,32,M,O-,Community Healthcare,Dr. Garcia,Hypertension,Physical Therapy,2024-05-29 12:51:53.725210,364,1132.91,7.7,2024-06-05 12:51:53.725210,7,6431.55,"Metformin, Amoxicillin"
+1225,Patient_225,64,M,A-,University Hospital,Dr. Davis,Heart Disease,Surgery,2024-10-08 12:51:53.725210,244,1036.13,6.2,2024-10-12 12:51:53.725210,4,3630.38,"Ibuprofen, Metformin, Simvastatin"
+1226,Patient_226,38,F,B-,Memorial Hospital,Dr. Jones,Diabetes,Physical Therapy,2024-11-16 12:51:53.725210,168,925.51,5.5,2024-11-22 12:51:53.725210,6,6018.78,"Ibuprofen, Ibuprofen, Metformin"
+1227,Patient_227,52,M,O-,Memorial Hospital,Dr. Jones,Diabetes,Preventive Care,2024-11-02 12:51:53.725210,157,1134.07,7.8,2024-11-06 12:51:53.725210,4,4100.17,Simvastatin
+1228,Patient_228,95,M,B-,Community Healthcare,Dr. Smith,Pneumonia,Surgery,2024-12-17 12:51:53.725210,284,952.53,9.4,2024-12-21 12:51:53.725210,8,4099.24,Simvastatin
+1229,Patient_229,48,M,O+,University Hospital,Dr. Smith,Cancer,Chemotherapy,2024-05-04 12:51:53.725210,161,1172.0,7.6,2024-05-06 12:51:53.725210,2,1837.13,"Omeprazole, Lisinopril"
+1230,Patient_230,72,M,AB-,Memorial Hospital,Dr. Jones,Heart Disease,Physical Therapy,2024-08-12 12:51:53.725210,407,988.65,6.1,2024-08-23 12:51:53.725210,15,7877.79,"Metformin, Omeprazole, Omeprazole"
+1231,Patient_231,35,M,AB+,City Medical Center,Dr. Garcia,Cancer,Physical Therapy,2024-09-23 12:51:53.725210,395,1613.39,4.7,2024-09-30 12:51:53.725210,7,9722.86,"Metformin, Ibuprofen, Metformin"
+1232,Patient_232,49,F,O-,Community Healthcare,Dr. Williams,Heart Disease,Preventive Care,2024-06-19 12:51:53.725210,265,1083.37,9.8,2024-06-27 12:51:53.725210,8,6379.64,"Simvastatin, Lisinopril, Simvastatin"
+1233,Patient_233,85,F,O-,Memorial Hospital,Dr. Jones,Pneumonia,Radiation,2024-05-03 12:51:53.725210,270,882.82,9.1,2024-05-10 12:51:53.725210,8,7017.79,"Metformin, Simvastatin"
+1234,Patient_234,37,F,AB+,Memorial Hospital,Dr. Smith,Heart Disease,Preventive Care,2024-08-15 12:51:53.725210,162,910.0,8.0,2024-08-22 12:51:53.725210,7,5161.8,"Omeprazole, Lisinopril"
+1235,Patient_235,86,F,B-,City Medical Center,Dr. Brown,Hypertension,Physical Therapy,2024-05-30 12:51:53.725210,246,996.03,8.7,2024-06-15 12:51:53.725210,19,17460.9,"Ibuprofen, Lisinopril"
+1236,Patient_236,64,F,O+,City Medical Center,Dr. Johnson,Cancer,Surgery,2024-08-01 12:51:53.725210,405,1213.34,7.8,2024-08-06 12:51:53.725210,5,4936.94,"Ibuprofen, Simvastatin"
+1237,Patient_237,38,F,B+,Community Healthcare,Dr. Garcia,Pneumonia,Radiation,2024-12-18 12:51:53.725210,260,1036.37,6.7,2024-12-26 12:51:53.725210,8,8732.64,"Simvastatin, Omeprazole, Omeprazole"
+1238,Patient_238,62,F,AB+,Community Healthcare,Dr. Miller,Hypertension,Preventive Care,2025-01-10 12:51:53.725210,240,765.07,8.3,2025-01-18 12:51:53.725210,8,6252.29,"Omeprazole, Metformin"
+1239,Patient_239,69,M,AB-,City Medical Center,Dr. Garcia,Heart Disease,Preventive Care,2024-10-12 12:51:53.725210,433,1490.89,6.3,2024-10-25 12:51:53.725210,13,13825.31,"Omeprazole, Amoxicillin"
+1240,Patient_240,62,F,A-,Community Healthcare,Dr. Brown,Pneumonia,Physical Therapy,2024-06-23 12:51:53.725210,196,700.0,6.0,2024-07-02 12:51:53.725210,9,6339.39,Amoxicillin
+1241,Patient_241,18,M,B-,City Medical Center,Dr. Brown,Heart Disease,Physical Therapy,2024-10-05 12:51:53.725210,320,1276.03,8.7,2024-10-14 12:51:53.725210,9,9643.58,"Amoxicillin, Simvastatin, Amoxicillin"
+1242,Patient_242,35,M,AB+,Memorial Hospital,Dr. Miller,Cancer,Chemotherapy,2025-01-07 12:51:53.725210,142,1330.03,8.8,2025-01-10 12:51:53.725210,3,3290.06,"Ibuprofen, Simvastatin"
+1243,Patient_243,45,F,AB+,City Medical Center,Dr. Davis,Pneumonia,Preventive Care,2024-06-22 12:51:53.725210,391,1011.55,5.6,2024-06-26 12:51:53.725210,4,4249.02,"Lisinopril, Metformin"
+1244,Patient_244,48,M,O-,City Medical Center,Dr. Smith,Heart Disease,Physical Therapy,2024-06-23 12:51:53.725210,477,1341.02,5.6,2024-06-27 12:51:53.725210,4,3261.45,"Ibuprofen, Amoxicillin"
+1245,Patient_245,62,M,A-,University Hospital,Dr. Jones,Cancer,Medication,2025-01-13 12:51:53.725210,207,1505.05,6.8,2025-01-15 12:51:53.725210,2,2266.09,"Amoxicillin, Ibuprofen"
+1246,Patient_246,53,M,A-,City Medical Center,Dr. Davis,Hypertension,Radiation,2024-08-13 12:51:53.725210,365,1264.94,6.4,2024-08-22 12:51:53.725210,9,11022.1,"Simvastatin, Omeprazole, Omeprazole"
+1247,Patient_247,23,M,AB-,City Medical Center,Dr. Williams,Stroke,Medication,2024-11-30 12:51:53.725210,194,968.88,8.2,2024-12-06 12:51:53.725210,6,5171.93,"Metformin, Amoxicillin"
+1248,Patient_248,57,F,A-,University Hospital,Dr. Garcia,Hypertension,Radiation,2024-06-03 12:51:53.725210,361,806.43,7.6,2024-06-12 12:51:53.725210,9,7913.81,"Metformin, Amoxicillin"
+1249,Patient_249,62,F,AB+,Community Healthcare,Dr. Miller,Heart Disease,Preventive Care,2024-03-06 12:51:53.725210,412,1445.78,9.2,2024-03-13 12:51:53.725210,7,6208.28,"Omeprazole, Metformin, Amoxicillin"
+1250,Patient_250,61,F,B+,University Hospital,Dr. Garcia,Pneumonia,Chemotherapy,2024-12-30 12:51:53.725210,484,943.95,8.0,2025-01-07 12:51:53.725210,8,8183.39,"Amoxicillin, Lisinopril"
+1251,Patient_251,71,F,A+,Memorial Hospital,Dr. Davis,Diabetes,Physical Therapy,2025-01-21 12:51:53.725210,170,1252.92,5.5,2025-02-04 12:51:53.725210,18,19872.48,"Omeprazole, Omeprazole, Amoxicillin"
+1252,Patient_252,66,F,B-,University Hospital,Dr. Brown,Hypertension,Physical Therapy,2024-06-04 12:51:53.725210,318,879.61,4.7,2024-06-11 12:51:53.725210,7,6028.06,Lisinopril
+1253,Patient_253,59,F,A+,Memorial Hospital,Dr. Jones,Hypertension,Physical Therapy,2024-10-20 12:51:53.725210,120,828.4,7.8,2024-10-30 12:51:53.725210,10,8222.42,"Metformin, Metformin"
+1254,Patient_254,48,F,AB+,Community Healthcare,Dr. Garcia,Cancer,Preventive Care,2024-06-26 12:51:53.725210,191,1337.39,4.9,2024-07-02 12:51:53.725210,6,6769.79,"Amoxicillin, Simvastatin, Simvastatin"
+1255,Patient_255,18,F,A+,University Hospital,Dr. Williams,Fracture,Radiation,2024-11-20 12:51:53.725210,226,700.0,6.5,2024-12-01 12:51:53.725210,11,7111.99,"Simvastatin, Metformin"
+1256,Patient_256,58,F,AB+,University Hospital,Dr. Brown,Diabetes,Physical Therapy,2024-05-05 12:51:53.725210,179,906.51,6.4,2024-05-08 12:51:53.725210,3,2899.23,Simvastatin
+1257,Patient_257,54,F,A+,Community Healthcare,Dr. Williams,Heart Disease,Medication,2024-10-16 12:51:53.725210,411,1214.24,6.7,2024-10-18 12:51:53.725210,2,1696.61,Ibuprofen
+1258,Patient_258,55,M,A-,Memorial Hospital,Dr. Jones,Stroke,Physical Therapy,2024-10-05 12:51:53.725210,337,1044.09,4.5,2024-10-26 12:51:53.725210,21,19256.54,Amoxicillin
+1259,Patient_259,24,F,O+,University Hospital,Dr. Garcia,Pneumonia,Preventive Care,2024-06-19 12:51:53.725210,471,800.75,5.4,2024-07-07 12:51:53.725210,18,14840.13,Ibuprofen
+1260,Patient_260,28,M,A-,Memorial Hospital,Dr. Johnson,Fracture,Chemotherapy,2025-01-07 12:51:53.725210,281,824.1,9.2,2025-01-09 12:51:53.725210,2,1643.8,"Lisinopril, Lisinopril"
+1261,Patient_261,71,M,A-,University Hospital,Dr. Davis,Heart Disease,Medication,2024-05-18 12:51:53.725210,124,1600.79,9.2,2024-05-25 12:51:53.725210,9,7136.21,"Lisinopril, Metformin, Metformin"
+1262,Patient_262,49,M,AB-,City Medical Center,Dr. Garcia,Appendicitis,Physical Therapy,2024-03-27 12:51:53.725210,255,997.31,9.8,2024-04-03 12:51:53.725210,7,7969.22,"Lisinopril, Ibuprofen"
+1263,Patient_263,63,M,O-,University Hospital,Dr. Davis,Stroke,Physical Therapy,2024-01-29 12:51:53.725210,104,1172.93,7.5,2024-02-08 12:51:53.725210,10,11242.87,"Ibuprofen, Metformin"
+1264,Patient_264,50,F,O-,Community Healthcare,Dr. Jones,Hypertension,Surgery,2024-11-26 12:51:53.725210,219,891.64,6.9,2024-12-13 12:51:53.725210,17,15931.96,"Amoxicillin, Metformin, Metformin"
+1265,Patient_265,50,M,A+,Community Healthcare,Dr. Garcia,Appendicitis,Radiation,2024-10-07 12:51:53.725210,376,989.11,9.2,2024-10-11 12:51:53.725210,4,4591.52,"Amoxicillin, Omeprazole"
+1266,Patient_266,68,F,AB+,Memorial Hospital,Dr. Davis,Hypertension,Medication,2024-06-15 12:51:53.725210,117,1042.91,5.3,2024-06-19 12:51:53.725210,4,4274.93,Simvastatin
+1267,Patient_267,39,F,AB-,University Hospital,Dr. Miller,Hypertension,Surgery,2024-03-04 12:51:53.725210,297,1349.51,8.7,2024-03-11 12:51:53.725210,7,10649.39,Amoxicillin
+1268,Patient_268,51,M,A-,Memorial Hospital,Dr. Davis,Appendicitis,Chemotherapy,2024-07-05 12:51:53.725210,156,956.48,9.5,2024-07-09 12:51:53.725210,4,3495.72,"Amoxicillin, Ibuprofen"
+1269,Patient_269,40,F,AB-,Memorial Hospital,Dr. Garcia,Stroke,Radiation,2024-02-05 12:51:53.725210,192,966.75,6.2,2024-02-06 12:51:53.725210,1,1104.12,"Metformin, Metformin, Ibuprofen"
+1270,Patient_270,41,M,A+,City Medical Center,Dr. Smith,Cancer,Medication,2024-09-16 12:51:53.725210,118,1585.52,9.6,2024-09-22 12:51:53.725210,6,6713.43,"Metformin, Simvastatin, Lisinopril"
+1271,Patient_271,43,M,O-,City Medical Center,Dr. Garcia,Appendicitis,Physical Therapy,2024-05-05 12:51:53.725210,483,924.04,10.0,2024-05-16 12:51:53.725210,11,9583.91,"Lisinopril, Lisinopril, Ibuprofen"
+1272,Patient_272,54,F,O+,Community Healthcare,Dr. Garcia,Heart Disease,Medication,2024-06-22 12:51:53.725210,452,1374.01,8.7,2024-06-29 12:51:53.725210,7,6322.27,"Metformin, Simvastatin, Metformin"
+1273,Patient_273,40,F,B-,Memorial Hospital,Dr. Davis,Fracture,Physical Therapy,2024-11-26 12:51:53.725210,292,1202.19,8.4,2024-12-06 12:51:53.725210,10,12344.6,"Metformin, Simvastatin, Amoxicillin"
+1274,Patient_274,75,M,A+,Community Healthcare,Dr. Williams,Fracture,Radiation,2024-08-22 12:51:53.725210,336,884.83,5.8,2024-08-31 12:51:53.725210,11,8465.91,"Amoxicillin, Omeprazole"
+1275,Patient_275,32,F,AB-,University Hospital,Dr. Johnson,Appendicitis,Physical Therapy,2024-06-06 12:51:53.725210,486,1068.09,9.1,2024-06-10 12:51:53.725210,4,4599.97,Lisinopril
+1276,Patient_276,46,F,O+,Memorial Hospital,Dr. Williams,Heart Disease,Chemotherapy,2024-06-27 12:51:53.725210,376,1753.84,6.0,2024-07-04 12:51:53.725210,7,8091.81,"Simvastatin, Lisinopril"
+1277,Patient_277,41,F,B-,Memorial Hospital,Dr. Davis,Cancer,Preventive Care,2024-03-21 12:51:53.725210,326,1539.54,8.1,2024-03-24 12:51:53.725210,3,3686.0,"Omeprazole, Lisinopril"
+1278,Patient_278,78,M,B+,University Hospital,Dr. Williams,Fracture,Physical Therapy,2024-05-26 12:51:53.725210,332,1056.99,8.2,2024-05-31 12:51:53.725210,7,5502.68,Simvastatin
+1279,Patient_279,53,M,A+,University Hospital,Dr. Brown,Heart Disease,Chemotherapy,2024-07-06 12:51:53.725210,139,1241.68,2.6,2024-07-13 12:51:53.725210,7,7097.02,"Metformin, Omeprazole"
+1280,Patient_280,70,F,A+,Community Healthcare,Dr. Smith,Cancer,Preventive Care,2024-05-22 12:51:53.725210,422,1142.88,8.1,2024-05-29 12:51:53.725210,7,5678.44,"Ibuprofen, Lisinopril"
+1281,Patient_281,20,F,B+,Community Healthcare,Dr. Williams,Heart Disease,Radiation,2024-04-11 12:51:53.725210,252,1043.07,10.0,2024-04-14 12:51:53.725210,3,1804.03,"Metformin, Amoxicillin"
+1282,Patient_282,55,F,B+,University Hospital,Dr. Miller,Hypertension,Radiation,2024-05-19 12:51:53.725210,226,1301.92,4.4,2024-05-23 12:51:53.725210,4,5575.59,"Lisinopril, Simvastatin"
+1283,Patient_283,67,F,A+,Community Healthcare,Dr. Jones,Fracture,Medication,2024-05-10 12:51:53.725210,336,1263.09,7.4,2024-05-18 12:51:53.725210,8,9957.36,"Lisinopril, Omeprazole, Amoxicillin"
+1284,Patient_284,51,F,B+,University Hospital,Dr. Miller,Cancer,Chemotherapy,2025-01-01 12:51:53.725210,154,1129.15,4.6,2025-01-12 12:51:53.725210,11,9822.13,Ibuprofen
+1285,Patient_285,71,M,A-,Memorial Hospital,Dr. Jones,Fracture,Chemotherapy,2024-10-07 12:51:53.725210,271,1067.54,6.2,2024-10-13 12:51:53.725210,8,6344.64,Ibuprofen
+1286,Patient_286,39,F,B-,Memorial Hospital,Dr. Garcia,Hypertension,Surgery,2024-09-10 12:51:53.725210,208,1022.27,4.6,2024-09-16 12:51:53.725210,6,6277.45,"Lisinopril, Metformin"
+1287,Patient_287,78,M,B-,City Medical Center,Dr. Brown,Appendicitis,Surgery,2024-05-18 12:51:53.725210,453,1236.88,7.7,2024-05-29 12:51:53.725210,15,14608.58,Ibuprofen
+1288,Patient_288,95,F,B-,Memorial Hospital,Dr. Smith,Hypertension,Preventive Care,2024-05-05 12:51:53.725210,283,1076.56,8.7,2024-05-10 12:51:53.725210,7,4383.2,"Omeprazole, Omeprazole"
+1289,Patient_289,42,M,A-,University Hospital,Dr. Miller,Fracture,Preventive Care,2024-06-28 12:51:53.725210,467,995.44,7.1,2024-07-15 12:51:53.725210,17,18853.37,"Simvastatin, Ibuprofen"
+1290,Patient_290,41,F,AB+,Community Healthcare,Dr. Smith,Fracture,Surgery,2025-01-10 12:51:53.725210,297,891.66,6.1,2025-01-13 12:51:53.725210,3,2626.26,"Lisinopril, Metformin, Ibuprofen"
+1291,Patient_291,79,M,B+,City Medical Center,Dr. Miller,Stroke,Preventive Care,2024-12-30 12:51:53.725210,470,1068.17,5.6,2025-01-11 12:51:53.725210,16,14903.63,Omeprazole
+1292,Patient_292,81,F,O+,Community Healthcare,Dr. Garcia,Cancer,Physical Therapy,2024-08-08 12:51:53.725210,472,1209.47,7.9,2024-08-17 12:51:53.725210,12,7988.53,Lisinopril
+1293,Patient_293,39,M,B+,University Hospital,Dr. Jones,Appendicitis,Surgery,2024-12-02 12:51:53.725210,186,1044.14,5.2,2024-12-26 12:51:53.725210,24,23351.32,Simvastatin
+1294,Patient_294,41,M,A+,Memorial Hospital,Dr. Johnson,Hypertension,Chemotherapy,2024-07-08 12:51:53.725210,300,984.81,5.5,2024-07-12 12:51:53.725210,4,3880.81,"Ibuprofen, Omeprazole, Lisinopril"
+1295,Patient_295,44,M,O-,City Medical Center,Dr. Brown,Cancer,Physical Therapy,2024-08-22 12:51:53.725210,436,1203.15,7.1,2024-08-24 12:51:53.725210,2,1943.55,Simvastatin
+1296,Patient_296,23,M,AB-,University Hospital,Dr. Miller,Pneumonia,Preventive Care,2024-07-14 12:51:53.725210,421,805.45,6.1,2024-07-27 12:51:53.725210,13,10183.58,Amoxicillin
+1297,Patient_297,31,M,AB-,City Medical Center,Dr. Miller,Cancer,Radiation,2024-07-06 12:51:53.725210,374,1433.69,8.1,2024-07-09 12:51:53.725210,3,3497.94,"Simvastatin, Lisinopril"
+1298,Patient_298,29,M,B-,City Medical Center,Dr. Garcia,Pneumonia,Medication,2024-04-04 12:51:53.725210,310,1008.51,9.4,2024-04-14 12:51:53.725210,10,9694.68,"Simvastatin, Amoxicillin"
+1299,Patient_299,34,F,B+,Memorial Hospital,Dr. Brown,Appendicitis,Surgery,2024-11-11 12:51:53.725210,490,1357.48,10.0,2024-11-24 12:51:53.725210,13,17708.82,Amoxicillin
+1300,Patient_300,49,M,O+,University Hospital,Dr. Jones,Hypertension,Radiation,2024-10-30 12:51:53.725210,217,793.53,8.0,2024-11-07 12:51:53.725210,8,7768.06,Metformin
+1301,Patient_301,54,F,A+,Community Healthcare,Dr. Jones,Hypertension,Preventive Care,2024-11-26 12:51:53.725210,290,1125.06,8.5,2024-12-04 12:51:53.725210,8,9322.04,"Amoxicillin, Metformin, Metformin"
+1302,Patient_302,81,F,A-,City Medical Center,Dr. Miller,Heart Disease,Chemotherapy,2024-06-10 12:51:53.725210,141,1278.51,6.6,2024-06-19 12:51:53.725210,11,9238.47,"Ibuprofen, Omeprazole"
+1303,Patient_303,30,F,AB+,City Medical Center,Dr. Johnson,Fracture,Medication,2024-08-09 12:51:53.725210,141,1419.95,6.7,2024-08-20 12:51:53.725210,11,13319.38,"Omeprazole, Lisinopril, Amoxicillin"
+1304,Patient_304,69,F,A-,Community Healthcare,Dr. Johnson,Diabetes,Radiation,2024-06-03 12:51:53.725210,414,1109.79,9.4,2024-06-12 12:51:53.725210,9,11340.79,"Metformin, Ibuprofen"
+1305,Patient_305,45,F,O+,University Hospital,Dr. Smith,Stroke,Medication,2024-02-29 12:51:53.725210,375,1064.94,7.1,2024-03-04 12:51:53.725210,4,4714.05,"Lisinopril, Omeprazole"
+1306,Patient_306,49,M,A+,City Medical Center,Dr. Brown,Cancer,Surgery,2024-07-21 12:51:53.725210,428,1279.17,6.6,2024-08-08 12:51:53.725210,18,16446.23,"Amoxicillin, Omeprazole, Ibuprofen"
+1307,Patient_307,63,M,B-,City Medical Center,Dr. Brown,Appendicitis,Preventive Care,2024-02-18 12:51:53.725210,116,859.38,9.3,2024-02-25 12:51:53.725210,7,6645.33,"Ibuprofen, Omeprazole, Omeprazole"
+1308,Patient_308,27,M,B+,City Medical Center,Dr. Jones,Diabetes,Chemotherapy,2024-09-21 12:51:53.725210,382,1062.28,7.1,2024-09-30 12:51:53.725210,9,9875.83,"Ibuprofen, Ibuprofen"
+1309,Patient_309,57,F,A+,University Hospital,Dr. Smith,Cancer,Preventive Care,2024-07-03 12:51:53.725210,357,940.6,9.8,2024-07-13 12:51:53.725210,10,7268.98,Omeprazole
+1310,Patient_310,53,M,AB-,University Hospital,Dr. Garcia,Diabetes,Medication,2024-03-05 12:51:53.725210,162,732.74,8.4,2024-03-18 12:51:53.725210,13,10755.34,"Amoxicillin, Amoxicillin"
+1311,Patient_311,59,M,AB+,Community Healthcare,Dr. Brown,Appendicitis,Radiation,2024-09-13 12:51:53.725210,161,1202.49,8.2,2024-09-25 12:51:53.725210,12,13690.64,Simvastatin
+1312,Patient_312,55,M,A-,University Hospital,Dr. Smith,Hypertension,Surgery,2025-01-26 12:51:53.725210,199,700.0,6.5,2025-02-02 12:51:53.725210,7,4546.05,"Lisinopril, Ibuprofen, Simvastatin"
+1313,Patient_313,95,M,AB+,University Hospital,Dr. Smith,Appendicitis,Surgery,2024-03-18 12:51:53.725210,118,936.09,8.3,2024-03-25 12:51:53.725210,10,6688.64,Metformin
+1314,Patient_314,37,M,AB+,Memorial Hospital,Dr. Miller,Cancer,Preventive Care,2024-10-17 12:51:53.725210,116,1027.22,6.9,2024-10-26 12:51:53.725210,9,7487.18,"Metformin, Omeprazole"
+1315,Patient_315,39,F,O+,Community Healthcare,Dr. Jones,Diabetes,Radiation,2024-11-05 12:51:53.725210,424,919.51,8.2,2024-11-17 12:51:53.725210,12,12100.36,"Metformin, Amoxicillin"
+1316,Patient_316,37,M,O+,City Medical Center,Dr. Smith,Fracture,Radiation,2024-02-23 12:51:53.725210,472,1036.91,7.3,2024-02-27 12:51:53.725210,4,4085.03,"Metformin, Omeprazole"
+1317,Patient_317,38,F,B+,University Hospital,Dr. Davis,Stroke,Medication,2024-09-09 12:51:53.725210,345,1196.91,9.0,2024-09-19 12:51:53.725210,10,10952.0,"Amoxicillin, Metformin, Omeprazole"
+1318,Patient_318,37,F,O+,City Medical Center,Dr. Johnson,Stroke,Preventive Care,2024-10-30 12:51:53.725210,350,1243.53,7.5,2024-11-03 12:51:53.725210,4,6231.86,"Omeprazole, Lisinopril"
+1319,Patient_319,73,F,O+,City Medical Center,Dr. Davis,Fracture,Preventive Care,2024-11-08 12:51:53.725210,180,816.21,9.0,2024-11-26 12:51:53.725210,22,13095.38,"Amoxicillin, Omeprazole, Ibuprofen"
+1320,Patient_320,78,F,A+,Memorial Hospital,Dr. Johnson,Fracture,Physical Therapy,2024-05-03 12:51:53.725210,138,906.81,7.1,2024-05-11 12:51:53.725210,9,7294.47,"Ibuprofen, Ibuprofen"
+1321,Patient_321,38,F,AB-,University Hospital,Dr. Williams,Hypertension,Preventive Care,2024-11-06 12:51:53.725210,135,1500.0,6.7,2024-11-12 12:51:53.725210,6,9701.73,"Ibuprofen, Lisinopril"
+1322,Patient_322,33,M,B-,Community Healthcare,Dr. Jones,Cancer,Surgery,2024-12-09 12:51:53.725210,487,1235.0,8.0,2024-12-18 12:51:53.725210,9,9534.21,Amoxicillin
+1323,Patient_323,59,M,B+,University Hospital,Dr. Miller,Pneumonia,Medication,2024-11-26 12:51:53.725210,296,823.56,9.1,2024-12-03 12:51:53.725210,7,5437.96,"Ibuprofen, Amoxicillin, Amoxicillin"
+1324,Patient_324,38,M,A+,City Medical Center,Dr. Garcia,Appendicitis,Radiation,2024-06-22 12:51:53.725210,257,856.84,9.1,2024-06-28 12:51:53.725210,6,4177.14,"Amoxicillin, Omeprazole"
+1325,Patient_325,62,F,B-,Community Healthcare,Dr. Davis,Stroke,Preventive Care,2024-01-31 12:51:53.725210,303,951.17,7.8,2024-02-02 12:51:53.725210,2,1790.05,"Omeprazole, Lisinopril, Simvastatin"
+1326,Patient_326,54,M,AB+,University Hospital,Dr. Davis,Fracture,Medication,2024-03-02 12:51:53.725210,295,921.45,8.0,2024-03-06 12:51:53.725210,4,4003.27,"Lisinopril, Ibuprofen, Metformin"
+1327,Patient_327,19,M,A+,City Medical Center,Dr. Williams,Appendicitis,Preventive Care,2024-08-06 12:51:53.725210,315,953.13,8.0,2024-08-12 12:51:53.725210,6,6083.35,Amoxicillin
+1328,Patient_328,80,F,O-,City Medical Center,Dr. Johnson,Stroke,Radiation,2024-03-16 12:51:53.725210,384,995.71,5.9,2024-03-19 12:51:53.725210,6,3187.3,"Ibuprofen, Omeprazole, Lisinopril"
+1329,Patient_329,85,F,A+,Memorial Hospital,Dr. Miller,Fracture,Chemotherapy,2024-02-13 12:51:53.725210,295,994.32,9.0,2024-02-18 12:51:53.725210,7,5325.41,Amoxicillin
+1330,Patient_330,37,F,O+,Memorial Hospital,Dr. Williams,Cancer,Radiation,2024-07-17 12:51:53.725210,406,1051.57,5.6,2024-07-22 12:51:53.725210,5,4586.5,"Ibuprofen, Simvastatin, Omeprazole"
+1331,Patient_331,42,F,B-,Memorial Hospital,Dr. Jones,Stroke,Radiation,2024-09-03 12:51:53.725210,251,1073.87,5.9,2024-09-08 12:51:53.725210,5,4952.75,Ibuprofen
+1332,Patient_332,55,M,B+,City Medical Center,Dr. Miller,Hypertension,Radiation,2024-07-03 12:51:53.725210,113,1024.21,7.6,2024-07-13 12:51:53.725210,10,9015.2,"Simvastatin, Omeprazole, Metformin"
+1333,Patient_333,56,F,B+,University Hospital,Dr. Jones,Pneumonia,Preventive Care,2024-03-13 12:51:53.725210,424,1099.32,7.0,2024-03-17 12:51:53.725210,4,4560.19,"Ibuprofen, Metformin, Lisinopril"
+1334,Patient_334,63,F,B-,Memorial Hospital,Dr. Smith,Pneumonia,Physical Therapy,2024-02-02 12:51:53.725210,245,700.0,8.7,2024-02-09 12:51:53.725210,7,4386.22,"Lisinopril, Simvastatin, Omeprazole"
+1335,Patient_335,90,M,O+,University Hospital,Dr. Brown,Fracture,Radiation,2024-05-05 12:51:53.725210,156,1031.37,8.2,2024-05-11 12:51:53.725210,7,5407.94,Lisinopril
+1336,Patient_336,46,M,A-,Memorial Hospital,Dr. Smith,Stroke,Surgery,2024-09-16 12:51:53.725210,310,700.0,7.7,2024-09-22 12:51:53.725210,6,4714.06,Omeprazole
+1337,Patient_337,34,F,A+,Community Healthcare,Dr. Jones,Hypertension,Surgery,2024-03-04 12:51:53.725210,367,964.89,4.8,2024-03-20 12:51:53.725210,16,15824.75,"Amoxicillin, Lisinopril, Omeprazole"
+1338,Patient_338,22,M,O+,Community Healthcare,Dr. Davis,Heart Disease,Medication,2024-11-02 12:51:53.725210,309,1471.07,7.5,2024-11-10 12:51:53.725210,8,9078.51,"Lisinopril, Amoxicillin, Ibuprofen"
+1339,Patient_339,35,F,O-,Memorial Hospital,Dr. Miller,Appendicitis,Physical Therapy,2025-01-10 12:51:53.725210,116,1209.16,7.4,2025-01-18 12:51:53.725210,8,9720.94,"Omeprazole, Metformin"
+1340,Patient_340,49,F,AB-,City Medical Center,Dr. Johnson,Appendicitis,Medication,2024-11-24 12:51:53.725210,385,1066.89,7.8,2024-11-29 12:51:53.725210,5,5277.83,Lisinopril
+1341,Patient_341,85,M,AB+,Memorial Hospital,Dr. Garcia,Diabetes,Surgery,2024-07-26 12:51:53.725210,443,1135.08,6.9,2024-08-05 12:51:53.725210,13,12732.47,"Simvastatin, Omeprazole"
+1342,Patient_342,39,M,B-,Memorial Hospital,Dr. Johnson,Hypertension,Surgery,2024-05-01 12:51:53.725210,302,940.2,8.3,2024-05-10 12:51:53.725210,9,7180.16,Amoxicillin
+1343,Patient_343,54,F,AB-,City Medical Center,Dr. Miller,Stroke,Chemotherapy,2024-05-05 12:51:53.725210,198,898.17,7.0,2024-05-14 12:51:53.725210,9,6825.71,"Ibuprofen, Ibuprofen, Ibuprofen"
+1344,Patient_344,49,F,A+,Community Healthcare,Dr. Smith,Cancer,Radiation,2024-08-02 12:51:53.725210,378,1950.0,8.1,2024-08-06 12:51:53.725210,4,5438.17,"Simvastatin, Simvastatin, Lisinopril"
+1345,Patient_345,73,F,B+,University Hospital,Dr. Garcia,Cancer,Surgery,2024-05-22 12:51:53.725210,308,1515.06,8.7,2024-05-27 12:51:53.725210,9,5995.65,"Simvastatin, Amoxicillin"
+1346,Patient_346,95,M,AB+,Memorial Hospital,Dr. Miller,Diabetes,Preventive Care,2024-08-05 12:51:53.725210,228,765.4,5.7,2024-08-20 12:51:53.725210,19,13553.72,"Amoxicillin, Metformin"
+1347,Patient_347,39,F,AB-,City Medical Center,Dr. Jones,Fracture,Preventive Care,2024-10-06 12:51:53.725210,434,700.0,6.3,2024-10-11 12:51:53.725210,5,3804.18,"Metformin, Lisinopril, Lisinopril"
+1348,Patient_348,40,F,A-,Memorial Hospital,Dr. Davis,Stroke,Medication,2024-07-06 12:51:53.725210,387,906.99,7.199999999999999,2024-07-22 12:51:53.725210,16,15371.58,"Metformin, Omeprazole"
+1349,Patient_349,70,F,AB-,City Medical Center,Dr. Johnson,Diabetes,Medication,2024-10-09 12:51:53.725210,351,1238.37,5.5,2024-10-14 12:51:53.725210,5,6142.4,"Ibuprofen, Metformin"
+1350,Patient_350,63,F,O-,University Hospital,Dr. Jones,Pneumonia,Radiation,2024-12-15 12:51:53.725210,364,1009.75,9.2,2024-12-22 12:51:53.725210,7,6126.38,"Ibuprofen, Omeprazole, Omeprazole"
+1351,Patient_351,86,F,B+,University Hospital,Dr. Garcia,Appendicitis,Radiation,2024-06-03 12:51:53.725210,370,700.0,7.5,2024-06-09 12:51:53.725210,10,4416.3,Lisinopril
+1352,Patient_352,61,M,B-,Community Healthcare,Dr. Garcia,Stroke,Chemotherapy,2024-02-14 12:51:53.725210,287,964.54,7.3,2024-02-18 12:51:53.725210,4,4639.81,"Omeprazole, Lisinopril, Lisinopril"
+1353,Patient_353,42,F,A+,City Medical Center,Dr. Johnson,Diabetes,Physical Therapy,2024-11-03 12:51:53.725210,313,999.52,8.3,2024-11-07 12:51:53.725210,4,3902.1,Lisinopril
+1354,Patient_354,61,F,B-,City Medical Center,Dr. Jones,Pneumonia,Medication,2024-09-06 12:51:53.725210,382,700.0,8.2,2024-09-11 12:51:53.725210,5,3303.76,"Simvastatin, Metformin"
+1355,Patient_355,72,F,AB+,Community Healthcare,Dr. Williams,Hypertension,Radiation,2024-03-21 12:51:53.725210,310,1004.83,7.5,2024-03-28 12:51:53.725210,10,6868.34,"Amoxicillin, Amoxicillin, Ibuprofen"
+1356,Patient_356,66,F,A+,Community Healthcare,Dr. Jones,Diabetes,Medication,2024-03-25 12:51:53.725210,464,797.33,8.8,2024-04-05 12:51:53.725210,11,9296.65,"Ibuprofen, Simvastatin"
+1357,Patient_357,60,M,O+,City Medical Center,Dr. Garcia,Fracture,Radiation,2024-12-15 12:51:53.725210,175,700.0,6.5,2024-12-22 12:51:53.725210,7,4954.75,Lisinopril
+1358,Patient_358,71,M,A-,Community Healthcare,Dr. Jones,Fracture,Surgery,2025-01-21 12:51:53.725210,247,1320.9,8.6,2025-01-28 12:51:53.725210,11,10087.73,Metformin
+1359,Patient_359,73,M,O+,University Hospital,Dr. Davis,Fracture,Medication,2024-07-19 12:51:53.725210,420,788.48,4.9,2024-08-01 12:51:53.725210,16,10215.95,"Lisinopril, Ibuprofen"
+1360,Patient_360,77,F,O+,Memorial Hospital,Dr. Miller,Stroke,Surgery,2024-11-02 12:51:53.725210,312,866.54,8.3,2024-11-09 12:51:53.725210,9,5919.59,"Ibuprofen, Lisinopril"
+1361,Patient_361,62,F,B-,University Hospital,Dr. Smith,Cancer,Medication,2024-05-20 12:51:53.725210,208,1123.04,7.0,2024-05-25 12:51:53.725210,5,4418.32,Ibuprofen
+1362,Patient_362,46,M,AB+,Community Healthcare,Dr. Davis,Cancer,Physical Therapy,2024-11-10 12:51:53.725210,228,1300.58,5.5,2024-11-14 12:51:53.725210,4,3785.84,"Lisinopril, Lisinopril, Ibuprofen"
+1363,Patient_363,52,M,A-,City Medical Center,Dr. Williams,Appendicitis,Chemotherapy,2025-01-03 12:51:53.725210,109,1353.26,7.9,2025-01-16 12:51:53.725210,13,20654.8,Ibuprofen
+1364,Patient_364,74,M,AB-,City Medical Center,Dr. Brown,Diabetes,Preventive Care,2024-06-26 12:51:53.725210,146,760.76,7.4,2024-07-02 12:51:53.725210,8,4940.28,"Amoxicillin, Omeprazole"
+1365,Patient_365,33,F,A+,University Hospital,Dr. Miller,Hypertension,Preventive Care,2024-06-02 12:51:53.725210,478,938.64,5.2,2024-06-07 12:51:53.725210,5,4177.09,"Ibuprofen, Simvastatin, Lisinopril"
+1366,Patient_366,57,F,A+,City Medical Center,Dr. Smith,Diabetes,Preventive Care,2024-06-30 12:51:53.725210,414,1024.17,4.3,2024-07-05 12:51:53.725210,5,4738.96,Amoxicillin
+1367,Patient_367,42,M,O-,Community Healthcare,Dr. Brown,Appendicitis,Surgery,2024-10-26 12:51:53.725210,195,826.24,7.3,2024-11-08 12:51:53.725210,13,11348.36,Ibuprofen
+1368,Patient_368,50,M,B+,University Hospital,Dr. Johnson,Pneumonia,Radiation,2024-05-10 12:51:53.725210,202,935.42,9.9,2024-05-15 12:51:53.725210,5,4762.84,"Amoxicillin, Omeprazole"
+1369,Patient_369,75,M,O-,City Medical Center,Dr. Brown,Appendicitis,Preventive Care,2024-11-21 12:51:53.725210,479,1118.9,8.0,2024-12-03 12:51:53.725210,15,13832.98,"Omeprazole, Ibuprofen"
+1370,Patient_370,53,F,AB-,Memorial Hospital,Dr. Miller,Fracture,Physical Therapy,2024-09-29 12:51:53.725210,441,848.86,6.5,2024-10-05 12:51:53.725210,6,4995.31,"Omeprazole, Amoxicillin, Amoxicillin"
+1371,Patient_371,50,F,O-,Memorial Hospital,Dr. Jones,Stroke,Preventive Care,2024-07-21 12:51:53.725210,245,932.27,9.1,2024-07-25 12:51:53.725210,4,3898.82,"Omeprazole, Lisinopril, Simvastatin"
+1372,Patient_372,22,F,A+,Community Healthcare,Dr. Miller,Pneumonia,Medication,2024-03-06 12:51:53.725210,467,913.73,8.9,2024-03-12 12:51:53.725210,6,5389.94,"Ibuprofen, Metformin"
+1373,Patient_373,64,M,B-,City Medical Center,Dr. Davis,Stroke,Surgery,2024-07-15 12:51:53.725210,126,979.24,9.4,2024-07-22 12:51:53.725210,7,7240.86,Lisinopril
+1374,Patient_374,62,M,O+,Community Healthcare,Dr. Brown,Fracture,Medication,2024-09-30 12:51:53.725210,319,1048.63,8.5,2024-10-06 12:51:53.725210,6,6778.15,"Amoxicillin, Ibuprofen, Omeprazole"
+1375,Patient_375,93,F,AB+,University Hospital,Dr. Garcia,Heart Disease,Medication,2024-02-22 12:51:53.725210,117,1452.5,8.8,2024-02-28 12:51:53.725210,9,7781.0,"Lisinopril, Amoxicillin"
+1376,Patient_376,43,M,O+,Memorial Hospital,Dr. Smith,Appendicitis,Medication,2025-01-16 12:51:53.725210,266,1387.51,8.6,2025-01-22 12:51:53.725210,6,7896.57,"Ibuprofen, Metformin, Simvastatin"
+1377,Patient_377,54,F,O+,University Hospital,Dr. Smith,Appendicitis,Chemotherapy,2024-11-28 12:51:53.725210,181,700.0,6.8,2024-12-02 12:51:53.725210,4,2796.89,"Lisinopril, Amoxicillin, Omeprazole"
+1378,Patient_378,54,M,A-,City Medical Center,Dr. Brown,Hypertension,Chemotherapy,2024-02-09 12:51:53.725210,171,966.52,5.0,2024-02-16 12:51:53.725210,7,5940.92,"Simvastatin, Ibuprofen"
+1379,Patient_379,81,M,A+,Community Healthcare,Dr. Smith,Diabetes,Radiation,2024-12-08 12:51:53.725210,409,727.11,6.7,2024-12-17 12:51:53.725210,10,7739.09,"Simvastatin, Metformin"
+1380,Patient_380,48,M,AB-,Community Healthcare,Dr. Garcia,Pneumonia,Surgery,2024-12-05 12:51:53.725210,353,922.93,9.2,2024-12-08 12:51:53.725210,3,2221.82,"Simvastatin, Lisinopril"
+1381,Patient_381,55,M,AB-,Community Healthcare,Dr. Miller,Cancer,Physical Therapy,2024-03-03 12:51:53.725210,261,1529.02,6.9,2024-03-17 12:51:53.725210,14,19237.46,"Omeprazole, Metformin, Lisinopril"
+1382,Patient_382,62,F,AB+,University Hospital,Dr. Smith,Stroke,Physical Therapy,2024-07-18 12:51:53.725210,426,1239.56,7.3,2024-07-19 12:51:53.725210,1,1251.15,"Ibuprofen, Simvastatin, Omeprazole"
+1383,Patient_383,53,M,B-,Memorial Hospital,Dr. Brown,Pneumonia,Physical Therapy,2024-02-16 12:51:53.725210,137,1248.94,5.8,2024-02-23 12:51:53.725210,7,9108.39,"Omeprazole, Omeprazole, Omeprazole"
+1384,Patient_384,41,F,A-,University Hospital,Dr. Williams,Hypertension,Medication,2024-12-13 12:51:53.725210,492,1247.06,6.7,2024-12-22 12:51:53.725210,9,11037.6,"Amoxicillin, Omeprazole"
+1385,Patient_385,53,F,B+,University Hospital,Dr. Williams,Hypertension,Chemotherapy,2024-10-17 12:51:53.725210,300,965.21,7.5,2024-10-22 12:51:53.725210,5,4841.06,"Lisinopril, Lisinopril, Amoxicillin"
+1386,Patient_386,71,F,B-,City Medical Center,Dr. Johnson,Stroke,Surgery,2024-06-17 12:51:53.725210,299,1279.71,8.2,2024-06-19 12:51:53.725210,6,2709.94,"Simvastatin, Omeprazole"
+1387,Patient_387,29,M,O-,City Medical Center,Dr. Davis,Cancer,Medication,2024-06-18 12:51:53.725210,354,1715.18,6.8,2024-06-25 12:51:53.725210,7,7724.05,"Amoxicillin, Metformin, Metformin"
+1388,Patient_388,52,F,B-,City Medical Center,Dr. Smith,Diabetes,Chemotherapy,2024-04-28 12:51:53.725210,278,1027.76,6.7,2024-05-06 12:51:53.725210,8,7685.9,"Metformin, Omeprazole"
+1389,Patient_389,35,F,B-,Memorial Hospital,Dr. Davis,Stroke,Chemotherapy,2025-01-15 12:51:53.725210,134,1235.45,8.8,2025-01-19 12:51:53.725210,4,4524.19,"Amoxicillin, Omeprazole, Metformin"
+1390,Patient_390,73,F,O+,Memorial Hospital,Dr. Miller,Stroke,Preventive Care,2024-12-14 12:51:53.725210,181,1008.25,8.0,2024-12-18 12:51:53.725210,6,4213.44,"Metformin, Simvastatin"
+1391,Patient_391,19,M,B-,City Medical Center,Dr. Brown,Fracture,Preventive Care,2024-11-10 12:51:53.725210,488,1282.05,8.2,2024-11-21 12:51:53.725210,11,14108.71,Metformin
+1392,Patient_392,38,M,AB-,City Medical Center,Dr. Smith,Cancer,Surgery,2024-08-29 12:51:53.725210,497,1257.97,9.8,2024-09-05 12:51:53.725210,7,7192.37,"Ibuprofen, Lisinopril"
+1393,Patient_393,57,F,O-,Memorial Hospital,Dr. Jones,Diabetes,Surgery,2025-01-03 12:51:53.725210,319,878.1,6.7,2025-01-06 12:51:53.725210,3,2677.71,Simvastatin
+1394,Patient_394,81,M,O-,Community Healthcare,Dr. Garcia,Appendicitis,Surgery,2024-03-18 12:51:53.725210,257,776.0,7.4,2024-03-27 12:51:53.725210,11,7723.32,Metformin
+1395,Patient_395,48,F,A+,Memorial Hospital,Dr. Smith,Fracture,Medication,2024-06-28 12:51:53.725210,103,965.27,8.3,2024-07-02 12:51:53.725210,4,3575.25,"Simvastatin, Simvastatin"
+1396,Patient_396,38,F,B-,Memorial Hospital,Dr. Smith,Heart Disease,Radiation,2024-07-31 12:51:53.725210,266,1321.94,6.2,2024-08-05 12:51:53.725210,5,5113.97,"Lisinopril, Amoxicillin, Amoxicillin"
+1397,Patient_397,87,M,O+,Memorial Hospital,Dr. Davis,Cancer,Surgery,2024-03-30 12:51:53.725210,303,1054.08,7.8,2024-04-07 12:51:53.725210,9,7206.24,"Lisinopril, Simvastatin, Omeprazole"
+1398,Patient_398,21,F,B-,City Medical Center,Dr. Davis,Diabetes,Preventive Care,2024-08-04 12:51:53.725210,293,949.98,7.5,2024-08-11 12:51:53.725210,7,7254.55,"Lisinopril, Amoxicillin"
+1399,Patient_399,18,M,B+,Community Healthcare,Dr. Williams,Hypertension,Radiation,2024-05-31 12:51:53.725210,334,894.69,10.0,2024-06-06 12:51:53.725210,6,4573.85,"Lisinopril, Metformin"
+1400,Patient_400,58,M,B+,Memorial Hospital,Dr. Garcia,Fracture,Medication,2024-06-25 12:51:53.725210,305,784.6,7.6,2024-06-30 12:51:53.725210,5,3522.42,"Amoxicillin, Simvastatin"
+1401,Patient_401,39,F,O+,City Medical Center,Dr. Brown,Diabetes,Radiation,2024-12-06 12:51:53.725210,249,1207.18,9.2,2024-12-12 12:51:53.725210,6,7183.84,Omeprazole
+1402,Patient_402,29,M,A+,University Hospital,Dr. Smith,Pneumonia,Physical Therapy,2024-03-25 12:51:53.725210,258,1242.38,8.7,2024-03-30 12:51:53.725210,5,6066.02,Simvastatin
+1403,Patient_403,64,M,A+,University Hospital,Dr. Williams,Stroke,Radiation,2025-01-03 12:51:53.725210,378,1206.29,5.8,2025-01-15 12:51:53.725210,12,14380.77,Lisinopril
+1404,Patient_404,54,F,O-,Memorial Hospital,Dr. Davis,Heart Disease,Surgery,2024-11-27 12:51:53.725210,403,1278.12,5.2,2024-11-30 12:51:53.725210,3,3184.35,Amoxicillin
+1405,Patient_405,38,F,O-,University Hospital,Dr. Johnson,Appendicitis,Medication,2024-07-25 12:51:53.725210,480,995.52,7.9,2024-07-31 12:51:53.725210,6,6145.97,"Metformin, Simvastatin"
+1406,Patient_406,24,M,A-,Community Healthcare,Dr. Garcia,Stroke,Surgery,2024-07-15 12:51:53.725210,265,787.37,9.4,2024-07-18 12:51:53.725210,3,2444.24,"Lisinopril, Ibuprofen"
+1407,Patient_407,67,M,O+,University Hospital,Dr. Williams,Pneumonia,Preventive Care,2024-12-18 12:51:53.725210,410,1082.93,7.9,2024-12-29 12:51:53.725210,11,12711.08,Ibuprofen
+1408,Patient_408,63,F,B-,University Hospital,Dr. Williams,Pneumonia,Physical Therapy,2024-10-24 12:51:53.725210,167,1033.93,7.6,2024-10-30 12:51:53.725210,6,6869.95,"Metformin, Amoxicillin"
+1409,Patient_409,48,M,AB+,Community Healthcare,Dr. Miller,Heart Disease,Preventive Care,2024-03-21 12:51:53.725210,187,1950.0,7.1,2024-03-25 12:51:53.725210,4,4166.39,"Metformin, Simvastatin"
+1410,Patient_410,86,M,O+,Memorial Hospital,Dr. Williams,Appendicitis,Surgery,2024-05-07 12:51:53.725210,316,1217.42,5.5,2024-05-17 12:51:53.725210,13,11703.51,Lisinopril
+1411,Patient_411,28,M,A-,Memorial Hospital,Dr. Miller,Hypertension,Surgery,2024-10-17 12:51:53.725210,100,1063.05,6.1,2024-10-19 12:51:53.725210,2,1938.37,Ibuprofen
+1412,Patient_412,19,M,O-,Community Healthcare,Dr. Smith,Fracture,Surgery,2024-03-20 12:51:53.725210,234,991.68,5.1,2024-03-28 12:51:53.725210,8,8310.53,Lisinopril
+1413,Patient_413,36,M,O+,Community Healthcare,Dr. Smith,Cancer,Chemotherapy,2024-03-27 12:51:53.725210,284,1560.34,5.8,2024-04-09 12:51:53.725210,13,14882.34,Amoxicillin
+1414,Patient_414,49,M,O+,Community Healthcare,Dr. Davis,Appendicitis,Physical Therapy,2024-05-14 12:51:53.725210,450,816.85,6.7,2024-05-22 12:51:53.725210,8,6584.37,"Metformin, Omeprazole"
+1415,Patient_415,54,M,O-,University Hospital,Dr. Johnson,Cancer,Surgery,2024-02-01 12:51:53.725210,239,1596.31,8.7,2024-02-06 12:51:53.725210,5,6662.84,Ibuprofen
+1416,Patient_416,45,F,AB-,Community Healthcare,Dr. Jones,Diabetes,Surgery,2024-05-09 12:51:53.725210,205,782.57,6.8,2024-05-12 12:51:53.725210,3,2206.15,"Omeprazole, Ibuprofen, Metformin"
+1417,Patient_417,57,F,A-,City Medical Center,Dr. Jones,Pneumonia,Preventive Care,2024-08-10 12:51:53.725210,232,887.7,7.9,2024-08-22 12:51:53.725210,12,11038.89,"Amoxicillin, Simvastatin"
+1418,Patient_418,24,F,O-,University Hospital,Dr. Jones,Diabetes,Preventive Care,2024-10-15 12:51:53.725210,207,700.0,7.7,2024-10-26 12:51:53.725210,11,8896.45,Ibuprofen
+1419,Patient_419,78,F,A+,Memorial Hospital,Dr. Davis,Hypertension,Surgery,2025-01-26 12:51:53.725210,277,1122.82,8.2,2025-01-31 12:51:53.725210,8,6080.98,"Simvastatin, Metformin"
+1420,Patient_420,48,F,B-,Memorial Hospital,Dr. Miller,Diabetes,Medication,2025-01-11 12:51:53.725210,397,1049.99,5.9,2025-01-16 12:51:53.725210,5,4417.42,Metformin
+1421,Patient_421,72,M,O-,Memorial Hospital,Dr. Davis,Appendicitis,Chemotherapy,2024-03-14 12:51:53.725210,457,887.7,9.1,2024-03-27 12:51:53.725210,14,11203.42,"Omeprazole, Simvastatin, Amoxicillin"
+1422,Patient_422,56,M,A-,University Hospital,Dr. Garcia,Diabetes,Preventive Care,2025-01-16 12:51:53.725210,479,814.17,5.4,2025-01-25 12:51:53.725210,9,7588.26,Amoxicillin
+1423,Patient_423,59,M,B+,City Medical Center,Dr. Garcia,Hypertension,Medication,2024-12-03 12:51:53.725210,495,1275.74,6.8,2024-12-06 12:51:53.725210,3,4038.78,"Amoxicillin, Amoxicillin, Amoxicillin"
+1424,Patient_424,61,M,A+,Community Healthcare,Dr. Johnson,Hypertension,Chemotherapy,2024-11-30 12:51:53.725210,458,973.28,7.5,2024-12-06 12:51:53.725210,6,5692.32,"Lisinopril, Simvastatin"
+1425,Patient_425,58,F,B+,Community Healthcare,Dr. Garcia,Hypertension,Surgery,2024-06-19 12:51:53.725210,245,846.54,8.6,2024-06-25 12:51:53.725210,6,4754.28,"Metformin, Amoxicillin"
+1426,Patient_426,62,M,AB+,Memorial Hospital,Dr. Jones,Appendicitis,Physical Therapy,2024-10-22 12:51:53.725210,173,1384.39,9.6,2024-10-30 12:51:53.725210,8,11150.17,"Lisinopril, Amoxicillin, Omeprazole"
+1427,Patient_427,76,M,O-,Memorial Hospital,Dr. Jones,Hypertension,Radiation,2024-05-30 12:51:53.725210,207,868.59,8.7,2024-06-06 12:51:53.725210,11,5419.29,"Lisinopril, Lisinopril"
+1428,Patient_428,53,F,A+,University Hospital,Dr. Davis,Pneumonia,Radiation,2024-05-12 12:51:53.725210,221,1227.72,9.6,2024-05-17 12:51:53.725210,5,6813.68,"Amoxicillin, Simvastatin, Ibuprofen"
+1429,Patient_429,64,M,B-,City Medical Center,Dr. Williams,Stroke,Surgery,2024-07-03 12:51:53.725210,116,769.8,6.3,2024-07-11 12:51:53.725210,8,7309.21,Omeprazole
+1430,Patient_430,48,M,O-,Community Healthcare,Dr. Garcia,Hypertension,Preventive Care,2024-06-22 12:51:53.725210,295,929.01,9.3,2024-06-27 12:51:53.725210,5,4828.39,"Amoxicillin, Simvastatin, Lisinopril"
+1431,Patient_431,78,F,B-,University Hospital,Dr. Davis,Diabetes,Medication,2024-06-20 12:51:53.725210,426,1100.46,8.0,2024-07-20 12:51:53.725210,33,32246.43,Amoxicillin
+1432,Patient_432,36,M,AB-,Community Healthcare,Dr. Smith,Fracture,Physical Therapy,2024-05-26 12:51:53.725210,417,988.43,3.9,2024-06-02 12:51:53.725210,7,7570.02,"Simvastatin, Ibuprofen, Lisinopril"
+1433,Patient_433,86,M,O+,Memorial Hospital,Dr. Smith,Diabetes,Chemotherapy,2024-12-11 12:51:53.725210,396,1048.75,7.2,2024-12-18 12:51:53.725210,10,7907.94,Omeprazole
+1434,Patient_434,49,M,B+,Community Healthcare,Dr. Williams,Fracture,Surgery,2024-10-28 12:51:53.725210,351,892.23,7.4,2024-11-15 12:51:53.725210,18,15617.62,Ibuprofen
+1435,Patient_435,21,M,A+,City Medical Center,Dr. Williams,Diabetes,Physical Therapy,2024-04-28 12:51:53.725210,218,700.0,6.7,2024-05-01 12:51:53.725210,3,2089.95,"Ibuprofen, Amoxicillin"
+1436,Patient_436,52,M,B-,City Medical Center,Dr. Williams,Appendicitis,Physical Therapy,2024-03-25 12:51:53.725210,261,1293.12,5.9,2024-03-31 12:51:53.725210,6,7285.8,"Omeprazole, Metformin, Ibuprofen"
+1437,Patient_437,36,F,A-,Memorial Hospital,Dr. Davis,Diabetes,Preventive Care,2025-01-07 12:51:53.725210,297,904.43,10.0,2025-01-11 12:51:53.725210,4,3677.3,"Metformin, Metformin, Simvastatin"
+1438,Patient_438,66,F,B-,City Medical Center,Dr. Smith,Appendicitis,Chemotherapy,2024-09-12 12:51:53.725210,144,1057.8,7.7,2024-09-22 12:51:53.725210,10,10894.19,Ibuprofen
+1439,Patient_439,36,F,A-,City Medical Center,Dr. Jones,Appendicitis,Physical Therapy,2024-05-23 12:51:53.725210,413,1140.39,7.7,2024-05-28 12:51:53.725210,5,5257.12,"Amoxicillin, Simvastatin, Lisinopril"
+1440,Patient_440,41,F,O-,University Hospital,Dr. Williams,Hypertension,Preventive Care,2024-12-10 12:51:53.725210,278,1061.75,5.5,2024-12-19 12:51:53.725210,9,8528.82,"Simvastatin, Lisinopril, Omeprazole"
+1441,Patient_441,18,F,A+,Community Healthcare,Dr. Johnson,Pneumonia,Medication,2024-11-01 12:51:53.725210,481,858.28,6.6,2024-11-10 12:51:53.725210,9,6700.24,"Amoxicillin, Lisinopril"
+1442,Patient_442,40,F,B-,Memorial Hospital,Dr. Miller,Fracture,Preventive Care,2024-06-02 12:51:53.725210,143,1231.95,6.2,2024-06-12 12:51:53.725210,10,12832.65,"Ibuprofen, Metformin"
+1443,Patient_443,18,M,AB+,Memorial Hospital,Dr. Davis,Hypertension,Medication,2024-06-04 12:51:53.725210,370,1102.74,9.1,2024-06-13 12:51:53.725210,9,9913.26,Ibuprofen
+1444,Patient_444,18,F,B-,Memorial Hospital,Dr. Williams,Hypertension,Medication,2024-03-25 12:51:53.725210,177,1039.75,8.3,2024-03-31 12:51:53.725210,6,6186.36,"Lisinopril, Metformin"
+1445,Patient_445,65,F,AB-,Memorial Hospital,Dr. Miller,Stroke,Physical Therapy,2024-05-28 12:51:53.725210,425,1035.12,6.6,2024-05-31 12:51:53.725210,3,3249.61,Omeprazole
+1446,Patient_446,65,M,AB+,Memorial Hospital,Dr. Brown,Appendicitis,Preventive Care,2024-01-28 12:51:53.725210,277,1336.45,8.3,2024-02-09 12:51:53.725210,12,14592.49,Amoxicillin
+1447,Patient_447,58,M,A+,City Medical Center,Dr. Williams,Appendicitis,Medication,2024-09-22 12:51:53.725210,456,853.99,7.1,2024-10-06 12:51:53.725210,14,10676.28,"Lisinopril, Lisinopril, Omeprazole"
+1448,Patient_448,30,F,AB-,University Hospital,Dr. Smith,Fracture,Chemotherapy,2024-11-12 12:51:53.725210,102,1083.05,7.9,2024-11-16 12:51:53.725210,4,4436.64,Omeprazole
+1449,Patient_449,49,M,B-,Memorial Hospital,Dr. Garcia,Diabetes,Physical Therapy,2024-05-02 12:51:53.725210,313,894.27,7.8,2024-05-12 12:51:53.725210,10,7396.79,"Lisinopril, Omeprazole"
+1450,Patient_450,49,F,A-,University Hospital,Dr. Williams,Diabetes,Preventive Care,2024-06-01 12:51:53.725210,441,700.0,8.1,2024-06-05 12:51:53.725210,4,2727.48,"Ibuprofen, Lisinopril, Ibuprofen"
+1451,Patient_451,26,M,B-,University Hospital,Dr. Davis,Cancer,Preventive Care,2024-05-24 12:51:53.725210,173,910.0,7.9,2024-06-01 12:51:53.725210,8,6981.21,"Omeprazole, Omeprazole"
+1452,Patient_452,80,F,B+,City Medical Center,Dr. Garcia,Hypertension,Radiation,2024-03-15 12:51:53.725210,150,797.07,8.1,2024-03-24 12:51:53.725210,13,6206.24,Metformin
+1453,Patient_453,67,M,O-,Memorial Hospital,Dr. Brown,Cancer,Preventive Care,2024-04-25 12:51:53.725210,166,1128.8,9.4,2024-04-30 12:51:53.725210,5,4154.98,"Metformin, Lisinopril, Amoxicillin"
+1454,Patient_454,45,M,O+,City Medical Center,Dr. Johnson,Heart Disease,Physical Therapy,2024-09-20 12:51:53.725210,431,1864.97,8.5,2024-09-27 12:51:53.725210,7,7910.29,"Metformin, Lisinopril"
+1455,Patient_455,50,F,A-,Memorial Hospital,Dr. Garcia,Heart Disease,Chemotherapy,2024-10-25 12:51:53.725210,192,1481.58,7.0,2024-11-05 12:51:53.725210,11,12243.47,"Ibuprofen, Omeprazole, Omeprazole"
+1456,Patient_456,54,F,B+,City Medical Center,Dr. Miller,Cancer,Preventive Care,2024-08-03 12:51:53.725210,275,1504.97,7.4,2024-08-09 12:51:53.725210,6,8311.98,Lisinopril
+1457,Patient_457,18,F,AB+,University Hospital,Dr. Jones,Diabetes,Radiation,2024-08-06 12:51:53.725210,244,872.58,9.3,2024-08-11 12:51:53.725210,5,4566.61,Metformin
+1458,Patient_458,45,F,O-,Memorial Hospital,Dr. Williams,Heart Disease,Physical Therapy,2024-04-05 12:51:53.725210,106,1315.95,7.7,2024-04-09 12:51:53.725210,4,3800.56,Lisinopril
+1459,Patient_459,36,F,A+,Community Healthcare,Dr. Brown,Stroke,Medication,2024-10-31 12:51:53.725210,368,1461.23,6.9,2024-11-06 12:51:53.725210,6,10679.91,Amoxicillin
+1460,Patient_460,29,M,A-,University Hospital,Dr. Brown,Diabetes,Surgery,2025-01-10 12:51:53.725210,475,757.12,6.6,2025-01-14 12:51:53.725210,4,2500.81,Simvastatin
+1461,Patient_461,44,F,O+,Community Healthcare,Dr. Garcia,Appendicitis,Surgery,2024-09-30 12:51:53.725210,421,1091.25,7.9,2024-10-06 12:51:53.725210,6,6844.72,"Metformin, Ibuprofen, Metformin"
+1462,Patient_462,85,F,O-,University Hospital,Dr. Johnson,Hypertension,Medication,2024-04-12 12:51:53.725210,103,1322.26,6.2,2024-04-17 12:51:53.725210,9,6654.22,Amoxicillin
+1463,Patient_463,62,M,AB+,City Medical Center,Dr. Smith,Pneumonia,Preventive Care,2024-06-29 12:51:53.725210,237,1193.19,9.4,2024-07-10 12:51:53.725210,11,12800.87,"Metformin, Ibuprofen"
+1464,Patient_464,38,M,AB-,Memorial Hospital,Dr. Williams,Hypertension,Surgery,2024-06-19 12:51:53.725210,330,1360.31,5.9,2024-06-26 12:51:53.725210,7,10290.7,Amoxicillin
+1465,Patient_465,61,F,AB-,University Hospital,Dr. Brown,Cancer,Surgery,2024-04-22 12:51:53.725210,187,1355.34,8.7,2024-05-18 12:51:53.725210,26,23902.85,Simvastatin
+1466,Patient_466,77,M,O+,City Medical Center,Dr. Johnson,Diabetes,Medication,2024-07-30 12:51:53.725210,116,1120.69,7.1,2024-08-01 12:51:53.725210,3,2311.45,"Lisinopril, Amoxicillin, Ibuprofen"
+1467,Patient_467,68,M,A+,Memorial Hospital,Dr. Jones,Cancer,Preventive Care,2024-11-07 12:51:53.725210,151,1328.54,5.9,2024-11-15 12:51:53.725210,8,8327.39,Ibuprofen
+1468,Patient_468,51,F,A+,Memorial Hospital,Dr. Brown,Stroke,Preventive Care,2024-09-03 12:51:53.725210,233,1106.67,7.8,2024-09-08 12:51:53.725210,5,5051.39,Amoxicillin
+1469,Patient_469,37,M,AB+,University Hospital,Dr. Johnson,Diabetes,Medication,2024-04-05 12:51:53.725210,310,816.96,6.1,2024-04-09 12:51:53.725210,4,3905.07,Amoxicillin
+1470,Patient_470,63,M,A-,Memorial Hospital,Dr. Davis,Hypertension,Preventive Care,2024-03-14 12:51:53.725210,424,1158.47,7.6,2024-03-21 12:51:53.725210,7,7961.83,Lisinopril
+1471,Patient_471,57,F,AB+,University Hospital,Dr. Smith,Stroke,Preventive Care,2024-04-30 12:51:53.725210,492,1058.85,6.6,2024-05-07 12:51:53.725210,7,7309.18,"Simvastatin, Lisinopril"
+1472,Patient_472,67,F,B-,Memorial Hospital,Dr. Smith,Stroke,Physical Therapy,2024-09-21 12:51:53.725210,318,1012.53,8.9,2024-10-03 12:51:53.725210,12,10901.7,Ibuprofen
+1473,Patient_473,62,M,A+,Community Healthcare,Dr. Brown,Stroke,Physical Therapy,2024-08-18 12:51:53.725210,304,1349.28,7.7,2024-08-25 12:51:53.725210,7,9290.69,Simvastatin
+1474,Patient_474,70,M,O-,City Medical Center,Dr. Miller,Fracture,Medication,2024-09-01 12:51:53.725210,310,946.92,5.7,2024-09-06 12:51:53.725210,5,5840.01,"Omeprazole, Metformin, Metformin"
+1475,Patient_475,39,F,B-,Community Healthcare,Dr. Brown,Diabetes,Chemotherapy,2025-01-02 12:51:53.725210,376,1241.56,6.6,2025-01-10 12:51:53.725210,8,9681.47,"Amoxicillin, Metformin, Amoxicillin"
+1476,Patient_476,76,M,AB-,University Hospital,Dr. Garcia,Heart Disease,Surgery,2024-03-06 12:51:53.725210,123,1639.9,8.6,2024-03-12 12:51:53.725210,7,7961.35,"Ibuprofen, Metformin"
+1477,Patient_477,53,M,AB-,Community Healthcare,Dr. Williams,Heart Disease,Physical Therapy,2024-05-06 12:51:53.725210,103,1522.44,9.4,2024-05-10 12:51:53.725210,4,5129.72,"Ibuprofen, Amoxicillin, Metformin"
+1478,Patient_478,91,M,B+,University Hospital,Dr. Johnson,Diabetes,Surgery,2024-11-11 12:51:53.725210,251,806.98,7.4,2024-11-17 12:51:53.725210,7,4754.05,Lisinopril
+1479,Patient_479,36,F,O+,Memorial Hospital,Dr. Brown,Diabetes,Radiation,2024-10-07 12:51:53.725210,358,1071.82,5.9,2024-10-15 12:51:53.725210,8,8223.35,"Lisinopril, Metformin"
+1480,Patient_480,84,M,B-,Memorial Hospital,Dr. Williams,Fracture,Medication,2024-09-05 12:51:53.725210,423,1391.69,9.1,2024-09-12 12:51:53.725210,10,10201.9,"Lisinopril, Simvastatin, Omeprazole"
+1481,Patient_481,53,M,O+,University Hospital,Dr. Garcia,Heart Disease,Chemotherapy,2025-01-18 12:51:53.725210,456,910.0,8.6,2025-01-26 12:51:53.725210,8,5464.9,Lisinopril
+1482,Patient_482,36,F,AB+,Community Healthcare,Dr. Davis,Diabetes,Radiation,2024-02-19 12:51:53.725210,267,962.47,9.5,2024-02-24 12:51:53.725210,5,4652.65,"Ibuprofen, Simvastatin"
+1483,Patient_483,40,M,B-,Memorial Hospital,Dr. Davis,Diabetes,Radiation,2024-10-03 12:51:53.725210,275,1232.46,7.9,2024-10-11 12:51:53.725210,8,10786.38,Amoxicillin
+1484,Patient_484,43,M,AB+,City Medical Center,Dr. Williams,Cancer,Preventive Care,2024-02-06 12:51:53.725210,409,1270.02,6.7,2024-02-13 12:51:53.725210,7,6791.1,Ibuprofen
+1485,Patient_485,58,F,B+,Memorial Hospital,Dr. Brown,Fracture,Radiation,2024-09-29 12:51:53.725210,390,1161.98,8.3,2024-10-06 12:51:53.725210,7,9120.69,Omeprazole
+1486,Patient_486,60,F,A+,City Medical Center,Dr. Smith,Fracture,Medication,2024-12-17 12:51:53.725210,155,1281.84,8.0,2024-12-24 12:51:53.725210,7,8890.4,Ibuprofen
+1487,Patient_487,38,F,AB-,Community Healthcare,Dr. Johnson,Hypertension,Physical Therapy,2024-05-06 12:51:53.725210,207,1046.4,5.6,2024-05-27 12:51:53.725210,21,19079.94,"Ibuprofen, Amoxicillin"
+1488,Patient_488,49,F,B+,City Medical Center,Dr. Johnson,Fracture,Medication,2024-11-12 12:51:53.725210,395,1101.8,7.8,2024-11-24 12:51:53.725210,12,8692.15,Amoxicillin
+1489,Patient_489,92,M,AB-,City Medical Center,Dr. Davis,Pneumonia,Physical Therapy,2024-07-25 12:51:53.725210,423,1018.37,7.2,2024-08-02 12:51:53.725210,9,6649.43,Ibuprofen
+1490,Patient_490,84,M,A+,City Medical Center,Dr. Davis,Heart Disease,Radiation,2024-09-06 12:51:53.725210,401,1377.43,8.6,2024-09-10 12:51:53.725210,7,3532.17,"Metformin, Metformin"
+1491,Patient_491,58,F,AB+,City Medical Center,Dr. Smith,Hypertension,Radiation,2024-10-03 12:51:53.725210,433,1420.52,8.2,2024-10-09 12:51:53.725210,6,8750.29,"Amoxicillin, Ibuprofen, Metformin"
+1492,Patient_492,50,F,A+,Memorial Hospital,Dr. Miller,Pneumonia,Chemotherapy,2024-06-22 12:51:53.725210,240,987.21,4.9,2024-07-08 12:51:53.725210,16,14261.11,"Lisinopril, Lisinopril"
+1493,Patient_493,52,M,AB-,City Medical Center,Dr. Brown,Diabetes,Physical Therapy,2024-05-02 12:51:53.725210,254,929.37,5.8,2024-05-07 12:51:53.725210,5,3729.5,Ibuprofen
+1494,Patient_494,62,F,AB-,Memorial Hospital,Dr. Davis,Cancer,Radiation,2024-10-10 12:51:53.725210,361,1570.86,7.4,2024-10-16 12:51:53.725210,6,7155.19,Amoxicillin
+1495,Patient_495,29,M,O+,City Medical Center,Dr. Davis,Cancer,Preventive Care,2024-12-17 12:51:53.725210,372,1080.85,7.5,2024-12-23 12:51:53.725210,6,4448.85,"Simvastatin, Omeprazole"
+1496,Patient_496,44,F,O-,University Hospital,Dr. Davis,Diabetes,Surgery,2024-01-31 12:51:53.725210,331,877.06,8.6,2024-02-08 12:51:53.725210,8,7341.41,"Omeprazole, Metformin"
+1497,Patient_497,18,M,B+,Community Healthcare,Dr. Johnson,Hypertension,Chemotherapy,2024-02-12 12:51:53.725210,340,878.33,8.3,2024-02-17 12:51:53.725210,5,4584.12,"Omeprazole, Ibuprofen, Metformin"
+1498,Patient_498,57,F,B-,City Medical Center,Dr. Brown,Fracture,Medication,2024-11-02 12:51:53.725210,454,948.83,9.7,2024-11-10 12:51:53.725210,8,8003.64,"Metformin, Simvastatin"
+1499,Patient_499,62,F,AB-,University Hospital,Dr. Garcia,Stroke,Chemotherapy,2024-12-28 12:51:53.725210,436,957.56,6.8,2025-01-03 12:51:53.725210,6,4275.54,"Ibuprofen, Ibuprofen, Lisinopril"
+1500,Patient_500,40,M,B+,City Medical Center,Dr. Brown,Cancer,Surgery,2024-09-30 12:51:53.725210,357,1481.77,6.7,2024-10-14 12:51:53.725210,14,16029.94,Amoxicillin
+1501,Patient_501,81,F,O+,City Medical Center,Dr. Williams,Stroke,Physical Therapy,2024-10-11 12:51:53.725210,348,931.53,6.1,2024-10-16 12:51:53.725210,7,4601.11,Ibuprofen
+1502,Patient_502,25,M,A+,City Medical Center,Dr. Smith,Diabetes,Medication,2024-07-05 12:51:53.725210,176,1147.89,8.6,2024-07-17 12:51:53.725210,12,12091.9,Ibuprofen
+1503,Patient_503,20,M,O+,University Hospital,Dr. Miller,Stroke,Medication,2025-01-01 12:51:53.725210,279,1172.84,7.5,2025-01-06 12:51:53.725210,5,4610.77,"Metformin, Ibuprofen"
+1504,Patient_504,54,M,A-,Community Healthcare,Dr. Davis,Appendicitis,Physical Therapy,2024-06-27 12:51:53.725210,165,869.3,4.7,2024-07-01 12:51:53.725210,4,3439.41,"Omeprazole, Omeprazole, Omeprazole"
+1505,Patient_505,70,M,A-,University Hospital,Dr. Davis,Hypertension,Chemotherapy,2024-07-23 12:51:53.725210,407,1168.54,7.8,2024-07-28 12:51:53.725210,5,6464.43,"Lisinopril, Simvastatin, Simvastatin"
+1506,Patient_506,83,M,B-,Community Healthcare,Dr. Brown,Pneumonia,Radiation,2024-07-08 12:51:53.725210,447,1186.68,7.9,2024-07-11 12:51:53.725210,7,2640.92,"Lisinopril, Simvastatin, Lisinopril"
+1507,Patient_507,40,F,O+,City Medical Center,Dr. Miller,Hypertension,Chemotherapy,2024-02-29 12:51:53.725210,270,700.0,7.3,2024-03-09 12:51:53.725210,9,5775.51,"Lisinopril, Lisinopril"
+1508,Patient_508,71,F,AB+,Memorial Hospital,Dr. Davis,Heart Disease,Surgery,2024-07-24 12:51:53.725210,121,1376.31,7.9,2024-07-28 12:51:53.725210,8,4290.5,"Lisinopril, Simvastatin"
+1509,Patient_509,49,M,B-,City Medical Center,Dr. Miller,Fracture,Preventive Care,2024-05-07 12:51:53.725210,466,898.72,5.7,2024-05-13 12:51:53.725210,6,5998.91,"Omeprazole, Amoxicillin"
+1510,Patient_510,46,F,AB+,Community Healthcare,Dr. Garcia,Fracture,Radiation,2024-10-21 12:51:53.725210,206,1260.61,10.0,2024-10-31 12:51:53.725210,10,12212.32,"Lisinopril, Omeprazole"
+1511,Patient_511,67,M,B-,University Hospital,Dr. Jones,Hypertension,Chemotherapy,2024-12-15 12:51:53.725210,422,896.68,8.1,2024-12-25 12:51:53.725210,10,10698.29,Lisinopril
+1512,Patient_512,63,F,A-,City Medical Center,Dr. Smith,Diabetes,Preventive Care,2024-04-01 12:51:53.725210,326,732.1,4.8,2024-04-04 12:51:53.725210,3,1802.0,Simvastatin
+1513,Patient_513,18,F,B-,University Hospital,Dr. Miller,Diabetes,Preventive Care,2024-07-13 12:51:53.725210,495,994.04,7.5,2024-07-21 12:51:53.725210,8,6348.39,"Amoxicillin, Metformin, Ibuprofen"
+1514,Patient_514,79,F,A-,University Hospital,Dr. Johnson,Appendicitis,Physical Therapy,2024-12-22 12:51:53.725210,315,820.61,8.1,2025-01-04 12:51:53.725210,15,11753.62,"Metformin, Simvastatin, Simvastatin"
+1515,Patient_515,77,F,AB-,University Hospital,Dr. Williams,Appendicitis,Surgery,2024-03-10 12:51:53.725210,168,1169.92,5.8,2024-03-15 12:51:53.725210,6,4475.16,Omeprazole
+1516,Patient_516,37,M,A+,City Medical Center,Dr. Johnson,Fracture,Surgery,2024-03-11 12:51:53.725210,183,838.28,8.3,2024-03-20 12:51:53.725210,9,7892.72,"Ibuprofen, Lisinopril"
+1517,Patient_517,57,M,AB+,University Hospital,Dr. Davis,Appendicitis,Surgery,2024-11-07 12:51:53.725210,202,996.5,10.0,2024-11-11 12:51:53.725210,4,3868.6,Simvastatin
+1518,Patient_518,59,F,O+,University Hospital,Dr. Garcia,Cancer,Radiation,2024-02-08 12:51:53.725210,138,1701.91,6.5,2024-02-16 12:51:53.725210,8,9529.64,"Simvastatin, Simvastatin, Amoxicillin"
+1519,Patient_519,55,F,AB-,City Medical Center,Dr. Garcia,Cancer,Medication,2024-05-01 12:51:53.725210,112,1585.62,8.1,2024-05-08 12:51:53.725210,7,8173.68,Amoxicillin
+1520,Patient_520,38,M,AB-,University Hospital,Dr. Johnson,Pneumonia,Radiation,2024-11-24 12:51:53.725210,396,1095.57,7.8,2024-12-04 12:51:53.725210,10,9543.43,Lisinopril
+1521,Patient_521,36,F,B-,City Medical Center,Dr. Smith,Appendicitis,Chemotherapy,2024-10-06 12:51:53.725210,412,974.48,9.0,2024-10-15 12:51:53.725210,9,8491.13,"Omeprazole, Amoxicillin"
+1522,Patient_522,49,M,A-,Community Healthcare,Dr. Johnson,Pneumonia,Preventive Care,2024-09-25 12:51:53.725210,280,1076.58,7.3,2024-09-28 12:51:53.725210,3,3235.37,"Ibuprofen, Omeprazole, Lisinopril"
+1523,Patient_523,73,M,B+,Community Healthcare,Dr. Brown,Appendicitis,Preventive Care,2024-03-02 12:51:53.725210,367,1137.8,5.9,2024-03-09 12:51:53.725210,10,7633.1,Simvastatin
+1524,Patient_524,60,M,AB+,Community Healthcare,Dr. Davis,Fracture,Medication,2024-08-29 12:51:53.725210,112,802.68,8.9,2024-09-13 12:51:53.725210,15,11335.93,"Ibuprofen, Metformin"
+1525,Patient_525,42,F,AB-,University Hospital,Dr. Davis,Fracture,Chemotherapy,2024-12-29 12:51:53.725210,219,1170.27,6.0,2024-12-31 12:51:53.725210,2,2400.02,Omeprazole
+1526,Patient_526,65,M,B-,Memorial Hospital,Dr. Johnson,Pneumonia,Medication,2024-04-26 12:51:53.725210,452,779.66,10.0,2024-05-07 12:51:53.725210,11,9999.55,"Ibuprofen, Amoxicillin"
+1527,Patient_527,18,F,O-,Memorial Hospital,Dr. Williams,Hypertension,Preventive Care,2024-10-17 12:51:53.725210,156,1114.49,7.300000000000001,2024-11-02 12:51:53.725210,16,17357.15,"Ibuprofen, Metformin, Amoxicillin"
+1528,Patient_528,72,M,A+,University Hospital,Dr. Williams,Fracture,Radiation,2024-04-29 12:51:53.725210,139,778.62,6.6,2024-05-02 12:51:53.725210,6,2527.4,Amoxicillin
+1529,Patient_529,18,F,A+,Memorial Hospital,Dr. Davis,Hypertension,Surgery,2024-04-26 12:51:53.725210,473,1392.56,9.2,2024-05-01 12:51:53.725210,5,6290.07,"Amoxicillin, Ibuprofen"
+1530,Patient_530,42,F,B+,City Medical Center,Dr. Jones,Diabetes,Preventive Care,2024-05-21 12:51:53.725210,435,1152.67,7.5,2024-05-30 12:51:53.725210,9,8990.05,"Amoxicillin, Ibuprofen"
+1531,Patient_531,27,F,A-,Memorial Hospital,Dr. Williams,Cancer,Physical Therapy,2024-05-11 12:51:53.725210,227,910.0,7.2,2024-05-15 12:51:53.725210,4,2926.93,Ibuprofen
+1532,Patient_532,24,M,B-,University Hospital,Dr. Johnson,Pneumonia,Surgery,2024-08-10 12:51:53.725210,272,999.81,6.5,2024-08-24 12:51:53.725210,14,13670.45,"Simvastatin, Metformin, Amoxicillin"
+1533,Patient_533,73,M,AB+,University Hospital,Dr. Williams,Stroke,Preventive Care,2024-12-06 12:51:53.725210,134,895.72,4.7,2024-12-18 12:51:53.725210,15,11962.7,"Amoxicillin, Amoxicillin, Ibuprofen"
+1534,Patient_534,40,F,A-,City Medical Center,Dr. Davis,Fracture,Radiation,2024-05-20 12:51:53.725210,358,872.05,8.4,2024-05-23 12:51:53.725210,3,2962.9,Simvastatin
+1535,Patient_535,56,F,A+,Community Healthcare,Dr. Smith,Heart Disease,Medication,2024-04-11 12:51:53.725210,475,1338.25,5.1,2024-04-16 12:51:53.725210,5,5578.99,"Lisinopril, Metformin"
+1536,Patient_536,49,F,A-,University Hospital,Dr. Miller,Diabetes,Surgery,2024-08-31 12:51:53.725210,104,814.4,6.3,2024-09-10 12:51:53.725210,10,8809.66,Metformin
+1537,Patient_537,59,M,A+,City Medical Center,Dr. Williams,Hypertension,Radiation,2024-10-30 12:51:53.725210,317,1152.29,8.1,2024-11-09 12:51:53.725210,10,7575.89,Amoxicillin
+1538,Patient_538,51,M,A-,Memorial Hospital,Dr. Brown,Fracture,Chemotherapy,2024-10-02 12:51:53.725210,110,1140.93,5.7,2024-10-24 12:51:53.725210,22,26216.23,Omeprazole
+1539,Patient_539,24,M,B+,Memorial Hospital,Dr. Smith,Pneumonia,Physical Therapy,2024-07-09 12:51:53.725210,481,1070.28,7.7,2024-07-13 12:51:53.725210,4,4650.53,Metformin
+1540,Patient_540,69,M,O+,City Medical Center,Dr. Jones,Stroke,Surgery,2025-01-18 12:51:53.725210,426,996.1,5.7,2025-02-02 12:51:53.725210,15,13041.27,"Ibuprofen, Lisinopril, Metformin"
+1541,Patient_541,40,F,B+,City Medical Center,Dr. Brown,Appendicitis,Medication,2024-08-06 12:51:53.725210,216,1131.96,7.0,2024-08-10 12:51:53.725210,4,4531.81,"Lisinopril, Omeprazole, Omeprazole"
+1542,Patient_542,18,F,B+,University Hospital,Dr. Johnson,Stroke,Chemotherapy,2024-09-10 12:51:53.725210,283,1158.28,7.7,2024-09-19 12:51:53.725210,9,9337.53,Ibuprofen
+1543,Patient_543,41,M,O+,Memorial Hospital,Dr. Miller,Heart Disease,Radiation,2024-07-22 12:51:53.725210,493,1418.27,6.1,2024-08-02 12:51:53.725210,11,13233.87,"Metformin, Metformin"
+1544,Patient_544,80,M,O+,City Medical Center,Dr. Johnson,Hypertension,Physical Therapy,2024-05-05 12:51:53.725210,461,737.63,10.0,2024-05-06 12:51:53.725210,5,667.11,"Ibuprofen, Ibuprofen, Simvastatin"
+1545,Patient_545,67,F,AB-,Memorial Hospital,Dr. Miller,Diabetes,Medication,2024-03-03 12:51:53.725210,215,842.32,6.5,2024-03-14 12:51:53.725210,11,8530.89,"Omeprazole, Simvastatin, Simvastatin"
+1546,Patient_546,43,M,AB-,City Medical Center,Dr. Miller,Stroke,Radiation,2024-05-02 12:51:53.725210,261,946.39,9.6,2024-05-16 12:51:53.725210,14,12634.62,Omeprazole
+1547,Patient_547,43,M,B-,Memorial Hospital,Dr. Johnson,Pneumonia,Radiation,2024-06-27 12:51:53.725210,166,704.84,7.2,2024-07-09 12:51:53.725210,12,10360.65,"Ibuprofen, Omeprazole, Simvastatin"
+1548,Patient_548,43,M,AB+,Community Healthcare,Dr. Brown,Heart Disease,Surgery,2024-06-26 12:51:53.725210,299,1358.24,4.1,2024-07-16 12:51:53.725210,20,22995.36,"Lisinopril, Ibuprofen"
+1549,Patient_549,91,M,AB+,University Hospital,Dr. Brown,Pneumonia,Surgery,2024-08-04 12:51:53.725210,130,1282.2,5.8,2024-08-15 12:51:53.725210,12,16378.65,"Metformin, Omeprazole, Ibuprofen"
+1550,Patient_550,57,M,B-,Memorial Hospital,Dr. Miller,Fracture,Medication,2024-09-07 12:51:53.725210,174,1250.34,7.8,2024-09-12 12:51:53.725210,5,5118.19,"Lisinopril, Simvastatin, Omeprazole"
+1551,Patient_551,58,M,B+,Community Healthcare,Dr. Brown,Appendicitis,Preventive Care,2024-03-04 12:51:53.725210,336,1147.93,9.0,2024-03-17 12:51:53.725210,13,13028.91,"Omeprazole, Amoxicillin"
+1552,Patient_552,70,F,B+,Memorial Hospital,Dr. Miller,Diabetes,Preventive Care,2024-10-21 12:51:53.725210,426,1145.54,10.0,2024-10-26 12:51:53.725210,5,6494.4,"Ibuprofen, Simvastatin"
+1553,Patient_553,54,M,A+,Memorial Hospital,Dr. Davis,Pneumonia,Radiation,2024-07-28 12:51:53.725210,165,1443.06,7.7,2024-08-04 12:51:53.725210,7,8323.41,"Omeprazole, Lisinopril"
+1554,Patient_554,44,M,A+,Community Healthcare,Dr. Miller,Hypertension,Surgery,2024-02-09 12:51:53.725210,169,1168.77,5.7,2024-02-20 12:51:53.725210,11,11992.92,"Amoxicillin, Simvastatin, Lisinopril"
+1555,Patient_555,46,F,AB+,Memorial Hospital,Dr. Davis,Fracture,Physical Therapy,2024-11-01 12:51:53.725210,396,1185.13,7.9,2024-11-10 12:51:53.725210,9,12858.43,"Amoxicillin, Amoxicillin, Omeprazole"
+1556,Patient_556,48,F,B-,Memorial Hospital,Dr. Smith,Fracture,Physical Therapy,2024-08-31 12:51:53.725210,119,712.22,6.3,2024-09-14 12:51:53.725210,14,9010.4,"Metformin, Omeprazole"
+1557,Patient_557,49,F,O-,University Hospital,Dr. Garcia,Diabetes,Radiation,2025-01-16 12:51:53.725210,325,1266.56,7.1,2025-02-10 12:51:53.725210,25,25897.99,"Lisinopril, Omeprazole"
+1558,Patient_558,64,M,AB-,Community Healthcare,Dr. Smith,Fracture,Surgery,2025-01-22 12:51:53.725210,495,1079.7,6.1,2025-01-26 12:51:53.725210,4,4339.3,"Lisinopril, Simvastatin, Lisinopril"
+1559,Patient_559,51,F,O-,Community Healthcare,Dr. Johnson,Hypertension,Medication,2024-11-08 12:51:53.725210,298,984.04,4.4,2024-11-14 12:51:53.725210,6,4853.44,"Ibuprofen, Metformin"
+1560,Patient_560,64,M,B-,City Medical Center,Dr. Garcia,Pneumonia,Medication,2024-10-26 12:51:53.725210,138,934.47,9.5,2024-11-03 12:51:53.725210,8,8400.7,Omeprazole
+1561,Patient_561,48,M,A+,Memorial Hospital,Dr. Williams,Diabetes,Medication,2024-03-29 12:51:53.725210,244,890.28,7.2,2024-04-03 12:51:53.725210,5,4053.06,Simvastatin
+1562,Patient_562,51,M,AB+,University Hospital,Dr. Johnson,Cancer,Physical Therapy,2024-04-20 12:51:53.725210,144,1626.77,7.6,2024-04-27 12:51:53.725210,7,7800.14,"Amoxicillin, Metformin, Omeprazole"
+1563,Patient_563,18,F,AB+,Memorial Hospital,Dr. Jones,Fracture,Surgery,2024-08-31 12:51:53.725210,494,994.33,9.0,2024-09-10 12:51:53.725210,10,9972.52,"Ibuprofen, Omeprazole"
+1564,Patient_564,68,F,A+,Memorial Hospital,Dr. Smith,Fracture,Surgery,2025-01-03 12:51:53.725210,425,897.66,10.0,2025-01-13 12:51:53.725210,10,8613.55,"Lisinopril, Omeprazole"
+1565,Patient_565,56,F,O-,City Medical Center,Dr. Brown,Hypertension,Physical Therapy,2024-08-01 12:51:53.725210,480,845.69,8.6,2024-08-09 12:51:53.725210,8,6936.25,"Simvastatin, Metformin, Omeprazole"
+1566,Patient_566,69,F,A-,Memorial Hospital,Dr. Smith,Appendicitis,Medication,2024-02-15 12:51:53.725210,190,1034.12,7.7,2024-02-22 12:51:53.725210,7,7616.35,"Metformin, Ibuprofen"
+1567,Patient_567,18,F,A-,University Hospital,Dr. Brown,Appendicitis,Medication,2024-07-22 12:51:53.725210,337,928.08,8.2,2024-07-28 12:51:53.725210,6,5447.48,"Omeprazole, Lisinopril"
+1568,Patient_568,91,M,A+,University Hospital,Dr. Garcia,Stroke,Radiation,2024-05-06 12:51:53.725210,169,882.45,6.1,2024-05-20 12:51:53.725210,17,10919.41,Lisinopril
+1569,Patient_569,47,M,A-,City Medical Center,Dr. Jones,Fracture,Preventive Care,2024-09-16 12:51:53.725210,265,723.57,6.6,2024-10-02 12:51:53.725210,16,12422.84,"Omeprazole, Omeprazole, Metformin"
+1570,Patient_570,72,M,O+,Memorial Hospital,Dr. Garcia,Cancer,Chemotherapy,2024-04-12 12:51:53.725210,229,1549.43,7.7,2024-04-24 12:51:53.725210,15,13310.69,"Amoxicillin, Ibuprofen, Metformin"
+1571,Patient_571,29,M,B-,University Hospital,Dr. Jones,Pneumonia,Preventive Care,2024-10-18 12:51:53.725210,313,972.4,6.3,2024-10-22 12:51:53.725210,4,3551.56,Ibuprofen
+1572,Patient_572,62,F,B-,Memorial Hospital,Dr. Smith,Diabetes,Surgery,2024-11-06 12:51:53.725210,439,782.95,7.5,2024-11-12 12:51:53.725210,6,4764.72,"Ibuprofen, Amoxicillin, Omeprazole"
+1573,Patient_573,28,F,A+,Memorial Hospital,Dr. Brown,Fracture,Surgery,2024-08-20 12:51:53.725210,188,945.75,8.1,2024-08-28 12:51:53.725210,8,6106.77,"Amoxicillin, Amoxicillin"
+1574,Patient_574,37,M,B+,Memorial Hospital,Dr. Garcia,Heart Disease,Surgery,2024-09-06 12:51:53.725210,434,1442.78,8.3,2024-09-10 12:51:53.725210,4,4612.84,"Lisinopril, Amoxicillin"
+1575,Patient_575,88,F,AB-,City Medical Center,Dr. Jones,Diabetes,Preventive Care,2024-03-19 12:51:53.725210,351,1005.77,8.2,2024-03-26 12:51:53.725210,10,7178.21,"Metformin, Amoxicillin, Ibuprofen"
+1576,Patient_576,46,F,O-,Memorial Hospital,Dr. Miller,Stroke,Chemotherapy,2024-12-31 12:51:53.725210,468,1038.2,5.5,2025-01-07 12:51:53.725210,7,8082.67,"Simvastatin, Amoxicillin"
+1577,Patient_577,54,M,A+,University Hospital,Dr. Johnson,Appendicitis,Radiation,2024-06-19 12:51:53.725210,448,1008.51,9.3,2024-07-01 12:51:53.725210,12,11496.54,Ibuprofen
+1578,Patient_578,67,M,A-,Memorial Hospital,Dr. Johnson,Cancer,Preventive Care,2024-04-05 12:51:53.725210,171,968.02,9.2,2024-04-10 12:51:53.725210,5,4216.4,Omeprazole
+1579,Patient_579,59,F,O-,University Hospital,Dr. Garcia,Fracture,Chemotherapy,2024-05-05 12:51:53.725210,264,1189.7,7.4,2024-05-18 12:51:53.725210,13,16285.25,Ibuprofen
+1580,Patient_580,53,F,B+,Memorial Hospital,Dr. Brown,Hypertension,Medication,2024-02-21 12:51:53.725210,148,700.0,8.2,2024-02-25 12:51:53.725210,4,2792.5,Ibuprofen
+1581,Patient_581,57,M,A-,University Hospital,Dr. Miller,Heart Disease,Medication,2024-03-20 12:51:53.725210,151,1420.0,7.2,2024-03-24 12:51:53.725210,4,5163.0,"Simvastatin, Omeprazole, Omeprazole"
+1582,Patient_582,95,M,AB+,University Hospital,Dr. Garcia,Fracture,Surgery,2024-06-26 12:51:53.725210,388,1123.11,8.6,2024-07-02 12:51:53.725210,8,6802.82,"Simvastatin, Metformin, Omeprazole"
+1583,Patient_583,48,M,AB-,Memorial Hospital,Dr. Smith,Cancer,Physical Therapy,2024-06-19 12:51:53.725210,377,1242.84,6.3,2024-06-26 12:51:53.725210,7,6345.31,Ibuprofen
+1584,Patient_584,54,F,O+,Memorial Hospital,Dr. Jones,Stroke,Surgery,2024-03-24 12:51:53.725210,213,1070.68,9.5,2024-03-26 12:51:53.725210,2,2167.88,"Omeprazole, Metformin, Omeprazole"
+1585,Patient_585,71,M,A-,University Hospital,Dr. Davis,Pneumonia,Physical Therapy,2024-03-06 12:51:53.725210,338,944.57,8.6,2024-03-15 12:51:53.725210,12,8042.95,"Lisinopril, Omeprazole, Simvastatin"
+1586,Patient_586,72,M,O+,Community Healthcare,Dr. Smith,Heart Disease,Chemotherapy,2024-05-15 12:51:53.725210,232,1395.03,7.6,2024-06-01 12:51:53.725210,19,18924.33,"Simvastatin, Lisinopril, Simvastatin"
+1587,Patient_587,73,F,O-,City Medical Center,Dr. Johnson,Stroke,Medication,2024-07-26 12:51:53.725210,373,1198.58,7.3,2024-08-05 12:51:53.725210,13,13568.75,"Amoxicillin, Ibuprofen"
+1588,Patient_588,62,F,O+,Community Healthcare,Dr. Jones,Fracture,Preventive Care,2024-03-09 12:51:53.725210,265,841.57,5.4,2024-03-15 12:51:53.725210,6,5045.38,"Ibuprofen, Metformin"
+1589,Patient_589,27,F,O-,Community Healthcare,Dr. Garcia,Pneumonia,Physical Therapy,2024-07-31 12:51:53.725210,473,1134.79,8.8,2024-08-04 12:51:53.725210,4,4580.08,Amoxicillin
+1590,Patient_590,82,F,O-,Memorial Hospital,Dr. Smith,Heart Disease,Chemotherapy,2024-09-06 12:51:53.725210,472,1740.02,5.4,2024-09-08 12:51:53.725210,5,2890.54,"Lisinopril, Metformin, Amoxicillin"
+1591,Patient_591,27,F,O-,City Medical Center,Dr. Williams,Pneumonia,Medication,2024-05-28 12:51:53.725210,392,1052.91,8.8,2024-05-31 12:51:53.725210,3,3533.75,Lisinopril
+1592,Patient_592,56,M,O-,Community Healthcare,Dr. Davis,Pneumonia,Preventive Care,2024-06-08 12:51:53.725210,342,899.38,6.3,2024-06-14 12:51:53.725210,6,5152.03,"Ibuprofen, Omeprazole"
+1593,Patient_593,34,M,O-,Memorial Hospital,Dr. Brown,Heart Disease,Physical Therapy,2024-07-08 12:51:53.725210,419,1888.45,4.1,2024-07-29 12:51:53.725210,21,31031.37,"Metformin, Omeprazole, Metformin"
+1594,Patient_594,48,F,A-,Community Healthcare,Dr. Miller,Heart Disease,Surgery,2024-08-29 12:51:53.725210,237,1323.06,7.5,2024-08-30 12:51:53.725210,1,1099.39,Simvastatin
+1595,Patient_595,56,F,O-,Community Healthcare,Dr. Miller,Pneumonia,Surgery,2024-09-04 12:51:53.725210,178,1046.31,9.3,2024-09-14 12:51:53.725210,10,10808.33,"Lisinopril, Lisinopril"
+1596,Patient_596,56,F,A-,Memorial Hospital,Dr. Brown,Stroke,Surgery,2024-09-18 12:51:53.725210,269,1050.47,6.1,2024-09-23 12:51:53.725210,5,4274.32,Amoxicillin
+1597,Patient_597,58,F,O-,Memorial Hospital,Dr. Williams,Cancer,Chemotherapy,2024-12-23 12:51:53.725210,222,1416.44,9.9,2024-12-29 12:51:53.725210,6,7179.87,"Amoxicillin, Metformin, Omeprazole"
+1598,Patient_598,82,F,O+,Memorial Hospital,Dr. Johnson,Appendicitis,Surgery,2024-06-21 12:51:53.725210,275,932.23,8.5,2024-06-25 12:51:53.725210,7,3923.9,"Lisinopril, Simvastatin"
+1599,Patient_599,59,M,AB+,City Medical Center,Dr. Jones,Heart Disease,Radiation,2024-09-22 12:51:53.725210,399,1349.4,7.7,2024-09-25 12:51:53.725210,3,3298.96,"Lisinopril, Omeprazole"
+1600,Patient_600,45,M,O-,Community Healthcare,Dr. Brown,Fracture,Medication,2024-04-12 12:51:53.725210,181,1190.44,6.8,2024-04-19 12:51:53.725210,7,7339.65,Ibuprofen
+1601,Patient_601,69,M,B+,Memorial Hospital,Dr. Williams,Diabetes,Chemotherapy,2024-02-05 12:51:53.725210,186,925.32,7.0,2024-02-13 12:51:53.725210,8,7515.37,"Simvastatin, Metformin, Simvastatin"
+1602,Patient_602,73,M,O-,University Hospital,Dr. Garcia,Hypertension,Preventive Care,2024-04-10 12:51:53.725210,324,916.0,8.1,2024-04-20 12:51:53.725210,12,9932.5,"Metformin, Simvastatin"
+1603,Patient_603,25,F,O-,Community Healthcare,Dr. Davis,Pneumonia,Surgery,2024-10-06 12:51:53.725210,115,941.58,8.8,2024-10-09 12:51:53.725210,3,2576.0,"Lisinopril, Amoxicillin, Simvastatin"
+1604,Patient_604,61,M,O+,University Hospital,Dr. Miller,Pneumonia,Medication,2024-09-13 12:51:53.725210,409,780.45,6.6,2024-09-24 12:51:53.725210,11,8052.22,Ibuprofen
+1605,Patient_605,64,F,AB-,City Medical Center,Dr. Davis,Hypertension,Physical Therapy,2024-02-03 12:51:53.725210,457,863.43,6.3,2024-02-14 12:51:53.725210,11,10314.99,"Omeprazole, Metformin, Simvastatin"
+1606,Patient_606,44,F,B-,Memorial Hospital,Dr. Williams,Appendicitis,Surgery,2024-07-19 12:51:53.725210,262,855.28,7.2,2024-07-28 12:51:53.725210,9,7184.02,"Ibuprofen, Ibuprofen, Metformin"
+1607,Patient_607,77,F,O+,University Hospital,Dr. Davis,Hypertension,Medication,2024-06-16 12:51:53.725210,197,999.9,9.6,2024-06-21 12:51:53.725210,8,4895.26,"Lisinopril, Lisinopril"
+1608,Patient_608,46,M,B+,City Medical Center,Dr. Johnson,Heart Disease,Radiation,2024-07-13 12:51:53.725210,255,1517.4,5.7,2024-07-21 12:51:53.725210,8,8371.73,Metformin
+1609,Patient_609,52,F,B-,Memorial Hospital,Dr. Johnson,Hypertension,Physical Therapy,2024-07-15 12:51:53.725210,101,1290.74,9.2,2024-07-21 12:51:53.725210,6,9153.88,"Simvastatin, Metformin, Simvastatin"
+1610,Patient_610,46,M,A+,University Hospital,Dr. Smith,Pneumonia,Radiation,2024-11-05 12:51:53.725210,449,1011.44,7.6,2024-11-16 12:51:53.725210,11,11705.08,"Ibuprofen, Amoxicillin, Metformin"
+1611,Patient_611,50,M,A+,University Hospital,Dr. Brown,Hypertension,Preventive Care,2024-05-28 12:51:53.725210,496,1091.29,5.0,2024-06-03 12:51:53.725210,6,6380.51,Lisinopril
+1612,Patient_612,28,F,AB-,City Medical Center,Dr. Smith,Diabetes,Medication,2024-08-08 12:51:53.725210,268,1048.68,6.8,2024-08-15 12:51:53.725210,7,7016.02,Lisinopril
+1613,Patient_613,21,F,B+,Memorial Hospital,Dr. Davis,Fracture,Radiation,2024-02-01 12:51:53.725210,414,700.0,8.4,2024-02-04 12:51:53.725210,3,1842.04,"Simvastatin, Lisinopril, Ibuprofen"
+1614,Patient_614,81,F,O+,Memorial Hospital,Dr. Miller,Heart Disease,Preventive Care,2024-02-25 12:51:53.725210,424,1001.55,10.0,2024-03-04 12:51:53.725210,9,6095.5,Simvastatin
+1615,Patient_615,33,M,A-,University Hospital,Dr. Williams,Hypertension,Medication,2024-07-10 12:51:53.725210,474,1152.25,5.5,2024-07-15 12:51:53.725210,5,6144.41,"Simvastatin, Metformin, Ibuprofen"
+1616,Patient_616,30,F,B+,University Hospital,Dr. Jones,Pneumonia,Medication,2024-12-31 12:51:53.725210,191,1171.7,3.3,2025-01-09 12:51:53.725210,9,9691.33,Ibuprofen
+1617,Patient_617,18,M,AB+,University Hospital,Dr. Davis,Stroke,Radiation,2024-06-11 12:51:53.725210,280,1167.12,5.5,2024-06-21 12:51:53.725210,10,11794.38,"Metformin, Simvastatin"
+1618,Patient_618,37,F,B-,Memorial Hospital,Dr. Jones,Fracture,Medication,2025-01-26 12:51:53.725210,330,964.44,9.2,2025-01-31 12:51:53.725210,5,4645.04,"Lisinopril, Simvastatin"
+1619,Patient_619,23,F,B-,City Medical Center,Dr. Johnson,Heart Disease,Surgery,2024-12-13 12:51:53.725210,400,910.0,4.8,2024-12-20 12:51:53.725210,7,5576.26,Metformin
+1620,Patient_620,82,M,O-,City Medical Center,Dr. Jones,Pneumonia,Medication,2025-01-03 12:51:53.725210,247,794.3,9.7,2025-01-11 12:51:53.725210,11,5949.82,"Metformin, Amoxicillin"
+1621,Patient_621,70,M,A+,Memorial Hospital,Dr. Jones,Appendicitis,Chemotherapy,2024-06-20 12:51:53.725210,379,824.9,9.3,2024-06-28 12:51:53.725210,8,7112.06,"Metformin, Amoxicillin, Lisinopril"
+1622,Patient_622,36,M,AB-,Community Healthcare,Dr. Miller,Diabetes,Preventive Care,2024-12-19 12:51:53.725210,288,1125.75,7.8,2024-12-29 12:51:53.725210,10,12826.82,"Ibuprofen, Metformin, Lisinopril"
+1623,Patient_623,95,M,B-,City Medical Center,Dr. Jones,Cancer,Medication,2024-08-31 12:51:53.725210,446,1207.09,6.6,2024-09-10 12:51:53.725210,12,8935.12,"Amoxicillin, Simvastatin"
+1624,Patient_624,69,M,B+,University Hospital,Dr. Davis,Appendicitis,Chemotherapy,2024-11-23 12:51:53.725210,449,1338.08,7.6,2024-11-29 12:51:53.725210,6,7555.94,"Omeprazole, Simvastatin"
+1625,Patient_625,43,M,B-,Community Healthcare,Dr. Williams,Cancer,Medication,2024-06-07 12:51:53.725210,413,1681.59,7.4,2024-06-23 12:51:53.725210,16,22606.15,"Metformin, Amoxicillin, Metformin"
+1626,Patient_626,18,F,AB-,Community Healthcare,Dr. Jones,Diabetes,Medication,2024-11-14 12:51:53.725210,227,1334.74,8.2,2024-11-24 12:51:53.725210,10,10969.93,"Ibuprofen, Ibuprofen, Simvastatin"
+1627,Patient_627,95,F,AB-,City Medical Center,Dr. Garcia,Hypertension,Radiation,2024-04-06 12:51:53.725210,106,816.7,9.0,2024-04-20 12:51:53.725210,16,11926.13,"Amoxicillin, Omeprazole"
+1628,Patient_628,22,M,AB-,Community Healthcare,Dr. Jones,Heart Disease,Surgery,2024-10-05 12:51:53.725210,146,1427.63,7.1,2024-10-13 12:51:53.725210,8,7401.45,"Lisinopril, Amoxicillin"
+1629,Patient_629,18,F,B+,Community Healthcare,Dr. Jones,Hypertension,Preventive Care,2024-10-28 12:51:53.725210,152,904.5,5.5,2024-11-06 12:51:53.725210,9,9135.6,"Amoxicillin, Simvastatin, Lisinopril"
+1630,Patient_630,70,M,A-,City Medical Center,Dr. Smith,Diabetes,Surgery,2025-01-25 12:51:53.725210,286,1065.57,5.3,2025-01-31 12:51:53.725210,6,6232.24,"Metformin, Omeprazole"
+1631,Patient_631,95,F,O-,City Medical Center,Dr. Williams,Diabetes,Physical Therapy,2024-07-27 12:51:53.725210,137,838.88,5.0,2024-08-01 12:51:53.725210,6,4156.32,"Amoxicillin, Omeprazole, Omeprazole"
+1632,Patient_632,77,F,A+,Community Healthcare,Dr. Davis,Diabetes,Radiation,2024-07-12 12:51:53.725210,325,1245.23,6.8,2024-07-24 12:51:53.725210,16,13860.53,"Omeprazole, Simvastatin"
+1633,Patient_633,61,M,B-,University Hospital,Dr. Johnson,Cancer,Radiation,2024-04-27 12:51:53.725210,152,1095.39,7.1,2024-05-05 12:51:53.725210,8,5674.0,Amoxicillin
+1634,Patient_634,61,M,B+,Memorial Hospital,Dr. Smith,Fracture,Surgery,2024-08-16 12:51:53.725210,498,700.0,7.5,2024-08-22 12:51:53.725210,6,4731.66,"Simvastatin, Metformin"
+1635,Patient_635,67,M,O+,Community Healthcare,Dr. Davis,Pneumonia,Radiation,2025-01-07 12:51:53.725210,323,1406.76,6.7,2025-01-11 12:51:53.725210,4,5530.79,Lisinopril
+1636,Patient_636,65,F,A+,Community Healthcare,Dr. Brown,Heart Disease,Surgery,2024-02-15 12:51:53.725210,253,1415.05,4.8,2024-03-02 12:51:53.725210,16,23004.39,"Metformin, Lisinopril, Omeprazole"
+1637,Patient_637,55,M,A-,University Hospital,Dr. Williams,Hypertension,Radiation,2024-03-06 12:51:53.725210,147,786.17,8.4,2024-03-13 12:51:53.725210,7,5057.33,"Omeprazole, Amoxicillin, Metformin"
+1638,Patient_638,52,F,B+,Community Healthcare,Dr. Garcia,Hypertension,Medication,2024-06-01 12:51:53.725210,450,967.55,3.8,2024-06-05 12:51:53.725210,4,3619.92,"Amoxicillin, Ibuprofen"
+1639,Patient_639,48,M,AB+,Community Healthcare,Dr. Williams,Appendicitis,Surgery,2024-07-18 12:51:53.725210,246,884.63,6.3,2024-07-25 12:51:53.725210,7,5636.8,"Omeprazole, Lisinopril"
+1640,Patient_640,34,F,AB+,Memorial Hospital,Dr. Brown,Cancer,Surgery,2024-06-16 12:51:53.725210,492,1301.5,8.7,2024-06-22 12:51:53.725210,6,5901.08,"Amoxicillin, Simvastatin"
+1641,Patient_641,44,F,O-,Memorial Hospital,Dr. Brown,Diabetes,Chemotherapy,2024-09-25 12:51:53.725210,163,1160.56,6.1,2024-10-01 12:51:53.725210,6,8060.24,"Metformin, Ibuprofen"
+1642,Patient_642,18,M,O-,Memorial Hospital,Dr. Brown,Stroke,Radiation,2024-09-03 12:51:53.725210,448,1129.16,8.1,2024-09-12 12:51:53.725210,9,11188.99,"Ibuprofen, Simvastatin"
+1643,Patient_643,48,F,A-,City Medical Center,Dr. Miller,Diabetes,Radiation,2024-06-01 12:51:53.725210,281,1050.75,6.3,2024-06-07 12:51:53.725210,6,5355.95,Metformin
+1644,Patient_644,30,F,A-,City Medical Center,Dr. Johnson,Diabetes,Surgery,2024-03-25 12:51:53.725210,224,1001.05,6.8,2024-03-31 12:51:53.725210,6,6729.53,Lisinopril
+1645,Patient_645,27,M,O-,Memorial Hospital,Dr. Jones,Stroke,Medication,2024-06-23 12:51:53.725210,278,1215.73,8.4,2024-07-07 12:51:53.725210,14,18182.35,Ibuprofen
+1646,Patient_646,53,F,B-,Memorial Hospital,Dr. Williams,Hypertension,Medication,2024-12-09 12:51:53.725210,138,700.0,5.6,2024-12-12 12:51:53.725210,3,2201.09,"Ibuprofen, Simvastatin"
+1647,Patient_647,77,M,B-,City Medical Center,Dr. Davis,Appendicitis,Preventive Care,2025-01-22 12:51:53.725210,359,850.21,8.6,2025-01-29 12:51:53.725210,8,5544.25,"Simvastatin, Amoxicillin, Lisinopril"
+1648,Patient_648,68,M,B+,University Hospital,Dr. Miller,Pneumonia,Medication,2024-01-28 12:51:53.725210,481,804.27,7.6,2024-02-08 12:51:53.725210,11,8307.38,Lisinopril
+1649,Patient_649,18,M,O+,Community Healthcare,Dr. Davis,Stroke,Radiation,2025-01-09 12:51:53.725210,102,1201.25,9.4,2025-01-19 12:51:53.725210,10,12177.15,"Lisinopril, Simvastatin, Simvastatin"
+1650,Patient_650,30,M,B+,Community Healthcare,Dr. Jones,Cancer,Chemotherapy,2024-08-04 12:51:53.725210,163,1107.83,7.8,2024-08-16 12:51:53.725210,12,9660.49,"Ibuprofen, Simvastatin, Metformin"
+1651,Patient_651,68,F,O+,Memorial Hospital,Dr. Jones,Fracture,Surgery,2024-08-05 12:51:53.725210,128,742.81,4.9,2024-08-25 12:51:53.725210,20,16806.27,"Omeprazole, Simvastatin"
+1652,Patient_652,30,F,A-,University Hospital,Dr. Garcia,Heart Disease,Physical Therapy,2024-12-04 12:51:53.725210,471,1442.83,9.0,2024-12-21 12:51:53.725210,17,17743.35,Metformin
+1653,Patient_653,45,F,A+,City Medical Center,Dr. Brown,Cancer,Chemotherapy,2024-05-23 12:51:53.725210,110,1063.73,6.0,2024-05-27 12:51:53.725210,4,2635.82,"Lisinopril, Metformin, Ibuprofen"
+1654,Patient_654,61,M,B+,Memorial Hospital,Dr. Johnson,Stroke,Physical Therapy,2024-06-09 12:51:53.725210,196,929.85,7.2,2024-06-12 12:51:53.725210,3,2426.5,"Metformin, Omeprazole"
+1655,Patient_655,30,F,B+,University Hospital,Dr. Garcia,Pneumonia,Chemotherapy,2024-03-25 12:51:53.725210,457,1476.23,8.9,2024-04-02 12:51:53.725210,8,10347.83,"Omeprazole, Simvastatin, Lisinopril"
+1656,Patient_656,52,F,O+,University Hospital,Dr. Smith,Hypertension,Medication,2024-03-11 12:51:53.725210,302,1157.43,4.7,2024-03-14 12:51:53.725210,3,3380.85,"Ibuprofen, Amoxicillin"
+1657,Patient_657,23,M,AB-,University Hospital,Dr. Miller,Fracture,Radiation,2024-07-18 12:51:53.725210,120,957.79,9.7,2024-07-20 12:51:53.725210,2,1956.97,"Lisinopril, Amoxicillin"
+1658,Patient_658,37,M,A-,City Medical Center,Dr. Miller,Fracture,Physical Therapy,2024-07-05 12:51:53.725210,138,975.77,5.8,2024-07-13 12:51:53.725210,8,7848.16,"Simvastatin, Metformin, Metformin"
+1659,Patient_659,56,F,A-,City Medical Center,Dr. Johnson,Fracture,Chemotherapy,2024-07-18 12:51:53.725210,322,1181.5,6.8,2024-07-27 12:51:53.725210,9,11123.61,"Ibuprofen, Lisinopril"
+1660,Patient_660,18,M,AB+,Community Healthcare,Dr. Jones,Diabetes,Radiation,2024-12-09 12:51:53.725210,201,1132.57,6.9,2024-12-26 12:51:53.725210,17,18767.96,Amoxicillin
+1661,Patient_661,58,M,AB-,Community Healthcare,Dr. Davis,Heart Disease,Physical Therapy,2024-11-25 12:51:53.725210,145,1319.66,7.4,2024-12-05 12:51:53.725210,10,9931.01,"Metformin, Amoxicillin"
+1662,Patient_662,49,M,O+,University Hospital,Dr. Miller,Hypertension,Surgery,2024-06-24 12:51:53.725210,165,1020.71,7.699999999999999,2024-07-13 12:51:53.725210,19,22790.96,Lisinopril
+1663,Patient_663,61,M,A-,University Hospital,Dr. Johnson,Hypertension,Chemotherapy,2024-04-16 12:51:53.725210,190,704.03,5.1,2024-04-24 12:51:53.725210,8,6311.13,"Ibuprofen, Lisinopril"
+1664,Patient_664,54,F,AB-,City Medical Center,Dr. Miller,Fracture,Surgery,2024-08-27 12:51:53.725210,263,700.0,8.6,2024-08-31 12:51:53.725210,4,2914.32,"Omeprazole, Omeprazole"
+1665,Patient_665,77,M,O-,Community Healthcare,Dr. Miller,Hypertension,Medication,2024-08-17 12:51:53.725210,210,964.64,8.7,2024-08-28 12:51:53.725210,12,11583.72,Metformin
+1666,Patient_666,52,M,AB-,University Hospital,Dr. Brown,Heart Disease,Surgery,2024-10-05 12:51:53.725210,437,1135.34,9.0,2024-10-19 12:51:53.725210,14,9871.62,Amoxicillin
+1667,Patient_667,41,M,B-,Community Healthcare,Dr. Smith,Heart Disease,Surgery,2024-09-12 12:51:53.725210,222,1452.39,5.1,2024-09-20 12:51:53.725210,8,8202.59,"Amoxicillin, Amoxicillin"
+1668,Patient_668,52,M,AB+,Community Healthcare,Dr. Brown,Appendicitis,Preventive Care,2024-07-09 12:51:53.725210,292,1039.44,5.3,2024-07-24 12:51:53.725210,15,14917.73,Simvastatin
+1669,Patient_669,60,M,O-,University Hospital,Dr. Smith,Stroke,Chemotherapy,2024-09-10 12:51:53.725210,198,845.45,7.0,2024-09-16 12:51:53.725210,6,4661.42,Omeprazole
+1670,Patient_670,50,M,A+,City Medical Center,Dr. Miller,Stroke,Medication,2024-06-22 12:51:53.725210,390,1032.64,5.5,2024-07-01 12:51:53.725210,9,7857.19,"Simvastatin, Metformin, Amoxicillin"
+1671,Patient_671,50,M,B+,University Hospital,Dr. Garcia,Appendicitis,Surgery,2024-02-16 12:51:53.725210,258,916.35,4.8,2024-02-22 12:51:53.725210,6,5729.32,"Lisinopril, Lisinopril, Simvastatin"
+1672,Patient_672,35,M,AB+,University Hospital,Dr. Davis,Pneumonia,Radiation,2024-03-14 12:51:53.725210,202,1413.32,5.9,2024-04-07 12:51:53.725210,24,38620.09,"Lisinopril, Simvastatin"
+1673,Patient_673,36,F,A+,Community Healthcare,Dr. Jones,Stroke,Physical Therapy,2024-09-16 12:51:53.725210,484,1077.25,7.9,2024-09-27 12:51:53.725210,11,11834.57,"Amoxicillin, Metformin"
+1674,Patient_674,21,M,B+,University Hospital,Dr. Miller,Heart Disease,Surgery,2024-11-27 12:51:53.725210,380,910.0,10.0,2024-12-01 12:51:53.725210,4,2981.49,"Ibuprofen, Simvastatin"
+1675,Patient_675,84,F,B-,City Medical Center,Dr. Smith,Heart Disease,Medication,2024-02-10 12:51:53.725210,142,1773.33,7.300000000000001,2024-02-28 12:51:53.725210,20,24449.36,Ibuprofen
+1676,Patient_676,25,M,AB-,University Hospital,Dr. Smith,Stroke,Surgery,2024-06-18 12:51:53.725210,183,873.37,10.0,2024-06-23 12:51:53.725210,5,4173.99,Simvastatin
+1677,Patient_677,36,M,A-,City Medical Center,Dr. Smith,Heart Disease,Physical Therapy,2024-01-28 12:51:53.725210,290,1046.56,7.4,2024-02-04 12:51:53.725210,7,6153.35,Ibuprofen
+1678,Patient_678,35,M,O-,City Medical Center,Dr. Miller,Appendicitis,Medication,2024-03-21 12:51:53.725210,150,1428.74,8.3,2024-03-30 12:51:53.725210,9,11022.2,Simvastatin
+1679,Patient_679,67,M,O+,Community Healthcare,Dr. Johnson,Fracture,Chemotherapy,2024-10-12 12:51:53.725210,485,1069.17,7.3,2024-10-21 12:51:53.725210,9,7829.47,"Lisinopril, Simvastatin"
+1680,Patient_680,44,F,O-,Memorial Hospital,Dr. Garcia,Fracture,Medication,2024-06-19 12:51:53.725210,309,1140.15,10.0,2024-06-28 12:51:53.725210,9,8781.36,"Simvastatin, Amoxicillin, Lisinopril"
+1681,Patient_681,74,M,B-,Memorial Hospital,Dr. Johnson,Hypertension,Chemotherapy,2024-02-08 12:51:53.725210,225,1146.61,6.5,2024-02-12 12:51:53.725210,7,4977.93,"Omeprazole, Ibuprofen, Metformin"
+1682,Patient_682,36,M,A+,Community Healthcare,Dr. Jones,Cancer,Medication,2024-12-22 12:51:53.725210,168,1246.44,6.7,2024-12-31 12:51:53.725210,9,8704.46,"Amoxicillin, Ibuprofen"
+1683,Patient_683,55,F,O+,University Hospital,Dr. Miller,Cancer,Physical Therapy,2024-09-07 12:51:53.725210,364,1151.18,8.7,2024-09-19 12:51:53.725210,12,11026.36,Simvastatin
+1684,Patient_684,33,F,A-,Community Healthcare,Dr. Smith,Fracture,Physical Therapy,2024-10-25 12:51:53.725210,357,918.15,7.8,2024-11-06 12:51:53.725210,12,12865.4,"Metformin, Omeprazole"
+1685,Patient_685,92,M,B-,City Medical Center,Dr. Garcia,Diabetes,Medication,2025-01-19 12:51:53.725210,287,1321.77,6.9,2025-01-22 12:51:53.725210,6,3504.01,"Omeprazole, Amoxicillin"
+1686,Patient_686,26,F,O+,Memorial Hospital,Dr. Garcia,Appendicitis,Surgery,2024-07-01 12:51:53.725210,329,1040.76,8.9,2024-07-06 12:51:53.725210,5,5830.43,"Metformin, Amoxicillin, Omeprazole"
+1687,Patient_687,56,F,B-,Community Healthcare,Dr. Williams,Heart Disease,Physical Therapy,2024-02-04 12:51:53.725210,288,1641.35,7.4,2024-02-08 12:51:53.725210,4,4850.16,"Amoxicillin, Ibuprofen, Amoxicillin"
+1688,Patient_688,62,F,AB-,University Hospital,Dr. Jones,Stroke,Chemotherapy,2024-05-28 12:51:53.725210,109,984.71,7.4,2024-06-05 12:51:53.725210,8,7445.7,"Omeprazole, Amoxicillin, Lisinopril"
+1689,Patient_689,58,M,B-,Community Healthcare,Dr. Davis,Fracture,Chemotherapy,2025-01-09 12:51:53.725210,213,848.92,7.8,2025-01-12 12:51:53.725210,3,2567.44,"Amoxicillin, Simvastatin"
+1690,Patient_690,46,M,A-,Memorial Hospital,Dr. Davis,Appendicitis,Radiation,2024-07-09 12:51:53.725210,175,711.56,4.9,2024-07-13 12:51:53.725210,4,2913.91,Omeprazole
+1691,Patient_691,47,M,AB+,Community Healthcare,Dr. Garcia,Fracture,Preventive Care,2024-04-26 12:51:53.725210,263,1129.6,5.1,2024-05-01 12:51:53.725210,5,5529.09,"Omeprazole, Omeprazole"
+1692,Patient_692,50,F,B+,Community Healthcare,Dr. Miller,Pneumonia,Preventive Care,2024-06-11 12:51:53.725210,184,1338.82,9.1,2024-06-14 12:51:53.725210,3,4261.59,Lisinopril
+1693,Patient_693,47,M,O+,Memorial Hospital,Dr. Smith,Heart Disease,Preventive Care,2024-07-31 12:51:53.725210,148,1069.65,6.5,2024-08-07 12:51:53.725210,7,5808.77,"Amoxicillin, Omeprazole, Omeprazole"
+1694,Patient_694,69,F,AB-,City Medical Center,Dr. Smith,Pneumonia,Chemotherapy,2024-12-08 12:51:53.725210,425,1102.67,7.3,2024-12-10 12:51:53.725210,2,2161.38,Ibuprofen
+1695,Patient_695,94,M,A-,City Medical Center,Dr. Garcia,Heart Disease,Radiation,2024-07-23 12:51:53.725210,276,942.34,9.9,2024-08-01 12:51:53.725210,13,6252.34,Amoxicillin
+1696,Patient_696,38,M,B-,Memorial Hospital,Dr. Johnson,Appendicitis,Preventive Care,2024-02-24 12:51:53.725210,486,888.86,7.4,2024-03-01 12:51:53.725210,6,5460.27,"Omeprazole, Amoxicillin, Lisinopril"
+1697,Patient_697,22,F,AB-,Community Healthcare,Dr. Jones,Hypertension,Preventive Care,2024-09-03 12:51:53.725210,488,1053.59,7.2,2024-09-08 12:51:53.725210,5,4553.27,"Metformin, Ibuprofen, Amoxicillin"
+1698,Patient_698,48,M,A-,Memorial Hospital,Dr. Smith,Fracture,Medication,2025-01-18 12:51:53.725210,317,700.0,8.8,2025-01-23 12:51:53.725210,5,3123.94,"Simvastatin, Lisinopril, Metformin"
+1699,Patient_699,95,F,AB+,City Medical Center,Dr. Garcia,Fracture,Medication,2024-03-08 12:51:53.725210,288,996.4,6.6,2024-03-15 12:51:53.725210,11,6718.51,"Metformin, Amoxicillin, Lisinopril"
+1700,Patient_700,33,F,AB-,University Hospital,Dr. Smith,Diabetes,Medication,2024-09-11 12:51:53.725210,445,832.66,9.3,2024-09-20 12:51:53.725210,9,7902.27,Simvastatin
+1701,Patient_701,82,M,AB-,Community Healthcare,Dr. Davis,Stroke,Surgery,2024-08-06 12:51:53.725210,329,1120.95,7.800000000000001,2024-08-20 12:51:53.725210,18,19056.14,"Lisinopril, Lisinopril"
+1702,Patient_702,83,F,B+,City Medical Center,Dr. Garcia,Pneumonia,Preventive Care,2024-06-20 12:51:53.725210,354,966.92,9.0,2024-07-02 12:51:53.725210,16,11418.17,Simvastatin
+1703,Patient_703,38,M,O-,Community Healthcare,Dr. Jones,Fracture,Surgery,2024-08-15 12:51:53.725210,335,1187.89,5.5,2024-09-06 12:51:53.725210,22,21496.88,Simvastatin
+1704,Patient_704,61,M,O+,Memorial Hospital,Dr. Garcia,Appendicitis,Radiation,2024-08-26 12:51:53.725210,125,944.08,9.6,2024-09-05 12:51:53.725210,10,8694.74,"Amoxicillin, Simvastatin"
+1705,Patient_705,82,F,B+,University Hospital,Dr. Williams,Hypertension,Chemotherapy,2024-09-03 12:51:53.725210,171,727.52,8.3,2024-09-10 12:51:53.725210,8,5428.19,"Amoxicillin, Simvastatin"
+1706,Patient_706,42,M,A+,Memorial Hospital,Dr. Garcia,Stroke,Preventive Care,2024-09-23 12:51:53.725210,360,702.61,5.5,2024-09-28 12:51:53.725210,5,3172.19,"Amoxicillin, Ibuprofen, Amoxicillin"
+1707,Patient_707,45,F,O+,University Hospital,Dr. Garcia,Appendicitis,Chemotherapy,2024-03-13 12:51:53.725210,353,700.0,3.6,2024-03-18 12:51:53.725210,5,3042.99,Amoxicillin
+1708,Patient_708,38,M,B+,Community Healthcare,Dr. Miller,Pneumonia,Medication,2024-03-02 12:51:53.725210,370,1126.59,6.3,2024-03-11 12:51:53.725210,9,10802.09,"Amoxicillin, Ibuprofen"
+1709,Patient_709,29,M,B-,Community Healthcare,Dr. Davis,Diabetes,Preventive Care,2024-10-06 12:51:53.725210,222,1500.0,7.9,2024-10-10 12:51:53.725210,4,6278.93,Amoxicillin
+1710,Patient_710,37,M,O+,Memorial Hospital,Dr. Jones,Fracture,Physical Therapy,2024-04-18 12:51:53.725210,243,1087.05,8.2,2024-04-26 12:51:53.725210,8,7415.82,"Ibuprofen, Omeprazole, Simvastatin"
+1711,Patient_711,25,M,O+,University Hospital,Dr. Miller,Appendicitis,Surgery,2024-10-09 12:51:53.725210,356,1334.41,7.4,2024-10-16 12:51:53.725210,7,8504.87,Omeprazole
+1712,Patient_712,50,M,A-,University Hospital,Dr. Garcia,Stroke,Surgery,2024-08-11 12:51:53.725210,243,1226.71,7.4,2024-08-16 12:51:53.725210,5,6896.97,"Ibuprofen, Ibuprofen, Simvastatin"
+1713,Patient_713,34,F,B-,Community Healthcare,Dr. Jones,Heart Disease,Preventive Care,2024-11-25 12:51:53.725210,358,1165.23,7.3,2024-11-29 12:51:53.725210,4,3891.09,"Simvastatin, Omeprazole"
+1714,Patient_714,54,F,A+,Memorial Hospital,Dr. Williams,Hypertension,Medication,2024-02-06 12:51:53.725210,146,1253.06,8.0,2024-03-03 12:51:53.725210,26,28678.58,Lisinopril
+1715,Patient_715,18,F,O-,University Hospital,Dr. Jones,Stroke,Surgery,2024-12-04 12:51:53.725210,450,904.29,5.3,2024-12-07 12:51:53.725210,3,2173.31,"Ibuprofen, Simvastatin"
+1716,Patient_716,56,F,AB-,Community Healthcare,Dr. Smith,Appendicitis,Medication,2024-11-08 12:51:53.725210,112,908.26,7.9,2024-11-15 12:51:53.725210,7,6528.54,Amoxicillin
+1717,Patient_717,66,F,AB+,City Medical Center,Dr. Miller,Hypertension,Radiation,2024-09-25 12:51:53.725210,475,958.28,6.3,2024-10-08 12:51:53.725210,13,12088.81,Simvastatin
+1718,Patient_718,18,F,B+,Memorial Hospital,Dr. Jones,Fracture,Chemotherapy,2024-10-04 12:51:53.725210,307,967.76,6.1,2024-10-13 12:51:53.725210,9,8868.13,Amoxicillin
+1719,Patient_719,57,M,A-,City Medical Center,Dr. Davis,Heart Disease,Physical Therapy,2025-01-26 12:51:53.725210,410,1471.95,9.3,2025-01-31 12:51:53.725210,5,6020.65,"Amoxicillin, Metformin, Amoxicillin"
+1720,Patient_720,74,M,B+,Memorial Hospital,Dr. Williams,Diabetes,Chemotherapy,2024-02-01 12:51:53.725210,334,865.82,6.0,2024-02-05 12:51:53.725210,5,3132.1,Omeprazole
+1721,Patient_721,25,F,A+,Community Healthcare,Dr. Brown,Stroke,Chemotherapy,2024-05-25 12:51:53.725210,248,1177.82,7.3,2024-06-01 12:51:53.725210,7,7888.45,Simvastatin
+1722,Patient_722,83,F,AB-,University Hospital,Dr. Garcia,Diabetes,Radiation,2024-11-11 12:51:53.725210,421,1174.95,10.0,2024-11-12 12:51:53.725210,4,1069.32,Simvastatin
+1723,Patient_723,58,M,A+,University Hospital,Dr. Jones,Heart Disease,Surgery,2024-04-01 12:51:53.725210,254,1389.17,8.8,2024-04-09 12:51:53.725210,8,7810.76,"Simvastatin, Simvastatin"
+1724,Patient_724,35,M,O+,University Hospital,Dr. Garcia,Hypertension,Physical Therapy,2024-06-21 12:51:53.725210,265,1387.92,6.8,2024-06-28 12:51:53.725210,7,10264.13,"Ibuprofen, Amoxicillin, Ibuprofen"
+1725,Patient_725,48,M,AB+,Memorial Hospital,Dr. Johnson,Fracture,Surgery,2024-09-07 12:51:53.725210,189,1257.48,6.9,2024-09-19 12:51:53.725210,12,15307.16,Omeprazole
+1726,Patient_726,61,F,A+,Community Healthcare,Dr. Smith,Appendicitis,Preventive Care,2024-09-22 12:51:53.725210,285,1213.95,5.7,2024-09-26 12:51:53.725210,4,4096.87,"Lisinopril, Metformin, Ibuprofen"
+1727,Patient_727,51,F,B+,City Medical Center,Dr. Miller,Heart Disease,Chemotherapy,2024-07-22 12:51:53.725210,417,1317.2,9.5,2024-07-28 12:51:53.725210,6,6520.2,Ibuprofen
+1728,Patient_728,60,F,B-,Community Healthcare,Dr. Smith,Pneumonia,Preventive Care,2024-10-20 12:51:53.725210,457,1070.35,9.0,2024-10-29 12:51:53.725210,9,9295.92,Amoxicillin
+1729,Patient_729,31,M,B-,City Medical Center,Dr. Johnson,Hypertension,Medication,2025-01-02 12:51:53.725210,273,1104.76,8.5,2025-01-10 12:51:53.725210,8,9519.64,"Lisinopril, Lisinopril"
+1730,Patient_730,53,M,O+,Memorial Hospital,Dr. Johnson,Diabetes,Chemotherapy,2024-11-04 12:51:53.725210,316,1002.65,8.7,2024-11-07 12:51:53.725210,3,2702.72,Simvastatin
+1731,Patient_731,21,F,O-,Memorial Hospital,Dr. Miller,Stroke,Surgery,2024-03-30 12:51:53.725210,494,924.89,6.3,2024-04-04 12:51:53.725210,5,4196.37,"Lisinopril, Lisinopril"
+1732,Patient_732,47,F,B+,City Medical Center,Dr. Jones,Heart Disease,Chemotherapy,2024-08-31 12:51:53.725210,363,910.0,5.2,2024-09-14 12:51:53.725210,14,10046.68,Omeprazole
+1733,Patient_733,31,M,B+,City Medical Center,Dr. Johnson,Diabetes,Medication,2025-01-03 12:51:53.725210,196,1143.55,8.3,2025-01-11 12:51:53.725210,8,8145.31,"Ibuprofen, Metformin, Simvastatin"
+1734,Patient_734,35,M,A+,City Medical Center,Dr. Brown,Hypertension,Radiation,2024-12-07 12:51:53.725210,216,1208.29,8.8,2024-12-10 12:51:53.725210,3,3525.23,"Amoxicillin, Amoxicillin"
+1735,Patient_735,74,M,AB+,Community Healthcare,Dr. Garcia,Diabetes,Preventive Care,2024-11-05 12:51:53.725210,298,767.78,9.9,2024-11-16 12:51:53.725210,12,7423.6,"Metformin, Lisinopril, Metformin"
+1736,Patient_736,71,M,B+,City Medical Center,Dr. Garcia,Heart Disease,Preventive Care,2024-07-22 12:51:53.725210,419,1457.34,7.2,2024-07-25 12:51:53.725210,6,3231.47,"Ibuprofen, Ibuprofen"
+1737,Patient_737,62,F,A-,Memorial Hospital,Dr. Williams,Hypertension,Surgery,2024-05-04 12:51:53.725210,120,881.69,7.0,2024-05-10 12:51:53.725210,6,5273.29,"Simvastatin, Amoxicillin"
+1738,Patient_738,28,M,O-,Memorial Hospital,Dr. Davis,Pneumonia,Chemotherapy,2024-05-11 12:51:53.725210,299,926.69,7.1,2024-05-20 12:51:53.725210,9,8352.94,"Simvastatin, Simvastatin"
+1739,Patient_739,43,M,A+,University Hospital,Dr. Johnson,Heart Disease,Surgery,2024-05-05 12:51:53.725210,470,1640.8,8.5,2024-05-18 12:51:53.725210,13,15809.47,"Amoxicillin, Metformin, Lisinopril"
+1740,Patient_740,74,M,A-,City Medical Center,Dr. Johnson,Appendicitis,Radiation,2024-12-03 12:51:53.725210,440,801.87,7.1,2024-12-05 12:51:53.725210,5,1657.2,"Omeprazole, Omeprazole"
+1741,Patient_741,52,F,O+,Community Healthcare,Dr. Brown,Cancer,Chemotherapy,2024-02-02 12:51:53.725210,347,1042.04,7.4,2024-02-12 12:51:53.725210,10,8134.17,"Lisinopril, Metformin"
+1742,Patient_742,95,F,B-,Community Healthcare,Dr. Smith,Fracture,Chemotherapy,2024-08-11 12:51:53.725210,375,1360.97,8.7,2024-08-22 12:51:53.725210,14,14836.88,"Amoxicillin, Metformin"
+1743,Patient_743,57,M,O+,Community Healthcare,Dr. Smith,Heart Disease,Surgery,2025-01-12 12:51:53.725210,363,1262.16,6.6,2025-01-17 12:51:53.725210,5,4550.63,"Metformin, Metformin"
+1744,Patient_744,53,M,B-,University Hospital,Dr. Garcia,Hypertension,Surgery,2024-06-08 12:51:53.725210,157,1249.31,9.6,2024-06-15 12:51:53.725210,7,9679.37,Metformin
+1745,Patient_745,43,M,O+,Memorial Hospital,Dr. Garcia,Stroke,Medication,2025-01-19 12:51:53.725210,401,700.0,8.4,2025-01-20 12:51:53.725210,1,727.04,"Metformin, Simvastatin"
+1746,Patient_746,52,F,B+,Community Healthcare,Dr. Jones,Fracture,Radiation,2024-10-12 12:51:53.725210,130,700.0,4.7,2024-10-13 12:51:53.725210,1,627.47,"Ibuprofen, Lisinopril, Metformin"
+1747,Patient_747,46,F,A-,Memorial Hospital,Dr. Miller,Heart Disease,Medication,2024-02-19 12:51:53.725210,348,1062.63,6.7,2024-03-02 12:51:53.725210,12,10445.41,Ibuprofen
+1748,Patient_748,64,F,B-,University Hospital,Dr. Davis,Pneumonia,Preventive Care,2024-03-20 12:51:53.725210,192,903.71,4.5,2024-03-25 12:51:53.725210,5,4914.15,Omeprazole
+1749,Patient_749,69,M,A+,City Medical Center,Dr. Brown,Stroke,Chemotherapy,2024-07-10 12:51:53.725210,364,719.34,7.2,2024-07-16 12:51:53.725210,6,4280.84,"Simvastatin, Lisinopril"
+1750,Patient_750,34,F,A-,City Medical Center,Dr. Miller,Pneumonia,Surgery,2024-08-16 12:51:53.725210,370,1073.86,6.8,2024-08-24 12:51:53.725210,8,8577.92,"Simvastatin, Simvastatin, Simvastatin"
+1751,Patient_751,23,M,A+,City Medical Center,Dr. Miller,Appendicitis,Chemotherapy,2024-04-19 12:51:53.725210,193,1086.92,8.8,2024-04-25 12:51:53.725210,6,5178.82,"Omeprazole, Omeprazole"
+1752,Patient_752,18,M,A-,Community Healthcare,Dr. Williams,Stroke,Chemotherapy,2024-06-20 12:51:53.725210,253,820.37,6.2,2024-06-25 12:51:53.725210,5,3755.88,"Omeprazole, Lisinopril, Omeprazole"
+1753,Patient_753,60,M,A-,City Medical Center,Dr. Miller,Diabetes,Physical Therapy,2024-04-21 12:51:53.725210,493,836.28,8.1,2024-04-30 12:51:53.725210,9,8161.53,"Lisinopril, Amoxicillin, Omeprazole"
+1754,Patient_754,27,F,O+,Community Healthcare,Dr. Williams,Cancer,Preventive Care,2024-04-14 12:51:53.725210,384,1121.43,8.4,2024-04-17 12:51:53.725210,3,2385.38,"Simvastatin, Ibuprofen"
+1755,Patient_755,18,M,B-,University Hospital,Dr. Miller,Stroke,Physical Therapy,2024-01-28 12:51:53.725210,179,767.02,7.9,2024-02-10 12:51:53.725210,13,9811.88,"Metformin, Lisinopril"
+1756,Patient_756,57,F,B-,University Hospital,Dr. Brown,Fracture,Chemotherapy,2024-03-18 12:51:53.725210,391,700.0,9.2,2024-03-24 12:51:53.725210,6,3839.38,"Omeprazole, Omeprazole"
+1757,Patient_757,95,F,AB+,Community Healthcare,Dr. Williams,Stroke,Surgery,2024-07-18 12:51:53.725210,183,982.99,10.0,2024-07-22 12:51:53.725210,7,4022.72,"Amoxicillin, Ibuprofen, Lisinopril"
+1758,Patient_758,49,M,A-,Memorial Hospital,Dr. Smith,Hypertension,Chemotherapy,2024-08-19 12:51:53.725210,464,913.91,7.7,2024-08-23 12:51:53.725210,4,3799.58,"Ibuprofen, Amoxicillin"
+1759,Patient_759,66,M,B+,City Medical Center,Dr. Williams,Cancer,Preventive Care,2024-10-13 12:51:53.725210,473,1214.68,8.1,2024-10-20 12:51:53.725210,7,6815.61,"Metformin, Ibuprofen, Amoxicillin"
+1760,Patient_760,51,F,B+,City Medical Center,Dr. Williams,Hypertension,Physical Therapy,2024-11-10 12:51:53.725210,136,797.64,6.2,2024-11-16 12:51:53.725210,6,4240.56,"Lisinopril, Metformin, Omeprazole"
+1761,Patient_761,48,M,A+,City Medical Center,Dr. Brown,Diabetes,Surgery,2024-03-01 12:51:53.725210,441,1162.1,6.0,2024-03-04 12:51:53.725210,3,3523.5,Omeprazole
+1762,Patient_762,68,F,A+,Community Healthcare,Dr. Brown,Stroke,Chemotherapy,2025-01-09 12:51:53.725210,426,1485.08,9.1,2025-01-14 12:51:53.725210,5,8596.07,"Metformin, Amoxicillin, Amoxicillin"
+1763,Patient_763,44,M,O+,University Hospital,Dr. Williams,Pneumonia,Radiation,2024-05-01 12:51:53.725210,331,833.18,8.9,2024-05-05 12:51:53.725210,4,3582.17,"Metformin, Lisinopril, Amoxicillin"
+1764,Patient_764,55,F,A-,City Medical Center,Dr. Davis,Pneumonia,Preventive Care,2024-04-08 12:51:53.725210,192,1279.94,6.0,2024-04-21 12:51:53.725210,13,16794.52,"Ibuprofen, Omeprazole, Amoxicillin"
+1765,Patient_765,56,F,A+,University Hospital,Dr. Johnson,Heart Disease,Preventive Care,2024-03-06 12:51:53.725210,435,1395.33,5.5,2024-03-13 12:51:53.725210,7,6062.51,Lisinopril
+1766,Patient_766,36,F,A+,City Medical Center,Dr. Davis,Appendicitis,Radiation,2024-06-29 12:51:53.725210,201,1007.08,5.5,2024-07-15 12:51:53.725210,16,15711.48,"Metformin, Amoxicillin, Metformin"
+1767,Patient_767,69,F,O-,City Medical Center,Dr. Brown,Fracture,Chemotherapy,2024-10-03 12:51:53.725210,265,931.18,7.3,2024-10-08 12:51:53.725210,5,5422.43,"Amoxicillin, Lisinopril"
+1768,Patient_768,46,M,A-,Community Healthcare,Dr. Davis,Cancer,Preventive Care,2024-07-07 12:51:53.725210,258,1278.37,6.9,2024-07-13 12:51:53.725210,6,6678.16,"Ibuprofen, Lisinopril"
+1769,Patient_769,34,M,AB-,Memorial Hospital,Dr. Davis,Appendicitis,Surgery,2024-05-24 12:51:53.725210,113,1229.92,7.7,2024-06-01 12:51:53.725210,8,10293.37,"Simvastatin, Lisinopril, Amoxicillin"
+1770,Patient_770,60,F,O+,Community Healthcare,Dr. Jones,Stroke,Chemotherapy,2024-10-12 12:51:53.725210,472,772.38,8.9,2024-10-21 12:51:53.725210,9,6451.38,"Simvastatin, Metformin"
+1771,Patient_771,32,F,A+,City Medical Center,Dr. Jones,Appendicitis,Chemotherapy,2024-11-28 12:51:53.725210,324,945.0,8.2,2024-12-08 12:51:53.725210,10,9499.4,Ibuprofen
+1772,Patient_772,50,M,O+,City Medical Center,Dr. Smith,Heart Disease,Physical Therapy,2024-10-21 12:51:53.725210,172,1624.74,8.3,2024-10-25 12:51:53.725210,4,5385.88,"Amoxicillin, Ibuprofen, Lisinopril"
+1773,Patient_773,49,M,B-,Memorial Hospital,Dr. Miller,Appendicitis,Preventive Care,2024-03-21 12:51:53.725210,348,1196.74,3.8,2024-03-25 12:51:53.725210,4,5237.19,Amoxicillin
+1774,Patient_774,71,M,O+,University Hospital,Dr. Williams,Cancer,Preventive Care,2024-09-19 12:51:53.725210,190,1008.12,5.1,2024-09-25 12:51:53.725210,8,4798.34,Omeprazole
+1775,Patient_775,59,M,AB-,University Hospital,Dr. Johnson,Diabetes,Radiation,2024-09-05 12:51:53.725210,315,963.48,6.3,2024-09-20 12:51:53.725210,15,15687.92,"Metformin, Omeprazole, Omeprazole"
+1776,Patient_776,49,M,B+,City Medical Center,Dr. Smith,Heart Disease,Physical Therapy,2024-10-04 12:51:53.725210,189,1489.28,6.6,2024-10-08 12:51:53.725210,4,4555.5,Metformin
+1777,Patient_777,66,M,AB-,University Hospital,Dr. Williams,Diabetes,Physical Therapy,2024-12-05 12:51:53.725210,128,1132.69,8.8,2024-12-10 12:51:53.725210,5,5605.17,Ibuprofen
+1778,Patient_778,77,F,B+,City Medical Center,Dr. Davis,Stroke,Preventive Care,2024-05-18 12:51:53.725210,404,1195.03,6.2,2024-05-28 12:51:53.725210,13,11401.88,Amoxicillin
+1779,Patient_779,61,M,O+,Memorial Hospital,Dr. Brown,Heart Disease,Chemotherapy,2024-10-08 12:51:53.725210,319,1399.92,8.5,2024-10-18 12:51:53.725210,10,11225.77,"Lisinopril, Simvastatin, Ibuprofen"
+1780,Patient_780,50,M,B+,Memorial Hospital,Dr. Jones,Stroke,Physical Therapy,2024-11-25 12:51:53.725210,427,1110.39,6.3,2024-12-04 12:51:53.725210,9,10993.2,"Simvastatin, Amoxicillin, Omeprazole"
+1781,Patient_781,23,F,B-,City Medical Center,Dr. Garcia,Stroke,Radiation,2024-08-21 12:51:53.725210,314,1068.56,5.7,2024-08-28 12:51:53.725210,7,8009.83,"Lisinopril, Lisinopril, Amoxicillin"
+1782,Patient_782,28,M,A-,Memorial Hospital,Dr. Johnson,Appendicitis,Physical Therapy,2024-09-12 12:51:53.725210,320,1315.95,5.8,2024-09-16 12:51:53.725210,4,4622.65,"Simvastatin, Lisinopril, Amoxicillin"
+1783,Patient_783,43,M,B+,Community Healthcare,Dr. Davis,Diabetes,Radiation,2025-01-02 12:51:53.725210,488,915.64,10.0,2025-01-07 12:51:53.725210,5,4045.08,Amoxicillin
+1784,Patient_784,37,M,B+,Community Healthcare,Dr. Garcia,Stroke,Physical Therapy,2024-04-02 12:51:53.725210,141,1009.64,6.3,2024-04-14 12:51:53.725210,12,13452.81,Lisinopril
+1785,Patient_785,46,M,O+,Memorial Hospital,Dr. Jones,Diabetes,Radiation,2024-04-11 12:51:53.725210,234,797.01,8.5,2024-04-21 12:51:53.725210,10,8110.83,"Metformin, Amoxicillin, Amoxicillin"
+1786,Patient_786,51,M,B-,City Medical Center,Dr. Davis,Diabetes,Physical Therapy,2024-05-09 12:51:53.725210,141,757.6,5.2,2024-05-12 12:51:53.725210,3,2321.81,"Ibuprofen, Amoxicillin"
+1787,Patient_787,60,F,AB+,City Medical Center,Dr. Miller,Heart Disease,Physical Therapy,2024-08-06 12:51:53.725210,263,1384.49,9.6,2024-08-17 12:51:53.725210,11,11941.12,"Omeprazole, Ibuprofen, Amoxicillin"
+1788,Patient_788,48,M,AB+,Memorial Hospital,Dr. Miller,Hypertension,Surgery,2024-10-05 12:51:53.725210,460,855.16,8.0,2024-10-19 12:51:53.725210,14,14069.34,Simvastatin
+1789,Patient_789,59,F,AB+,University Hospital,Dr. Garcia,Appendicitis,Radiation,2024-09-09 12:51:53.725210,382,988.46,7.9,2024-09-16 12:51:53.725210,7,6610.43,"Omeprazole, Amoxicillin"
+1790,Patient_790,51,F,AB+,Community Healthcare,Dr. Brown,Stroke,Radiation,2024-11-16 12:51:53.725210,157,1323.55,8.1,2024-11-25 12:51:53.725210,9,13242.08,"Amoxicillin, Metformin, Lisinopril"
+1791,Patient_791,18,M,A-,University Hospital,Dr. Davis,Diabetes,Radiation,2024-11-28 12:51:53.725210,401,1311.99,8.3,2024-12-10 12:51:53.725210,12,16111.67,"Ibuprofen, Ibuprofen"
+1792,Patient_792,31,F,AB-,City Medical Center,Dr. Williams,Fracture,Medication,2024-05-04 12:51:53.725210,421,1444.81,8.7,2024-05-09 12:51:53.725210,5,6067.83,"Metformin, Lisinopril, Omeprazole"
+1793,Patient_793,47,M,O+,City Medical Center,Dr. Davis,Hypertension,Physical Therapy,2024-12-30 12:51:53.725210,124,1327.53,5.6,2025-01-22 12:51:53.725210,23,28014.65,"Metformin, Omeprazole, Ibuprofen"
+1794,Patient_794,25,F,O+,University Hospital,Dr. Brown,Stroke,Radiation,2024-11-08 12:51:53.725210,172,1480.6,6.5,2024-11-21 12:51:53.725210,13,18079.4,"Ibuprofen, Ibuprofen, Simvastatin"
+1795,Patient_795,61,F,O-,Memorial Hospital,Dr. Davis,Fracture,Preventive Care,2024-12-27 12:51:53.725210,472,1087.31,7.6,2025-01-05 12:51:53.725210,9,10855.48,"Ibuprofen, Lisinopril, Amoxicillin"
+1796,Patient_796,80,M,B-,University Hospital,Dr. Garcia,Appendicitis,Medication,2025-01-08 12:51:53.725210,228,819.4,8.5,2025-01-15 12:51:53.725210,8,6439.75,"Metformin, Lisinopril, Amoxicillin"
+1797,Patient_797,74,M,AB+,University Hospital,Dr. Brown,Appendicitis,Surgery,2024-11-30 12:51:53.725210,186,799.92,7.4,2024-12-09 12:51:53.725210,10,7454.03,Lisinopril
+1798,Patient_798,45,M,A-,Community Healthcare,Dr. Jones,Diabetes,Radiation,2024-10-02 12:51:53.725210,429,1279.27,8.7,2024-10-05 12:51:53.725210,3,3637.18,Omeprazole
+1799,Patient_799,79,M,B-,Community Healthcare,Dr. Johnson,Diabetes,Radiation,2024-07-11 12:51:53.725210,252,1010.33,7.4,2024-07-31 12:51:53.725210,21,18365.82,Omeprazole
+1800,Patient_800,52,M,AB+,University Hospital,Dr. Brown,Cancer,Medication,2024-12-27 12:51:53.725210,281,1332.8,7.2,2025-01-08 12:51:53.725210,12,13702.3,Omeprazole
+1801,Patient_801,43,F,A-,University Hospital,Dr. Davis,Cancer,Physical Therapy,2024-02-26 12:51:53.725210,224,1157.25,4.9,2024-03-12 12:51:53.725210,15,11637.61,Omeprazole
+1802,Patient_802,37,F,B-,City Medical Center,Dr. Jones,Stroke,Preventive Care,2024-09-30 12:51:53.725210,166,914.17,6.7,2024-10-07 12:51:53.725210,7,6332.71,"Simvastatin, Amoxicillin, Lisinopril"
+1803,Patient_803,43,F,O+,Community Healthcare,Dr. Johnson,Heart Disease,Surgery,2024-05-12 12:51:53.725210,105,1399.78,10.0,2024-05-18 12:51:53.725210,6,7988.07,Ibuprofen
+1804,Patient_804,42,F,O+,Community Healthcare,Dr. Miller,Hypertension,Radiation,2024-03-18 12:51:53.725210,224,788.96,8.0,2024-03-23 12:51:53.725210,5,3739.75,Lisinopril
+1805,Patient_805,53,F,AB-,City Medical Center,Dr. Williams,Stroke,Physical Therapy,2024-04-17 12:51:53.725210,413,1051.43,6.5,2024-04-28 12:51:53.725210,11,10094.92,"Metformin, Lisinopril"
+1806,Patient_806,53,F,A+,Memorial Hospital,Dr. Garcia,Hypertension,Preventive Care,2024-06-08 12:51:53.725210,425,1302.22,7.9,2024-06-13 12:51:53.725210,5,5361.59,Ibuprofen
+1807,Patient_807,50,F,AB-,Community Healthcare,Dr. Davis,Diabetes,Preventive Care,2024-11-07 12:51:53.725210,152,700.0,8.5,2024-11-13 12:51:53.725210,6,5209.68,Lisinopril
+1808,Patient_808,58,M,B+,Community Healthcare,Dr. Davis,Appendicitis,Surgery,2024-06-13 12:51:53.725210,165,700.0,6.5,2024-06-22 12:51:53.725210,9,6519.64,Ibuprofen
+1809,Patient_809,73,M,AB-,Memorial Hospital,Dr. Miller,Diabetes,Chemotherapy,2024-07-29 12:51:53.725210,413,1135.12,9.4,2024-08-03 12:51:53.725210,6,5182.35,"Ibuprofen, Lisinopril, Simvastatin"
+1810,Patient_810,68,F,AB+,Community Healthcare,Dr. Williams,Appendicitis,Preventive Care,2024-12-22 12:51:53.725210,181,1272.79,8.2,2025-01-03 12:51:53.725210,12,14984.6,"Omeprazole, Lisinopril"
+1811,Patient_811,20,F,O-,Community Healthcare,Dr. Miller,Cancer,Chemotherapy,2024-10-26 12:51:53.725210,186,1172.63,5.9,2024-11-02 12:51:53.725210,7,5895.54,"Ibuprofen, Omeprazole"
+1812,Patient_812,18,M,B-,Memorial Hospital,Dr. Smith,Stroke,Preventive Care,2025-01-01 12:51:53.725210,101,700.0,8.8,2025-01-04 12:51:53.725210,3,1708.65,Amoxicillin
+1813,Patient_813,68,M,O-,Memorial Hospital,Dr. Miller,Cancer,Surgery,2024-04-05 12:51:53.725210,303,1672.29,6.9,2024-04-10 12:51:53.725210,5,6938.81,"Ibuprofen, Amoxicillin"
+1814,Patient_814,22,M,A+,University Hospital,Dr. Jones,Appendicitis,Medication,2024-03-01 12:51:53.725210,249,837.79,7.2,2024-03-15 12:51:53.725210,14,11768.72,"Ibuprofen, Omeprazole, Lisinopril"
+1815,Patient_815,45,M,B+,City Medical Center,Dr. Johnson,Diabetes,Surgery,2024-10-15 12:51:53.725210,392,927.75,6.0,2024-10-19 12:51:53.725210,4,3972.62,"Ibuprofen, Simvastatin"
+1816,Patient_816,26,F,B-,City Medical Center,Dr. Davis,Cancer,Surgery,2024-03-20 12:51:53.725210,202,1382.95,8.4,2024-03-31 12:51:53.725210,11,11709.58,"Ibuprofen, Omeprazole"
+1817,Patient_817,18,M,A-,Memorial Hospital,Dr. Miller,Pneumonia,Medication,2024-08-19 12:51:53.725210,123,866.71,7.3,2024-08-26 12:51:53.725210,7,6146.6,"Metformin, Ibuprofen"
+1818,Patient_818,60,F,AB+,Memorial Hospital,Dr. Davis,Hypertension,Medication,2024-06-01 12:51:53.725210,467,824.77,8.5,2024-06-07 12:51:53.725210,6,3842.69,"Amoxicillin, Simvastatin"
+1819,Patient_819,65,F,B+,Community Healthcare,Dr. Brown,Fracture,Physical Therapy,2024-09-18 12:51:53.725210,311,828.44,5.7,2024-10-13 12:51:53.725210,25,22591.24,"Simvastatin, Metformin"
+1820,Patient_820,38,F,O+,University Hospital,Dr. Williams,Appendicitis,Preventive Care,2024-03-10 12:51:53.725210,164,1371.59,6.5,2024-03-13 12:51:53.725210,3,3666.96,Metformin
+1821,Patient_821,18,M,A+,University Hospital,Dr. Miller,Appendicitis,Physical Therapy,2024-09-23 12:51:53.725210,308,1231.92,6.4,2024-09-28 12:51:53.725210,5,5647.07,Metformin
+1822,Patient_822,39,M,B+,Memorial Hospital,Dr. Johnson,Pneumonia,Medication,2024-05-17 12:51:53.725210,350,1114.9,8.1,2024-05-24 12:51:53.725210,7,7392.33,"Simvastatin, Metformin, Simvastatin"
+1823,Patient_823,57,F,AB+,Community Healthcare,Dr. Jones,Stroke,Chemotherapy,2024-10-02 12:51:53.725210,484,700.0,5.5,2024-10-26 12:51:53.725210,24,13341.41,"Simvastatin, Lisinopril, Simvastatin"
+1824,Patient_824,20,F,AB-,Community Healthcare,Dr. Smith,Stroke,Chemotherapy,2024-06-26 12:51:53.725210,216,1115.64,7.2,2024-07-03 12:51:53.725210,7,7354.53,Metformin
+1825,Patient_825,53,F,B+,City Medical Center,Dr. Davis,Stroke,Surgery,2024-07-28 12:51:53.725210,215,1104.84,6.7,2024-08-05 12:51:53.725210,8,8262.27,"Ibuprofen, Ibuprofen, Ibuprofen"
+1826,Patient_826,49,M,AB-,City Medical Center,Dr. Williams,Fracture,Radiation,2024-12-28 12:51:53.725210,336,744.37,8.2,2025-01-03 12:51:53.725210,6,4297.47,"Amoxicillin, Simvastatin, Metformin"
+1827,Patient_827,61,F,AB+,Community Healthcare,Dr. Garcia,Heart Disease,Surgery,2024-05-01 12:51:53.725210,204,1367.26,4.9,2024-05-09 12:51:53.725210,8,6982.56,Omeprazole
+1828,Patient_828,52,M,O+,City Medical Center,Dr. Johnson,Pneumonia,Surgery,2024-02-04 12:51:53.725210,358,1210.3,7.9,2024-02-10 12:51:53.725210,6,7935.48,"Lisinopril, Amoxicillin, Metformin"
+1829,Patient_829,30,F,B-,Memorial Hospital,Dr. Garcia,Fracture,Radiation,2025-01-21 12:51:53.725210,145,1113.87,10.0,2025-01-31 12:51:53.725210,10,11582.08,"Ibuprofen, Amoxicillin"
+1830,Patient_830,73,F,A-,Community Healthcare,Dr. Johnson,Cancer,Preventive Care,2024-07-29 12:51:53.725210,410,1123.16,9.4,2024-08-08 12:51:53.725210,12,7893.2,Metformin
+1831,Patient_831,46,F,O+,City Medical Center,Dr. Johnson,Pneumonia,Medication,2024-11-03 12:51:53.725210,430,1002.65,6.6,2024-11-09 12:51:53.725210,6,5666.05,"Simvastatin, Lisinopril, Simvastatin"
+1832,Patient_832,49,M,AB-,University Hospital,Dr. Jones,Appendicitis,Chemotherapy,2024-08-09 12:51:53.725210,315,1146.07,8.2,2024-08-13 12:51:53.725210,4,4968.51,"Lisinopril, Ibuprofen"
+1833,Patient_833,31,M,AB-,Community Healthcare,Dr. Jones,Hypertension,Surgery,2025-01-13 12:51:53.725210,400,1011.89,8.0,2025-01-20 12:51:53.725210,7,6900.85,"Simvastatin, Lisinopril, Metformin"
+1834,Patient_834,41,F,A-,Community Healthcare,Dr. Jones,Pneumonia,Radiation,2024-08-09 12:51:53.725210,432,1250.86,9.7,2024-08-23 12:51:53.725210,14,15339.61,"Amoxicillin, Omeprazole"
+1835,Patient_835,32,M,B-,University Hospital,Dr. Miller,Heart Disease,Physical Therapy,2024-06-30 12:51:53.725210,123,1402.88,3.7,2024-07-04 12:51:53.725210,4,4280.48,Lisinopril
+1836,Patient_836,46,F,B+,Memorial Hospital,Dr. Brown,Diabetes,Surgery,2024-04-29 12:51:53.725210,134,1150.58,9.2,2024-05-07 12:51:53.725210,8,8203.32,"Ibuprofen, Simvastatin, Lisinopril"
+1837,Patient_837,84,M,A-,University Hospital,Dr. Johnson,Cancer,Chemotherapy,2024-07-05 12:51:53.725210,123,1513.56,7.1,2024-07-09 12:51:53.725210,8,4327.45,"Simvastatin, Ibuprofen"
+1838,Patient_838,22,M,A+,Community Healthcare,Dr. Williams,Fracture,Medication,2024-03-28 12:51:53.725210,127,786.66,6.4,2024-04-01 12:51:53.725210,4,3130.71,"Amoxicillin, Ibuprofen"
+1839,Patient_839,18,M,A+,Memorial Hospital,Dr. Garcia,Cancer,Surgery,2024-05-28 12:51:53.725210,115,1313.0,6.3,2024-06-11 12:51:53.725210,14,15632.07,Omeprazole
+1840,Patient_840,79,F,AB+,City Medical Center,Dr. Jones,Cancer,Surgery,2024-03-18 12:51:53.725210,158,1213.59,5.6,2024-03-28 12:51:53.725210,14,11224.13,"Ibuprofen, Ibuprofen"
+1841,Patient_841,45,M,O+,City Medical Center,Dr. Miller,Pneumonia,Preventive Care,2024-10-30 12:51:53.725210,342,1208.77,6.6,2024-11-07 12:51:53.725210,8,10987.83,"Metformin, Simvastatin, Ibuprofen"
+1842,Patient_842,36,M,AB-,City Medical Center,Dr. Jones,Pneumonia,Radiation,2024-02-01 12:51:53.725210,306,1092.65,5.9,2024-02-03 12:51:53.725210,2,2169.6,Lisinopril
+1843,Patient_843,70,F,B-,Community Healthcare,Dr. Garcia,Heart Disease,Physical Therapy,2024-04-28 12:51:53.725210,499,1251.07,7.8,2024-05-03 12:51:53.725210,5,5897.99,"Simvastatin, Metformin"
+1844,Patient_844,37,F,AB+,University Hospital,Dr. Garcia,Hypertension,Physical Therapy,2024-07-15 12:51:53.725210,370,743.63,8.4,2024-07-25 12:51:53.725210,10,7851.45,Simvastatin
+1845,Patient_845,86,F,O+,Memorial Hospital,Dr. Davis,Pneumonia,Medication,2024-12-09 12:51:53.725210,348,700.0,7.1,2024-12-12 12:51:53.725210,6,1894.27,Simvastatin
+1846,Patient_846,63,F,O+,City Medical Center,Dr. Johnson,Pneumonia,Chemotherapy,2024-02-18 12:51:53.725210,366,1062.07,9.7,2024-02-24 12:51:53.725210,6,6432.67,"Lisinopril, Metformin, Simvastatin"
+1847,Patient_847,40,M,AB+,Memorial Hospital,Dr. Jones,Hypertension,Medication,2024-12-18 12:51:53.725210,292,856.56,6.7,2024-12-28 12:51:53.725210,10,8002.91,Amoxicillin
+1848,Patient_848,93,M,O-,Community Healthcare,Dr. Garcia,Heart Disease,Surgery,2024-01-28 12:51:53.725210,434,1473.2,7.0,2024-01-31 12:51:53.725210,6,2975.44,"Omeprazole, Metformin, Simvastatin"
+1849,Patient_849,37,M,O+,City Medical Center,Dr. Brown,Fracture,Surgery,2024-06-08 12:51:53.725210,317,700.0,6.8,2024-06-11 12:51:53.725210,3,1853.41,"Omeprazole, Lisinopril, Omeprazole"
+1850,Patient_850,64,M,O-,Community Healthcare,Dr. Brown,Cancer,Physical Therapy,2024-09-16 12:51:53.725210,214,1714.17,8.4,2024-09-19 12:51:53.725210,3,3897.53,"Ibuprofen, Amoxicillin, Simvastatin"
+1851,Patient_851,55,M,A+,University Hospital,Dr. Jones,Fracture,Chemotherapy,2024-02-08 12:51:53.725210,167,1132.77,8.5,2024-02-16 12:51:53.725210,8,9745.63,Simvastatin
+1852,Patient_852,76,F,A+,Community Healthcare,Dr. Miller,Pneumonia,Radiation,2025-01-07 12:51:53.725210,398,1019.84,8.2,2025-01-12 12:51:53.725210,6,5643.9,"Metformin, Omeprazole, Ibuprofen"
+1853,Patient_853,81,M,O+,Community Healthcare,Dr. Garcia,Hypertension,Chemotherapy,2024-03-13 12:51:53.725210,424,1336.61,7.3,2024-03-24 12:51:53.725210,12,12872.64,"Omeprazole, Lisinopril, Ibuprofen"
+1854,Patient_854,50,M,A+,University Hospital,Dr. Davis,Pneumonia,Surgery,2024-03-01 12:51:53.725210,496,1189.68,5.5,2024-03-08 12:51:53.725210,7,8075.21,"Simvastatin, Omeprazole, Simvastatin"
+1855,Patient_855,34,M,B-,Memorial Hospital,Dr. Johnson,Stroke,Radiation,2024-04-14 12:51:53.725210,493,905.0,6.0,2024-05-02 12:51:53.725210,18,17082.66,"Amoxicillin, Ibuprofen, Omeprazole"
+1856,Patient_856,59,F,O-,University Hospital,Dr. Johnson,Diabetes,Chemotherapy,2024-09-01 12:51:53.725210,174,1015.52,9.7,2024-09-04 12:51:53.725210,3,3092.82,Omeprazole
+1857,Patient_857,36,F,O-,University Hospital,Dr. Miller,Fracture,Chemotherapy,2024-11-23 12:51:53.725210,202,700.0,9.0,2024-12-01 12:51:53.725210,8,5988.95,"Metformin, Simvastatin"
+1858,Patient_858,90,M,O+,Community Healthcare,Dr. Davis,Stroke,Radiation,2024-04-09 12:51:53.725210,396,1212.84,7.9,2024-04-13 12:51:53.725210,8,4640.47,Ibuprofen
+1859,Patient_859,52,F,A+,Memorial Hospital,Dr. Johnson,Appendicitis,Surgery,2024-11-04 12:51:53.725210,277,940.81,6.9,2024-11-13 12:51:53.725210,9,9545.1,Omeprazole
+1860,Patient_860,42,F,A-,City Medical Center,Dr. Davis,Diabetes,Chemotherapy,2024-10-02 12:51:53.725210,314,700.0,7.5,2024-10-09 12:51:53.725210,7,4897.92,Omeprazole
+1861,Patient_861,53,F,AB-,University Hospital,Dr. Smith,Pneumonia,Radiation,2024-03-14 12:51:53.725210,414,763.63,6.9,2024-03-18 12:51:53.725210,4,3285.97,"Ibuprofen, Ibuprofen, Omeprazole"
+1862,Patient_862,23,F,AB+,Memorial Hospital,Dr. Jones,Heart Disease,Preventive Care,2024-05-27 12:51:53.725210,138,1526.43,9.3,2024-06-02 12:51:53.725210,6,6776.82,"Metformin, Omeprazole, Simvastatin"
+1863,Patient_863,30,F,AB+,University Hospital,Dr. Johnson,Fracture,Preventive Care,2024-08-28 12:51:53.725210,358,1322.76,6.2,2024-09-04 12:51:53.725210,7,9313.39,"Ibuprofen, Simvastatin"
+1864,Patient_864,74,F,O-,University Hospital,Dr. Brown,Appendicitis,Surgery,2024-09-22 12:51:53.725210,303,1004.09,8.9,2024-09-27 12:51:53.725210,9,4219.17,"Lisinopril, Omeprazole"
+1865,Patient_865,36,F,O+,University Hospital,Dr. Garcia,Diabetes,Radiation,2024-03-23 12:51:53.725210,106,803.59,6.7,2024-04-02 12:51:53.725210,10,7363.49,Omeprazole
+1866,Patient_866,29,M,O+,University Hospital,Dr. Davis,Fracture,Preventive Care,2025-01-11 12:51:53.725210,148,715.85,9.5,2025-01-15 12:51:53.725210,4,2803.99,Amoxicillin
+1867,Patient_867,60,M,B-,Community Healthcare,Dr. Davis,Hypertension,Radiation,2024-05-13 12:51:53.725210,125,1282.92,7.1,2024-06-03 12:51:53.725210,21,27210.9,Ibuprofen
+1868,Patient_868,73,F,B+,Memorial Hospital,Dr. Williams,Heart Disease,Chemotherapy,2024-12-11 12:51:53.725210,260,1416.86,6.4,2024-12-22 12:51:53.725210,12,15203.23,"Ibuprofen, Amoxicillin, Omeprazole"
+1869,Patient_869,64,M,AB-,Memorial Hospital,Dr. Miller,Diabetes,Surgery,2024-03-15 12:51:53.725210,456,933.97,7.0,2024-03-23 12:51:53.725210,8,7186.41,"Omeprazole, Ibuprofen, Lisinopril"
+1870,Patient_870,69,M,B+,Memorial Hospital,Dr. Williams,Hypertension,Preventive Care,2024-03-28 12:51:53.725210,275,886.35,7.6,2024-04-27 12:51:53.725210,30,22929.94,"Lisinopril, Metformin"
+1871,Patient_871,34,F,O-,University Hospital,Dr. Johnson,Stroke,Chemotherapy,2024-12-29 12:51:53.725210,178,1134.37,6.8,2025-01-04 12:51:53.725210,6,7964.97,Amoxicillin
+1872,Patient_872,21,M,AB+,Community Healthcare,Dr. Williams,Pneumonia,Medication,2024-02-22 12:51:53.725210,101,1128.86,7.5,2024-03-03 12:51:53.725210,10,12506.46,Metformin
+1873,Patient_873,80,F,B-,University Hospital,Dr. Williams,Hypertension,Medication,2024-11-14 12:51:53.725210,482,820.68,6.7,2024-11-22 12:51:53.725210,11,5806.14,"Simvastatin, Metformin, Lisinopril"
+1874,Patient_874,43,F,B-,University Hospital,Dr. Smith,Diabetes,Surgery,2024-10-10 12:51:53.725210,231,771.53,10.0,2024-10-21 12:51:53.725210,11,8881.69,"Omeprazole, Omeprazole"
+1875,Patient_875,44,F,B-,Memorial Hospital,Dr. Davis,Cancer,Preventive Care,2024-02-04 12:51:53.725210,375,1016.11,10.0,2024-02-19 12:51:53.725210,15,12703.52,Metformin
+1876,Patient_876,76,M,O-,University Hospital,Dr. Brown,Diabetes,Preventive Care,2024-05-19 12:51:53.725210,216,906.36,9.7,2024-05-28 12:51:53.725210,11,8290.88,"Ibuprofen, Simvastatin, Ibuprofen"
+1877,Patient_877,61,M,B+,City Medical Center,Dr. Miller,Cancer,Preventive Care,2025-01-16 12:51:53.725210,263,1120.65,7.3,2025-01-28 12:51:53.725210,12,10681.53,"Lisinopril, Simvastatin"
+1878,Patient_878,59,M,AB+,University Hospital,Dr. Brown,Stroke,Radiation,2024-10-06 12:51:53.725210,387,1323.62,6.9,2024-10-11 12:51:53.725210,5,6199.67,Amoxicillin
+1879,Patient_879,93,M,B-,City Medical Center,Dr. Smith,Pneumonia,Chemotherapy,2024-07-25 12:51:53.725210,127,899.24,6.3,2024-07-31 12:51:53.725210,8,5667.26,"Simvastatin, Simvastatin, Simvastatin"
+1880,Patient_880,37,F,AB+,University Hospital,Dr. Smith,Cancer,Preventive Care,2024-08-21 12:51:53.725210,432,975.09,8.8,2024-09-06 12:51:53.725210,16,11411.44,Metformin
+1881,Patient_881,68,F,A+,Community Healthcare,Dr. Williams,Cancer,Chemotherapy,2024-11-25 12:51:53.725210,100,989.69,8.9,2024-12-04 12:51:53.725210,9,5039.16,Metformin
+1882,Patient_882,51,M,O+,Community Healthcare,Dr. Jones,Hypertension,Surgery,2024-06-02 12:51:53.725210,287,963.21,9.0,2024-06-10 12:51:53.725210,8,7856.92,"Omeprazole, Amoxicillin, Metformin"
+1883,Patient_883,55,F,O+,Memorial Hospital,Dr. Davis,Hypertension,Preventive Care,2024-03-23 12:51:53.725210,155,700.0,7.1,2024-03-28 12:51:53.725210,5,2913.42,Omeprazole
+1884,Patient_884,80,F,AB+,University Hospital,Dr. Garcia,Pneumonia,Surgery,2024-08-28 12:51:53.725210,134,987.98,4.9,2024-09-08 12:51:53.725210,15,11969.22,"Metformin, Lisinopril, Omeprazole"
+1885,Patient_885,60,M,A-,City Medical Center,Dr. Davis,Hypertension,Preventive Care,2024-02-10 12:51:53.725210,211,732.76,5.2,2024-02-14 12:51:53.725210,4,2599.59,"Omeprazole, Amoxicillin, Ibuprofen"
+1886,Patient_886,60,F,A-,City Medical Center,Dr. Garcia,Fracture,Medication,2024-02-24 12:51:53.725210,385,1231.72,7.6,2024-02-28 12:51:53.725210,4,3718.31,"Metformin, Metformin"
+1887,Patient_887,71,M,O-,University Hospital,Dr. Williams,Pneumonia,Physical Therapy,2024-04-14 12:51:53.725210,409,1023.31,6.7,2024-04-21 12:51:53.725210,11,5895.8,Simvastatin
+1888,Patient_888,42,F,O-,City Medical Center,Dr. Garcia,Heart Disease,Surgery,2024-08-30 12:51:53.725210,135,1851.46,6.5,2024-09-01 12:51:53.725210,2,2836.59,"Omeprazole, Metformin, Omeprazole"
+1889,Patient_889,33,M,O+,Community Healthcare,Dr. Smith,Cancer,Preventive Care,2025-01-26 12:51:53.725210,316,1240.67,8.0,2025-02-05 12:51:53.725210,10,9721.6,"Lisinopril, Omeprazole, Lisinopril"
+1890,Patient_890,29,F,A+,City Medical Center,Dr. Brown,Diabetes,Physical Therapy,2024-06-29 12:51:53.725210,179,700.0,9.0,2024-07-07 12:51:53.725210,8,4808.92,"Lisinopril, Lisinopril"
+1891,Patient_891,18,F,AB-,Memorial Hospital,Dr. Garcia,Heart Disease,Surgery,2024-02-10 12:51:53.725210,413,1679.0,6.4,2024-02-16 12:51:53.725210,6,6918.22,Simvastatin
+1892,Patient_892,91,M,B+,Community Healthcare,Dr. Davis,Cancer,Radiation,2024-08-01 12:51:53.725210,182,1430.49,5.5,2024-08-07 12:51:53.725210,10,6596.95,"Ibuprofen, Amoxicillin, Metformin"
+1893,Patient_893,27,M,B+,Community Healthcare,Dr. Miller,Fracture,Preventive Care,2024-12-04 12:51:53.725210,164,1131.38,6.5,2024-12-10 12:51:53.725210,6,7448.26,"Simvastatin, Ibuprofen, Ibuprofen"
+1894,Patient_894,45,M,O-,Community Healthcare,Dr. Williams,Cancer,Radiation,2024-02-03 12:51:53.725210,424,1039.32,5.9,2024-02-07 12:51:53.725210,4,2810.95,"Amoxicillin, Metformin"
+1895,Patient_895,44,M,A+,University Hospital,Dr. Jones,Cancer,Medication,2024-01-30 12:51:53.725210,227,1288.86,8.4,2024-02-07 12:51:53.725210,8,8232.18,Amoxicillin
+1896,Patient_896,56,F,O-,University Hospital,Dr. Williams,Cancer,Preventive Care,2024-05-17 12:51:53.725210,406,1348.48,7.5,2024-05-23 12:51:53.725210,6,5141.62,Ibuprofen
+1897,Patient_897,66,F,AB-,Community Healthcare,Dr. Johnson,Stroke,Medication,2024-09-21 12:51:53.725210,121,952.44,10.0,2024-09-28 12:51:53.725210,7,6877.69,"Simvastatin, Ibuprofen"
+1898,Patient_898,67,M,B+,University Hospital,Dr. Williams,Fracture,Physical Therapy,2025-01-24 12:51:53.725210,315,700.0,8.6,2025-01-30 12:51:53.725210,6,4517.43,"Metformin, Metformin, Simvastatin"
+1899,Patient_899,38,F,AB+,City Medical Center,Dr. Smith,Appendicitis,Surgery,2024-09-22 12:51:53.725210,206,1500.0,10.0,2024-09-28 12:51:53.725210,6,9471.79,"Amoxicillin, Ibuprofen"
+1900,Patient_900,46,M,O-,University Hospital,Dr. Brown,Appendicitis,Chemotherapy,2024-10-27 12:51:53.725210,208,1167.17,5.4,2024-11-04 12:51:53.725210,8,10265.87,"Amoxicillin, Omeprazole"
+1901,Patient_901,55,M,B-,University Hospital,Dr. Brown,Appendicitis,Medication,2024-11-16 12:51:53.725210,471,1084.12,2.6,2024-11-26 12:51:53.725210,10,11846.98,"Amoxicillin, Ibuprofen"
+1902,Patient_902,45,F,AB+,Community Healthcare,Dr. Miller,Pneumonia,Chemotherapy,2024-09-10 12:51:53.725210,456,1262.78,7.9,2024-09-15 12:51:53.725210,5,7480.03,Amoxicillin
+1903,Patient_903,82,F,AB-,Memorial Hospital,Dr. Garcia,Hypertension,Chemotherapy,2024-02-11 12:51:53.725210,280,1128.84,7.7,2024-02-20 12:51:53.725210,11,10269.91,"Lisinopril, Amoxicillin"
+1904,Patient_904,59,M,AB-,Memorial Hospital,Dr. Smith,Fracture,Surgery,2024-08-06 12:51:53.725210,455,864.56,7.3,2024-08-15 12:51:53.725210,9,9220.45,"Ibuprofen, Lisinopril, Ibuprofen"
+1905,Patient_905,64,M,O-,Memorial Hospital,Dr. Johnson,Heart Disease,Physical Therapy,2024-05-25 12:51:53.725210,263,1624.95,7.6,2024-05-28 12:51:53.725210,3,3395.85,"Amoxicillin, Simvastatin"
+1906,Patient_906,63,M,O+,City Medical Center,Dr. Smith,Stroke,Surgery,2024-02-24 12:51:53.725210,167,1170.44,5.8,2024-03-07 12:51:53.725210,12,13756.87,Omeprazole
+1907,Patient_907,73,F,O-,University Hospital,Dr. Williams,Heart Disease,Preventive Care,2024-08-16 12:51:53.725210,391,1133.78,7.300000000000001,2024-09-05 12:51:53.725210,22,17242.2,Omeprazole
+1908,Patient_908,53,F,O+,Memorial Hospital,Dr. Smith,Heart Disease,Medication,2024-03-06 12:51:53.725210,279,1505.4,8.6,2024-03-13 12:51:53.725210,7,7260.72,"Metformin, Lisinopril"
+1909,Patient_909,24,F,AB-,Community Healthcare,Dr. Smith,Heart Disease,Chemotherapy,2024-10-26 12:51:53.725210,280,1237.46,5.7,2024-11-01 12:51:53.725210,6,4363.09,"Omeprazole, Ibuprofen, Ibuprofen"
+1910,Patient_910,57,F,A+,Memorial Hospital,Dr. Miller,Stroke,Surgery,2024-09-14 12:51:53.725210,268,1041.7,7.0,2024-09-20 12:51:53.725210,6,6793.53,"Ibuprofen, Omeprazole, Simvastatin"
+1911,Patient_911,36,M,AB-,Memorial Hospital,Dr. Johnson,Appendicitis,Surgery,2024-04-22 12:51:53.725210,121,1119.93,7.1,2024-05-02 12:51:53.725210,10,10157.84,"Amoxicillin, Omeprazole"
+1912,Patient_912,39,M,B+,University Hospital,Dr. Williams,Heart Disease,Surgery,2024-06-01 12:51:53.725210,165,1655.81,6.5,2024-06-10 12:51:53.725210,9,11003.82,"Omeprazole, Amoxicillin, Amoxicillin"
+1913,Patient_913,61,M,AB+,University Hospital,Dr. Jones,Stroke,Medication,2024-11-22 12:51:53.725210,120,870.8,5.8,2024-11-25 12:51:53.725210,3,3026.36,"Lisinopril, Lisinopril"
+1914,Patient_914,74,M,AB+,University Hospital,Dr. Miller,Stroke,Physical Therapy,2024-02-21 12:51:53.725210,199,1072.99,7.5,2024-02-25 12:51:53.725210,5,4537.5,Simvastatin
+1915,Patient_915,50,M,A-,City Medical Center,Dr. Jones,Hypertension,Surgery,2024-06-20 12:51:53.725210,483,1403.15,7.9,2024-06-29 12:51:53.725210,9,14825.95,Omeprazole
+1916,Patient_916,56,M,A-,City Medical Center,Dr. Miller,Stroke,Medication,2024-02-09 12:51:53.725210,399,964.79,6.6,2024-02-15 12:51:53.725210,6,5858.51,"Omeprazole, Lisinopril, Lisinopril"
+1917,Patient_917,84,F,AB-,Memorial Hospital,Dr. Brown,Appendicitis,Chemotherapy,2024-08-26 12:51:53.725210,202,1039.31,5.9,2024-08-30 12:51:53.725210,7,4388.17,Lisinopril
+1918,Patient_918,54,F,B+,University Hospital,Dr. Davis,Heart Disease,Preventive Care,2024-02-21 12:51:53.725210,146,1823.7,8.1,2024-03-07 12:51:53.725210,15,20536.31,Omeprazole
+1919,Patient_919,95,M,A-,Memorial Hospital,Dr. Miller,Stroke,Radiation,2024-04-04 12:51:53.725210,138,1127.5,6.3,2024-04-08 12:51:53.725210,8,4127.24,Ibuprofen
+1920,Patient_920,61,M,AB+,Community Healthcare,Dr. Garcia,Pneumonia,Medication,2024-04-03 12:51:53.725210,384,705.2,7.0,2024-04-10 12:51:53.725210,7,5208.79,"Lisinopril, Metformin, Ibuprofen"
+1921,Patient_921,18,F,O-,Community Healthcare,Dr. Smith,Stroke,Radiation,2024-09-16 12:51:53.725210,409,840.9,6.8,2024-09-22 12:51:53.725210,6,4825.47,"Amoxicillin, Omeprazole, Lisinopril"
+1922,Patient_922,65,F,A+,University Hospital,Dr. Brown,Diabetes,Surgery,2024-05-15 12:51:53.725210,189,1137.92,9.4,2024-05-19 12:51:53.725210,4,4845.05,"Ibuprofen, Lisinopril, Metformin"
+1923,Patient_923,57,F,A+,University Hospital,Dr. Johnson,Diabetes,Surgery,2024-06-21 12:51:53.725210,184,1084.6,6.4,2024-06-29 12:51:53.725210,8,8181.82,"Simvastatin, Omeprazole, Metformin"
+1924,Patient_924,75,F,B+,Community Healthcare,Dr. Jones,Diabetes,Medication,2024-05-17 12:51:53.725210,372,1032.52,10.0,2024-05-25 12:51:53.725210,9,8115.29,Simvastatin
+1925,Patient_925,63,M,AB-,University Hospital,Dr. Davis,Stroke,Radiation,2024-09-11 12:51:53.725210,435,1432.24,8.6,2024-09-16 12:51:53.725210,5,7092.97,"Omeprazole, Metformin"
+1926,Patient_926,47,M,A-,City Medical Center,Dr. Davis,Appendicitis,Surgery,2024-05-17 12:51:53.725210,287,876.5,10.0,2024-05-23 12:51:53.725210,6,5825.38,Omeprazole
+1927,Patient_927,25,M,O-,City Medical Center,Dr. Miller,Heart Disease,Chemotherapy,2024-03-01 12:51:53.725210,258,1280.66,8.5,2024-03-10 12:51:53.725210,9,8489.85,"Amoxicillin, Omeprazole"
+1928,Patient_928,45,M,A+,University Hospital,Dr. Smith,Fracture,Physical Therapy,2024-05-17 12:51:53.725210,342,700.0,7.2,2024-05-19 12:51:53.725210,2,1566.18,"Simvastatin, Amoxicillin"
+1929,Patient_929,32,M,A+,Community Healthcare,Dr. Johnson,Fracture,Physical Therapy,2024-10-17 12:51:53.725210,172,1232.13,6.1,2024-10-21 12:51:53.725210,4,4482.56,Ibuprofen
+1930,Patient_930,38,F,B-,Memorial Hospital,Dr. Garcia,Fracture,Surgery,2024-09-19 12:51:53.725210,148,840.23,7.0,2024-09-27 12:51:53.725210,8,6903.23,"Lisinopril, Ibuprofen"
+1931,Patient_931,61,M,AB-,University Hospital,Dr. Johnson,Appendicitis,Radiation,2024-04-19 12:51:53.725210,200,1211.43,9.7,2024-04-24 12:51:53.725210,5,5640.66,"Simvastatin, Simvastatin, Omeprazole"
+1932,Patient_932,83,F,B-,University Hospital,Dr. Smith,Hypertension,Preventive Care,2024-03-09 12:51:53.725210,101,1190.41,7.4,2024-03-14 12:51:53.725210,7,6616.15,Lisinopril
+1933,Patient_933,57,M,AB+,Memorial Hospital,Dr. Garcia,Cancer,Surgery,2024-05-07 12:51:53.725210,343,1910.77,8.5,2024-05-18 12:51:53.725210,11,14844.4,"Omeprazole, Metformin"
+1934,Patient_934,26,M,A+,University Hospital,Dr. Johnson,Pneumonia,Preventive Care,2024-02-02 12:51:53.725210,275,1129.86,7.8,2024-02-07 12:51:53.725210,5,5244.4,"Omeprazole, Simvastatin, Amoxicillin"
+1935,Patient_935,58,M,B+,Memorial Hospital,Dr. Garcia,Pneumonia,Preventive Care,2024-07-25 12:51:53.725210,337,928.78,6.9,2024-08-13 12:51:53.725210,19,15429.85,"Metformin, Simvastatin"
+1936,Patient_936,73,M,O+,Community Healthcare,Dr. Miller,Diabetes,Radiation,2024-11-04 12:51:53.725210,497,1090.72,7.9,2024-11-07 12:51:53.725210,4,3305.88,"Simvastatin, Ibuprofen, Ibuprofen"
+1937,Patient_937,37,M,O+,City Medical Center,Dr. Miller,Diabetes,Preventive Care,2024-12-12 12:51:53.725210,158,848.15,8.2,2024-12-14 12:51:53.725210,2,1796.56,"Simvastatin, Ibuprofen, Lisinopril"
+1938,Patient_938,47,F,O-,Community Healthcare,Dr. Smith,Stroke,Chemotherapy,2024-09-09 12:51:53.725210,452,1063.83,6.3,2024-09-20 12:51:53.725210,11,12267.49,"Ibuprofen, Amoxicillin"
+1939,Patient_939,50,F,A+,City Medical Center,Dr. Smith,Fracture,Radiation,2024-12-07 12:51:53.725210,198,959.82,7.1,2024-12-11 12:51:53.725210,4,3783.9,Lisinopril
+1940,Patient_940,34,F,A+,Memorial Hospital,Dr. Garcia,Stroke,Surgery,2025-01-26 12:51:53.725210,458,985.93,8.0,2025-01-30 12:51:53.725210,4,3683.22,Simvastatin
+1941,Patient_941,62,M,AB+,City Medical Center,Dr. Williams,Cancer,Chemotherapy,2024-09-12 12:51:53.725210,101,1066.43,7.7,2024-09-24 12:51:53.725210,12,9569.63,Ibuprofen
+1942,Patient_942,47,M,A+,Community Healthcare,Dr. Brown,Fracture,Medication,2024-11-11 12:51:53.725210,342,1060.09,6.8,2024-11-16 12:51:53.725210,5,5172.96,"Ibuprofen, Metformin"
+1943,Patient_943,58,F,B+,City Medical Center,Dr. Davis,Diabetes,Physical Therapy,2024-06-25 12:51:53.725210,396,1164.85,8.1,2024-07-06 12:51:53.725210,11,13137.03,"Amoxicillin, Metformin, Lisinopril"
+1944,Patient_944,32,M,B-,Memorial Hospital,Dr. Johnson,Heart Disease,Surgery,2024-10-30 12:51:53.725210,310,910.0,6.3,2024-11-04 12:51:53.725210,5,3564.35,Lisinopril
+1945,Patient_945,41,M,A+,City Medical Center,Dr. Johnson,Hypertension,Surgery,2024-08-12 12:51:53.725210,222,862.28,5.7,2024-08-20 12:51:53.725210,8,8098.34,"Lisinopril, Metformin"
+1946,Patient_946,64,F,A+,University Hospital,Dr. Williams,Stroke,Surgery,2024-04-06 12:51:53.725210,328,1033.61,7.9,2024-04-11 12:51:53.725210,5,5188.53,"Metformin, Lisinopril"
+1947,Patient_947,42,M,AB+,Community Healthcare,Dr. Williams,Hypertension,Chemotherapy,2024-05-18 12:51:53.725210,181,700.0,5.7,2024-05-22 12:51:53.725210,4,2901.02,"Metformin, Metformin, Ibuprofen"
+1948,Patient_948,84,F,AB-,University Hospital,Dr. Williams,Hypertension,Medication,2024-01-31 12:51:53.725210,243,1348.05,6.9,2024-02-17 12:51:53.725210,19,23080.6,"Simvastatin, Simvastatin"
+1949,Patient_949,42,M,A-,Memorial Hospital,Dr. Jones,Hypertension,Radiation,2025-01-11 12:51:53.725210,487,857.78,4.6,2025-01-23 12:51:53.725210,12,9957.04,"Lisinopril, Omeprazole, Lisinopril"
+1950,Patient_950,54,F,AB-,City Medical Center,Dr. Jones,Diabetes,Medication,2024-12-23 12:51:53.725210,239,812.38,6.4,2024-12-28 12:51:53.725210,5,4205.72,"Amoxicillin, Metformin"
+1951,Patient_951,68,M,AB+,University Hospital,Dr. Garcia,Pneumonia,Chemotherapy,2024-12-10 12:51:53.725210,128,958.53,7.0,2024-12-16 12:51:53.725210,6,5509.25,"Omeprazole, Amoxicillin, Ibuprofen"
+1952,Patient_952,21,M,AB-,University Hospital,Dr. Jones,Diabetes,Surgery,2025-01-11 12:51:53.725210,490,1027.47,5.1,2025-01-26 12:51:53.725210,15,15322.33,"Lisinopril, Ibuprofen, Amoxicillin"
+1953,Patient_953,18,F,AB+,City Medical Center,Dr. Miller,Hypertension,Physical Therapy,2024-05-01 12:51:53.725210,369,848.71,6.9,2024-05-05 12:51:53.725210,4,3788.39,Amoxicillin
+1954,Patient_954,19,M,B+,City Medical Center,Dr. Miller,Diabetes,Surgery,2024-06-27 12:51:53.725210,346,1196.08,9.3,2024-07-01 12:51:53.725210,4,4552.11,Ibuprofen
+1955,Patient_955,75,M,O-,Community Healthcare,Dr. Smith,Hypertension,Radiation,2024-12-03 12:51:53.725210,111,1079.94,5.6,2024-12-12 12:51:53.725210,12,10095.94,Amoxicillin
+1956,Patient_956,38,F,A+,University Hospital,Dr. Davis,Appendicitis,Preventive Care,2024-06-12 12:51:53.725210,454,832.55,6.0,2024-07-04 12:51:53.725210,22,13771.24,"Metformin, Omeprazole, Metformin"
+1957,Patient_957,95,M,AB+,University Hospital,Dr. Garcia,Fracture,Physical Therapy,2024-09-30 12:51:53.725210,488,895.52,10.0,2024-10-07 12:51:53.725210,9,6152.45,"Lisinopril, Amoxicillin"
+1958,Patient_958,38,F,AB+,Memorial Hospital,Dr. Davis,Pneumonia,Surgery,2024-09-26 12:51:53.725210,436,700.0,5.9,2024-10-08 12:51:53.725210,12,7986.62,"Lisinopril, Metformin"
+1959,Patient_959,53,M,A-,Community Healthcare,Dr. Johnson,Appendicitis,Physical Therapy,2024-02-27 12:51:53.725210,205,749.33,9.6,2024-03-02 12:51:53.725210,4,3033.37,"Lisinopril, Amoxicillin, Metformin"
+1960,Patient_960,80,M,AB+,Memorial Hospital,Dr. Brown,Heart Disease,Preventive Care,2024-03-07 12:51:53.725210,131,1400.78,7.1,2024-03-15 12:51:53.725210,9,8416.52,"Ibuprofen, Metformin"
+1961,Patient_961,90,M,O+,University Hospital,Dr. Smith,Diabetes,Medication,2024-09-12 12:51:53.725210,173,834.63,7.7,2024-09-18 12:51:53.725210,9,5078.65,"Omeprazole, Metformin"
+1962,Patient_962,91,M,O-,Memorial Hospital,Dr. Johnson,Heart Disease,Chemotherapy,2024-03-03 12:51:53.725210,270,1769.12,8.4,2024-03-21 12:51:53.725210,20,23567.92,Metformin
+1963,Patient_963,74,F,A+,University Hospital,Dr. Johnson,Stroke,Surgery,2024-09-06 12:51:53.725210,436,1014.18,5.8,2024-09-22 12:51:53.725210,20,16853.78,"Simvastatin, Simvastatin, Omeprazole"
+1964,Patient_964,70,M,A+,University Hospital,Dr. Garcia,Diabetes,Radiation,2024-02-02 12:51:53.725210,168,729.44,7.4,2024-02-25 12:51:53.725210,23,13900.44,Lisinopril
+1965,Patient_965,61,F,A-,Memorial Hospital,Dr. Williams,Cancer,Medication,2024-12-14 12:51:53.725210,400,1002.73,8.8,2024-12-19 12:51:53.725210,5,3899.62,Amoxicillin
+1966,Patient_966,65,M,B+,Memorial Hospital,Dr. Williams,Cancer,Surgery,2024-09-03 12:51:53.725210,461,1573.77,6.5,2024-09-10 12:51:53.725210,7,7680.04,"Lisinopril, Simvastatin"
+1967,Patient_967,38,M,A+,City Medical Center,Dr. Davis,Fracture,Medication,2024-04-11 12:51:53.725210,236,984.7,6.4,2024-04-19 12:51:53.725210,8,8797.6,"Simvastatin, Ibuprofen"
+1968,Patient_968,33,M,O+,City Medical Center,Dr. Smith,Appendicitis,Radiation,2024-01-31 12:51:53.725210,199,1198.4,7.2,2024-02-05 12:51:53.725210,5,5420.83,Amoxicillin
+1969,Patient_969,49,M,A+,City Medical Center,Dr. Williams,Fracture,Surgery,2024-12-27 12:51:53.725210,245,926.7,7.2,2025-01-03 12:51:53.725210,7,7132.49,"Amoxicillin, Ibuprofen, Metformin"
+1970,Patient_970,46,F,O+,University Hospital,Dr. Johnson,Stroke,Preventive Care,2024-06-09 12:51:53.725210,108,887.95,5.9,2024-06-20 12:51:53.725210,11,9756.19,"Omeprazole, Omeprazole, Ibuprofen"
+1971,Patient_971,40,F,O-,Memorial Hospital,Dr. Williams,Hypertension,Preventive Care,2024-05-24 12:51:53.725210,161,1223.89,6.5,2024-05-29 12:51:53.725210,5,5000.35,Omeprazole
+1972,Patient_972,63,F,O-,Community Healthcare,Dr. Jones,Fracture,Radiation,2024-04-30 12:51:53.725210,284,828.28,2.3,2024-05-05 12:51:53.725210,5,3778.5,"Lisinopril, Omeprazole"
+1973,Patient_973,69,F,B-,University Hospital,Dr. Williams,Fracture,Physical Therapy,2024-03-29 12:51:53.725210,128,1097.81,7.0,2024-04-03 12:51:53.725210,5,5954.41,"Amoxicillin, Omeprazole"
+1974,Patient_974,51,M,B-,Community Healthcare,Dr. Johnson,Cancer,Radiation,2024-08-08 12:51:53.725210,480,1244.93,8.8,2024-08-11 12:51:53.725210,3,3100.17,"Omeprazole, Omeprazole, Omeprazole"
+1975,Patient_975,79,F,O+,Memorial Hospital,Dr. Davis,Hypertension,Physical Therapy,2024-12-27 12:51:53.725210,213,1175.74,5.0,2025-01-07 12:51:53.725210,13,11252.67,Ibuprofen
+1976,Patient_976,27,F,B+,University Hospital,Dr. Garcia,Cancer,Surgery,2024-08-17 12:51:53.725210,242,1772.81,6.8,2024-08-22 12:51:53.725210,5,7884.13,"Ibuprofen, Ibuprofen, Amoxicillin"
+1977,Patient_977,46,M,A+,Community Healthcare,Dr. Smith,Diabetes,Physical Therapy,2024-02-22 12:51:53.725210,489,921.56,10.0,2024-02-26 12:51:53.725210,4,3677.19,"Amoxicillin, Lisinopril, Metformin"
+1978,Patient_978,35,M,AB+,Community Healthcare,Dr. Brown,Hypertension,Surgery,2024-07-18 12:51:53.725210,219,890.57,7.5,2024-07-27 12:51:53.725210,9,8724.35,"Amoxicillin, Metformin, Metformin"
+1979,Patient_979,18,M,A+,City Medical Center,Dr. Williams,Appendicitis,Surgery,2024-11-22 12:51:53.725210,269,1133.16,9.5,2024-11-29 12:51:53.725210,7,6970.87,Simvastatin
+1980,Patient_980,48,M,B-,City Medical Center,Dr. Miller,Fracture,Chemotherapy,2024-06-08 12:51:53.725210,256,783.6,6.0,2024-06-13 12:51:53.725210,5,3739.36,"Simvastatin, Metformin"
+1981,Patient_981,47,F,AB-,City Medical Center,Dr. Miller,Cancer,Surgery,2024-12-18 12:51:53.725210,434,1720.28,8.2,2024-12-29 12:51:53.725210,11,15161.59,Lisinopril
+1982,Patient_982,80,F,AB+,University Hospital,Dr. Davis,Hypertension,Physical Therapy,2024-05-24 12:51:53.725210,448,1289.2,5.7,2024-05-29 12:51:53.725210,8,6244.13,"Simvastatin, Lisinopril"
+1983,Patient_983,62,M,O+,Memorial Hospital,Dr. Johnson,Stroke,Chemotherapy,2024-12-16 12:51:53.725210,359,800.18,8.1,2024-12-18 12:51:53.725210,2,1132.93,Simvastatin
+1984,Patient_984,29,M,AB+,Memorial Hospital,Dr. Brown,Stroke,Chemotherapy,2024-10-28 12:51:53.725210,181,700.0,8.8,2024-11-11 12:51:53.725210,14,9613.03,"Omeprazole, Lisinopril, Simvastatin"
+1985,Patient_985,87,M,AB-,City Medical Center,Dr. Brown,Fracture,Surgery,2024-08-26 12:51:53.725210,341,767.88,8.4,2024-08-30 12:51:53.725210,5,2468.06,"Omeprazole, Ibuprofen, Ibuprofen"
+1986,Patient_986,74,F,A+,City Medical Center,Dr. Jones,Appendicitis,Radiation,2024-09-08 12:51:53.725210,271,770.93,7.0,2024-09-13 12:51:53.725210,8,3441.94,Omeprazole
+1987,Patient_987,61,F,A+,City Medical Center,Dr. Brown,Heart Disease,Radiation,2024-02-16 12:51:53.725210,330,1508.46,7.9,2024-02-21 12:51:53.725210,5,4987.84,Amoxicillin
+1988,Patient_988,45,M,B+,Community Healthcare,Dr. Miller,Cancer,Preventive Care,2024-05-19 12:51:53.725210,307,1702.78,7.9,2024-05-26 12:51:53.725210,7,10207.23,"Simvastatin, Metformin, Metformin"
+1989,Patient_989,30,M,A-,City Medical Center,Dr. Garcia,Appendicitis,Chemotherapy,2024-06-15 12:51:53.725210,174,1158.03,8.5,2024-06-21 12:51:53.725210,6,7953.13,"Ibuprofen, Lisinopril"
+1990,Patient_990,42,F,AB+,Community Healthcare,Dr. Johnson,Pneumonia,Surgery,2024-03-14 12:51:53.725210,369,952.76,7.3,2024-03-26 12:51:53.725210,12,11823.63,"Omeprazole, Amoxicillin"
+1991,Patient_991,71,M,B-,Memorial Hospital,Dr. Johnson,Pneumonia,Radiation,2024-01-28 12:51:53.725210,486,1068.5,7.9,2024-02-13 12:51:53.725210,17,16702.67,"Omeprazole, Simvastatin"
+1992,Patient_992,87,M,AB-,University Hospital,Dr. Williams,Pneumonia,Surgery,2024-04-26 12:51:53.725210,213,826.04,9.7,2024-05-01 12:51:53.725210,7,4141.9,Amoxicillin
+1993,Patient_993,80,F,AB-,University Hospital,Dr. Williams,Fracture,Surgery,2024-06-17 12:51:53.725210,161,1219.44,7.0,2024-06-21 12:51:53.725210,6,5429.85,Metformin
+1994,Patient_994,40,M,AB-,University Hospital,Dr. Williams,Stroke,Chemotherapy,2024-12-12 12:51:53.725210,461,1086.41,7.6,2024-12-17 12:51:53.725210,5,4354.64,"Amoxicillin, Omeprazole"
+1995,Patient_995,27,F,B-,University Hospital,Dr. Miller,Diabetes,Preventive Care,2024-03-05 12:51:53.725210,419,1154.64,6.1,2024-03-14 12:51:53.725210,9,9274.54,"Metformin, Ibuprofen, Metformin"
+1996,Patient_996,52,M,A-,Community Healthcare,Dr. Miller,Cancer,Chemotherapy,2024-11-15 12:51:53.725210,201,1110.84,8.0,2024-11-21 12:51:53.725210,6,5641.71,"Amoxicillin, Amoxicillin"
+1997,Patient_997,18,M,A+,Community Healthcare,Dr. Davis,Stroke,Medication,2024-06-14 12:51:53.725210,461,966.28,8.0,2024-06-19 12:51:53.725210,5,5417.1,Omeprazole
+1998,Patient_998,56,F,B+,City Medical Center,Dr. Miller,Diabetes,Radiation,2025-01-17 12:51:53.725210,309,1145.01,7.6,2025-01-20 12:51:53.725210,3,3637.6,"Omeprazole, Lisinopril"
+1999,Patient_999,47,F,B+,Community Healthcare,Dr. Miller,Diabetes,Radiation,2024-12-25 12:51:53.725210,354,1288.7,7.7,2024-12-27 12:51:53.725210,2,2308.07,"Metformin, Omeprazole"
